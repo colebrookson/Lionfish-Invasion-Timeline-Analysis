@@ -1,0 +1,1518 @@
+family,binomial,common_name,diet_study_yn,diet_study,cleaner_score,nocturnal_score,habitat_score,water column_position score,body_length_score,ratio_score,cum_vulnerab_score
+Pomacentridae,Abudefduf saxatilis,Sergeant-major,yes,1,1,0,1,1,0,0,3
+Pomacentridae,Abudefduf taurus,Night Sergeant,no,0,1,0,1,1,0,0,3
+Chaenopsidae,Acanthemblemaria aspera,Roughhead Blenny,yes,1,1,0,1,0,1,1,4
+Chaenopsidae,Acanthemblemaria betinensis,Speckled Blenny,yes,1,1,0,1,0,1,1,4
+Chaenopsidae,Acanthemblemaria chaplini,Papillose Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Acanthemblemaria greenfieldi,False Papillose Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Acanthemblemaria harpeza,Thorny-bush Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Acanthemblemaria johnsoni,White-cheeked Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Acanthemblemaria maria,Secretary Blenny,yes,1,1,0,1,0,1,1,4
+Chaenopsidae,Acanthemblemaria medusa,Medusa Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Acanthemblemaria paula,Dwarf Spinyhead Blenny,no,0,1,0,1,0,1,1,4
+Chaenopsidae,Acanthemblemaria rivasi,Spotjaw Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Acanthemblemaria spinosa,Spinyhead Blenny,no,0,1,0,1,0,1,1,4
+Ostraciidae,Acanthostracion polygonius,Honeycomb Cowfish,no,0,1,0,1,1,0,0,3
+Ostraciidae,Acanthostracion quadricornis,Scrawled Cowfish,no,0,1,0,1,1,0,0,3
+Acanthuridae,Acanthurus chirurgus,"Doctorfish, Black Doctorfish",yes,1,1,0,1,1,0,0,3
+Acanthuridae,Acanthurus coeruleus,"Blue Tang, Blue Doctorfish",yes,1,1,0,1,1,0,0,3
+Acanthuridae,Acanthurus tractus,"Ocean Surgeon, Grey Doctorfish",yes,1,1,0,1,1,0,0,3
+Syngnathidae,Acentronura dendritica,"Pipehorse, Seahorse Pipefish",no,0,1,0,1,1,1,1,5
+Achiridae,Achirus achirus,Drab Sole,no,0,1,0,0,1,0,0,2
+Achiridae,Achirus declivis,Plainfin Sole,no,0,1,0,0,1,0,0,2
+Achiridae,Achirus lineatus,Lined Sole,no,0,1,0,0,1,0,0,2
+Acipenseridae,Acipenser brevirostrum,Shortnose Sturgeon,no,0,1,0,0,1,0,1,3
+Acipenseridae,Acipenser oxyrinchus,"Atlantic Sturgeon, Gulf Sturgeon",no,0,1,0,0,1,0,1,3
+Gobiesocidae,Acyrtops amplicirrus,Flarenostril Clingfish,no,0,1,0,1,1,1,1,5
+Gobiesocidae,Acyrtops beryllinus,Emerald Clingfish,no,0,1,0,1,1,1,1,5
+Gobiesocidae,Acyrtus artius,Papillate Clingfish,no,0,1,0,1,1,1,1,5
+Gobiesocidae,Acyrtus lanthanum,Orange-spotted Clingfish,no,0,1,0,1,1,1,1,5
+Gobiesocidae,Acyrtus rubiginosus,Red Clingfish,no,0,1,0,1,1,1,1,5
+Mugilidae,Agonostomus monticola,Mountain Mullet,no,0,1,0,0,1,0,1,3
+Ophichthidae,Ahlia egmontis,Key Worm Eel,no,0,1,1,1,0,0,1,4
+Gobiidae,Akko dionaea,Atlantic Specter Goby,no,0,1,0,0,1,1,1,4
+Albulidae,Albula nemoptera,"Shafted Bonefish, Threadfin Bonefish",no,0,1,0,0,1,0,1,3
+Albulidae,Albula vulpes,Bonefish,no,0,1,0,1,1,0,1,4
+Carangidae,Alectis ciliaris,African Pompano,yes,1,1,0,1,1,0,0,3
+Dinematichthyidae,Alionematichthys minyomma,Small-eye Brotula,no,0,1,0,1,1,1,1,5
+Clupeidae,Alosa aestivalis,Blueback Herring,no,0,1,0,0,1,0,1,3
+Clupeidae,Alosa alabamae,Alabama Shad,no,0,1,0,0,1,0,1,3
+Clupeidae,Alosa chrysochloris,Skipjack Herring ,no,0,1,0,0,1,0,1,3
+Clupeidae,Alosa sapidissima,American Shad,no,0,1,0,0,1,0,0,2
+Epinephelidae,Alphestes afer,Mutton Hamlet,no,0,1,1,1,1,0,1,5
+Monacanthidae,Aluterus heudelotii,Dotterel Filefish,no,0,1,0,0,1,0,1,3
+Monacanthidae,Aluterus monoceros,Unicorn Leatherjacket Filefish,no,0,1,0,1,1,0,1,4
+Monacanthidae,Aluterus schoepfii,Orange Filefish,yes,1,1,0,1,1,0,0,3
+Monacanthidae,Aluterus scriptus,Scrawled Leatherjacket Filefish,yes,1,1,0,1,1,0,1,4
+Cirrhitidae,Amblycirrhitus pinos,Redspotted Hawkfish,yes,1,1,0,1,1,1,1,5
+Ariidae,Amphiarius phrygiatus,Kukwari Sea Catfish,no,0,1,0,0,1,0,1,3
+Ariidae,Amphiarius rugispinis,Softhead Sea Catfish,no,0,1,0,0,1,0,1,3
+Batrachoididae,Amphichthys cryptocentrus,Bocon Toadfish,no,0,1,0,1,1,0,1,4
+Muraenidae,Anarchias similis,Pygmy Moray,no,0,1,0,1,1,0,1,4
+Syngnathidae,Anarchopterus criniger,Fringed Pipefish,yes,1,1,0,0,1,1,1,4
+Syngnathidae,Anarchopterus tectus,Insular Pipefish,no,0,1,0,0,1,1,1,4
+Engraulidae,Anchoa cayorum,Key Anchovy,no,0,1,0,0,1,1,1,4
+Engraulidae,Anchoa choerostoma,Bermuda Anchovy,no,0,1,0,1,1,1,1,5
+Engraulidae,Anchoa cubana,Cuban Anchovy,no,0,1,0,0,1,1,1,4
+Engraulidae,Anchoa filifera,Longfinger Anchovy,no,0,1,0,0,1,1,1,4
+Engraulidae,Anchoa hepsetus,"Striped Anchovy, Broadstriped Anchovy",no,0,1,0,0,1,1,1,4
+Engraulidae,Anchoa januaria,Rio Anchovy,no,0,1,0,0,1,1,1,4
+Engraulidae,Anchoa lamprotaenia,"Bigeye Anchovy, Silverstripe Anchovy",no,0,1,0,0,1,1,1,4
+Engraulidae,Anchoa lyolepis,"Dusky Anchovy, Short-finger Anchovy",no,0,1,0,1,1,1,1,5
+Engraulidae,Anchoa mitchilli,Bay Anchovy,no,0,1,0,0,1,1,1,4
+Engraulidae,Anchoa parva,Little Anchovy,no,0,1,0,0,1,1,1,4
+Engraulidae,Anchoa spinifer,Spicule Anchovy,no,0,1,0,0,1,0,1,3
+Engraulidae,Anchoa trinitatis,Trinidad Anchovy,no,0,1,0,0,1,1,1,4
+Engraulidae,Anchovia clupeoides,Zabaleta Anchova,no,0,1,0,0,1,0,1,3
+Engraulidae,Anchoviella blackburni,Blackburn's Anchovy,no,0,1,0,0,1,1,1,4
+Engraulidae,Anchoviella brevirostris,Snubnose Anchovy,no,0,1,0,0,1,1,1,4
+Engraulidae,Anchoviella cayennensis,Cayenne Anchovy,no,0,1,0,0,1,1,1,4
+Engraulidae,Anchoviella elongata,Elongate Anchovy,no,0,1,0,0,1,1,1,4
+Engraulidae,Anchoviella lepidentostole,Broadband Anchovy,no,0,1,0,0,1,1,1,4
+Paralichthyidae,Ancylopsetta antillarum,Antilles Flounder,no,0,1,0,0,1,0,0,2
+Paralichthyidae,Ancylopsetta cycloidea,Cyclope Flounder,no,0,1,0,0,1,0,0,2
+Paralichthyidae,Ancylopsetta dilecta,Three-eye Flounder,no,0,1,0,0,1,0,0,2
+Paralichthyidae,Ancylopsetta kumperae,Four-eyed Flounder,no,0,1,0,0,1,0,0,2
+Paralichthyidae,Ancylopsetta microctenus,Gutherz's Flounder,no,0,1,0,0,1,0,0,2
+Paralichthyidae,Ancylopsetta quadrocellata,Ocellated Flounder,no,0,1,0,0,1,0,0,2
+Haemulidae,Anisotremus moricandi,Burro,no,0,1,1,1,1,0,1,5
+Haemulidae,Anisotremus surinamensis,Black Margate,yes,1,1,0,1,1,0,0,3
+Haemulidae,Anisotremus virginicus,Porkfish,yes,1,1,1,1,1,0,1,5
+Antennariidae,Antennarius multiocellatus,Longlure Frogfish,no,0,1,0,1,1,0,0,3
+Antennariidae,Antennarius pauciradiatus,Dwarf Frogfish,no,0,1,0,1,1,1,0,4
+Antennariidae,Antennarius striatus,Striated Frogfish,no,0,1,0,1,1,0,0,3
+Antennariidae,Antennatus bermudensis,Island Frogfish,no,0,1,0,1,1,1,0,4
+Serranidae,Anthias asperilinguis,Jeweled Gemfish,no,0,1,0,1,1,0,1,4
+Serranidae,Anthias nicholsi,Yellowfin Bass,no,0,1,0,1,1,0,1,4
+Serranidae,Anthias woodsi,Longtailed Jewelfish,no,0,1,0,1,1,0,1,4
+Caproidae,Antigonia capros,Deepbody Boarfish,no,0,1,0,1,1,0,0,3
+Caproidae,Antigonia combatia,Shortspine Boarfish,no,0,1,0,1,1,1,0,4
+Gobiidae,Antilligobius nikkiae,Sabre Goby,yes,1,1,0,1,1,1,1,5
+Achiridae,Apionichthys dumerili,Longtail Sole,no,0,1,0,0,1,0,1,3
+Ophichthidae,Aplatophis chauliodus,Fangtooth Snake Eel,no,0,1,0,0,0,0,1,2
+Apogonidae,Apogon aurolineatus,Bridle Cardinalfish,yes,1,1,1,1,1,1,1,6
+Apogonidae,Apogon binotatus,Barred Cardinalfish,yes,1,1,1,1,1,1,1,6
+Apogonidae,Apogon gouldi,Deepwater Cardinalfish,no,0,1,1,1,1,1,1,6
+Apogonidae,Apogon lachneri,Whitestar Cardinalfish,yes,1,1,1,1,1,1,1,6
+Apogonidae,Apogon leptocaulus,Slendertail Cardinalfish,no,0,1,1,1,1,1,1,6
+Apogonidae,Apogon maculatus,Flamefish,yes,1,1,1,1,1,1,1,6
+Apogonidae,Apogon mosavi,Dwarf Cardinalfish,yes,1,1,1,1,1,1,1,6
+Apogonidae,Apogon phenax,Mimic Cardinalfish,yes,1,1,1,1,1,1,1,6
+Apogonidae,Apogon pillionatus,Broadsaddle Cardinalfish,yes,1,1,1,1,1,1,1,6
+Apogonidae,Apogon planifrons,Pale Cardinalfish,yes,1,1,1,1,1,1,1,6
+Apogonidae,Apogon pseudomaculatus,Twospot Cardinalfish,yes,1,1,1,1,1,1,1,6
+Apogonidae,Apogon quadrisquamatus,Sawcheek Cardinalfish,yes,1,1,1,1,1,1,1,6
+Apogonidae,Apogon robbyi,Striped Cardinalfish,no,0,1,1,1,1,1,1,6
+Apogonidae,Apogon robinsi,Broadsaddle Cardinalfish,no,0,1,1,1,1,1,1,6
+Apogonidae,Apogon townsendi,Belted Cardinalfish,yes,1,1,1,1,1,1,1,6
+Ophichthidae,Aprognathodon platyventris,Stripe Eel,no,0,1,0,1,0,0,1,3
+Lutjanidae,Apsilus dentatus,Black Snapper,no,0,1,0,1,1,0,1,4
+Ophichthidae,Apterichtus ansp,Academy Eel,no,0,1,0,0,0,0,1,2
+Ophichthidae,Apterichtus kendalli,Finless Eel,no,0,1,0,0,0,0,1,2
+Sparidae,Archosargus probatocephalus,Sheepshead,no,0,1,0,1,1,0,0,3
+Sparidae,Archosargus rhomboidalis,Western Atlantic Seabream,no,0,1,0,0,1,0,0,2
+Gobiesocidae,Arcos nudus,"Tadpole Clingfish, Padded Clingfish",no,0,1,0,1,1,1,1,5
+Argentinidae,Argentina striata,Striated Argentine,no,0,1,0,0,1,0,1,3
+Ariommatidae,Ariomma bondi,Silver-rag Driftfish,no,0,1,0,0,1,0,1,3
+Ariommatidae,Ariomma melanum,Brown Driftfish,no,0,1,0,0,1,0,1,3
+Ariommatidae,Ariomma regulus,Spotted Driftfish,no,0,1,0,0,1,0,0,2
+Ariidae,Ariopsis felis,Hardhead Sea Catfish,no,0,1,0,0,1,0,1,3
+Congridae,Ariosoma anale,Longtrunk Conger Eel,no,0,1,0,0,1,0,1,3
+Congridae,Ariosoma balearicum,Bandtooth Conger Eel,no,0,1,0,1,0,0,1,3
+Ariidae,Aspistor quadriscutis,Bressou Sea Catfish,no,0,1,0,0,1,0,1,3
+Apogonidae,Astrapogon alutus,Bronze Cardinalfish,no,0,1,1,1,1,1,1,6
+Apogonidae,Astrapogon puncticulatus,Blackfin Cardinalfish,yes,1,1,1,1,1,1,1,6
+Apogonidae,Astrapogon stellatus,Conchfish,no,0,1,1,1,1,1,1,6
+Uranoscopidae,Astroscopus guttatus,Northern Stargazer,no,0,1,0,0,0,0,1,2
+Uranoscopidae,Astroscopus y-graecum,Southern Stargazer,no,0,1,0,0,0,0,1,2
+Atherinopsidae,Atherinella beani,Bean's Silverside,no,0,1,0,0,1,1,1,4
+Atherinopsidae,Atherinella blackburni,Beach Silverside,no,0,1,0,0,1,1,1,4
+Atherinopsidae,Atherinella brasiliensis,Robust Silverside,no,0,1,0,0,1,0,1,3
+Atherinopsidae,Atherinella milleri,Miller's Silverside,no,0,1,0,0,1,1,1,4
+Atherinopsidae,Atherinella robbersi,Totumo Silverside,no,0,1,0,0,1,1,1,4
+Atherinidae,Atherinomorus stipes,Hardhead Silverside,yes,1,1,0,1,1,1,1,5
+Aulopidae,Aulopus filamentosus,Yellowfin Flagfin,no,0,1,0,0,1,0,1,3
+Aulostomidae,Aulostomus maculatus,Atlantic Trumpetfish,yes,1,1,0,1,1,0,1,4
+Gobiidae,Awaous flavus,Red-fin River Goby,no,0,1,0,0,1,1,1,4
+Ariidae,Bagre bagre,Coco Sea Catfish,no,0,1,0,0,1,0,1,3
+Ariidae,Bagre marinus,Gafftopsail Sea Catfish,no,0,1,0,0,1,0,1,3
+Sciaenidae,Bairdiella chrysoura,"Silver Perch, Silver Croaker",no,0,1,0,0,1,0,1,3
+Sciaenidae,Bairdiella ronchus,Ground Croaker,no,0,1,0,0,1,0,1,3
+Serranidae,Baldwinella aureorubens,Streamer Bass,no,0,1,0,1,1,0,1,4
+Serranidae,Baldwinella vivanus,Red barbier,yes,1,1,0,1,1,1,1,5
+Balistidae,Balistes capriscus,Grey Triggerfish,no,0,1,0,1,1,0,0,3
+Balistidae,Balistes vetula,Queen Triggerfish,yes,1,1,0,1,1,0,0,3
+Gobiidae,Barbulifer antennatus,Whiskered Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Barbulifer ceuthoecus,Atlantic Bearded Goby,no,0,1,0,1,1,1,1,5
+Ophichthidae,Bascanichthys bascanium,Sooty Eel,no,0,1,0,0,0,0,1,2
+Ophichthidae,Bascanichthys inopinatus,Unexpected Snake Eel,no,0,1,0,0,0,0,1,2
+Ophichthidae,Bascanichthys scuticaris,Whip Eel,no,0,1,0,1,0,0,1,3
+Serranidae,Bathyanthias cubensis,,no,0,1,0,1,1,1,1,5
+Serranidae,Bathyanthias mexicanus,Yellowtail Bass,no,0,1,0,1,1,1,1,5
+Congridae,Bathycongrus bullisi,Bullish Conger Eel,no,0,1,0,0,0,0,1,2
+Congridae,Bathycongrus dubius,Dubious Conger Eel,no,0,1,1,0,0,0,1,3
+Congridae,Bathycongrus vicinalis,Neighbor Conger Eel,no,0,1,1,0,0,0,1,3
+Gobiidae,Bathygobius antilliensis,Antilles Frillfin Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Bathygobius curacao,Notch-tongue Goby,no,0,1,0,0,1,1,1,4
+Gobiidae,Bathygobius geminatus,Twin-spotted Frillfin Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Bathygobius lacertus,Checkerboard Frillfin Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Bathygobius mystacium,Island Frillfin Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Bathygobius soporator,Frillfin Goby,yes,1,1,0,1,1,1,1,5
+Congridae,Bathyuroconger vicinus,Large-toothed Conger Eel,no,0,1,0,0,1,0,1,3
+Batrachoididae,Batrachoides gilberti,Large-eye Toadfish,no,0,1,0,0,1,0,1,3
+Batrachoididae,Batrachoides manglae,Cotuero Toadfish,no,0,1,0,1,1,0,1,4
+Batrachoididae,Batrachoides surinamensis,Pacuma Toadfish,no,0,1,0,0,1,0,1,3
+Triglidae,Bellator brachychir,Shortfin Searobin,yes,1,1,0,0,1,0,1,3
+Triglidae,Bellator egretta,Streamer Searobin,no,0,1,0,0,1,1,1,4
+Triglidae,Bellator militaris,Horned Searobin,yes,1,1,0,0,1,1,1,4
+Triglidae,Bellator ribeiroi,Caribbean Searobin,no,0,1,0,0,1,0,1,3
+Percophidae,Bembrops anatirostris,Duckbill Flathead,no,0,1,0,0,1,0,1,3
+Percophidae,Bembrops gobioides,Goby Duckbill,no,0,1,0,0,1,0,1,3
+Percophidae,Bembrops macromma,Scaled-eye Duckbill,no,0,1,0,0,1,0,1,3
+Berycidae,Beryx decadactylus,"Red Bream, Broad Alfonsino",no,0,1,1,1,1,0,0,4
+Berycidae,Beryx splendens,"Slender Alfonsino, Splendid Alfonsino",no,0,1,1,1,1,0,1,5
+Labridae,Bodianus pulchellus,Spotfin Hogfish,yes,1,1,0,1,1,0,1,4
+Labridae,Bodianus rufus,Spanish Hogfish,yes,1,1,0,1,1,0,1,4
+Gobiidae,Bollmannia boqueronensis,White-eye Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Bollmannia communis,Ragged Goby,no,0,1,0,0,1,1,1,4
+Gobiidae,Bollmannia eigenmanni,Shelf Goby,no,0,1,0,0,1,1,1,4
+Gobiidae,Bollmannia litura,Citrine Goby,no,0,1,0,0,1,1,1,4
+Bothidae,Bothus lunatus,Peacock Flounder,yes,1,1,0,1,1,0,0,3
+Bothidae,Bothus maculiferus,Mottled Flounder,no,0,1,0,0,1,0,0,2
+Bothidae,Bothus ocellatus,Eyed Flounder,yes,1,1,0,1,1,0,0,3
+Bothidae,Bothus robinsi,Twospot Flounder,yes,1,1,0,0,1,0,0,2
+Clupeidae,Brevoortia gunteri,Finescale Menhaden,no,0,1,0,0,1,0,1,3
+Clupeidae,Brevoortia patronus,Gulf Menhaden,no,0,1,0,0,1,0,0,2
+Clupeidae,Brevoortia smithi,Yellowfin Menhaden ,no,0,1,0,0,1,0,1,3
+Clupeidae,Brevoortia tyrannus,Atlantic Menhaden,no,0,1,0,0,1,0,1,3
+Labrisomidae,Brockius albigenys,Whitecheek Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Brockius nigricinctus,Spotcheek Blenny,no,0,1,0,1,1,1,1,5
+Ophidiidae,Brotula barbata,Bearded Brotula,no,0,1,0,1,1,0,1,4
+Syngnathidae,Bryx dunckeri,Pugnose Pipefish,no,0,1,0,0,1,1,1,4
+Syngnathidae,Bryx randalli,Ocellated Pipefish,no,0,1,0,1,1,1,1,5
+Serranidae,Bullisichthys caribbaeus,Pugnose Bass,yes,1,1,0,1,1,1,1,5
+Bythitidae,Bythites gerdae,,no,0,1,0,1,1,1,1,5
+Bythitidae,Calamopteryx goslinei,Longarm Brotula,no,0,1,0,1,1,1,1,5
+Bythitidae,Calamopteryx robinsorum,Teacher Brotula,no,0,1,0,0,1,1,1,4
+Sparidae,Calamus arctifrons,Grass Porgy,no,0,1,0,0,1,0,0,2
+Sparidae,Calamus bajonado,Jolthead Porgy,no,0,1,0,1,1,0,0,3
+Sparidae,Calamus calamus,Saucereye Porgy,no,0,1,0,1,1,0,0,3
+Sparidae,Calamus campechanus,Campeche Porgy,no,0,1,0,0,1,0,0,2
+Sparidae,Calamus cervigoni,Spotfin Porgy,no,0,1,0,0,1,0,0,2
+Sparidae,Calamus leucosteus,Whitebone Porgy,no,0,1,0,0,1,0,0,2
+Sparidae,Calamus nodosus,Knobbed Porgy,no,0,1,0,1,1,0,0,3
+Sparidae,Calamus penna,Sheepshead Porgy,no,0,1,0,1,1,0,0,3
+Sparidae,Calamus pennatula,Pluma Porgy,no,0,1,0,1,1,0,0,3
+Sparidae,Calamus proridens,Littlehead Porgy,no,0,1,0,1,1,0,0,3
+Ophichthidae,Callechelys bilinearis,Twostriped Snake Eel,no,0,1,0,0,0,0,1,2
+Ophichthidae,Callechelys guineensis,Shorttail Snake Eel,no,0,1,0,0,0,0,1,2
+Ophichthidae,Callechelys muraena,Blotched Snake Eel,no,0,1,0,0,0,0,1,2
+Ophichthidae,Callechelys springeri,Ridgefin Eel,no,0,1,0,0,0,0,1,2
+Callionymidae,Callionymus bairdi,Lancer Dragonet,no,0,1,0,1,1,1,1,5
+Monacanthidae,Cantherhines macrocerus,Whitespotted Filefish,no,0,1,0,1,1,0,0,3
+Monacanthidae,Cantherhines pullus,Orangespotted Filefish,yes,1,1,0,1,1,0,0,3
+Balistidae,Canthidermis maculata,"Rough Triggerfish, Spotted Oceanic Triggerfish",no,0,1,0,1,1,0,0,3
+Balistidae,Canthidermis sufflamen,Ocean Triggerfish,yes,1,1,0,1,1,0,0,3
+Tetraodontidae,Canthigaster figueiredoi,South Atlantic Sharpnose Puffer,no,0,1,0,1,1,1,0,4
+Tetraodontidae,Canthigaster jamestyleri,Goldface Toby,no,0,1,0,1,1,1,1,5
+Tetraodontidae,Canthigaster rostrata,Sharpnose Puffer,yes,1,1,0,1,1,1,1,5
+Acropomatidae,Caraibops trispinosus,Threespine Bass,no,0,1,1,1,1,1,1,6
+Ophichthidae,Caralophia loxochila,Slantlip Eel,no,0,1,0,1,0,0,1,3
+Carangidae,Caranx bartholomaei,Yellow Jack,no,0,1,0,1,1,0,1,4
+Carangidae,Caranx crysos,Blue Runner,no,0,1,0,1,1,0,1,4
+Carangidae,Caranx hippos,Crevalle Jack,no,0,1,0,1,1,0,1,4
+Carangidae,Caranx latus,Horse-Eye Jack,no,0,1,0,1,1,0,1,4
+Carangidae,Caranx lugubris,Black Jack,no,0,1,0,1,1,0,0,3
+Carangidae,Caranx ruber,Bar Jack,no,0,1,0,1,1,0,1,4
+Carapidae,Carapus bermudensis,Pearlfish,no,0,1,1,1,0,0,1,4
+Gobiidae,Carrigobius amblyrhynchus,Blunt-snout Goby,no,0,1,0,1,1,1,1,5
+Chlopsidae,Catesbya pseudomuraena,Catesby's False Moray,no,0,1,0,1,1,1,1,5
+Ariidae,Cathorops aguadulce,"Estuarine Sea Catfish, Aguadulce Sea Catfish",no,0,1,0,0,1,0,1,3
+Ariidae,Cathorops arenatus,Yellow Sea Catfish,no,0,1,0,0,1,0,1,3
+Ariidae,Cathorops belizensis,Belizean Sea Catfish,no,0,1,0,0,1,0,1,3
+Ariidae,Cathorops higuchii,Higuchi’s Sea Catfish,no,0,1,0,0,1,0,1,3
+Ariidae,Cathorops kailolae,Kailola's Sea Catfish,no,0,1,0,0,1,0,1,3
+Ariidae,Cathorops mapale,Mapale Sea Catfish,no,0,1,0,0,1,0,1,3
+Ariidae,Cathorops nuchalis,Orinoco Sea Catfish,no,0,1,0,0,1,0,1,3
+Ariidae,Cathorops wayuu,Wayuu Sea Catfish,no,0,1,0,0,1,0,1,3
+Malacanthidae,Caulolatilus bermudensis,Bermuda Tilefish,no,0,1,0,0,1,0,1,3
+Malacanthidae,Caulolatilus chrysops,Goldface Tilefish,no,0,1,0,0,1,0,1,3
+Malacanthidae,Caulolatilus cyanops,Blackline Tilefish,no,0,1,0,0,1,0,1,3
+Malacanthidae,Caulolatilus dooleyi,Bankslope Tilefish,no,0,1,0,1,1,0,1,4
+Malacanthidae,Caulolatilus guppyi,Reticulated Tilefish,no,0,1,0,0,1,0,1,3
+Malacanthidae,Caulolatilus intermedius,"Anchor Tilefish, Gulf Bareye Tilefish",no,0,1,0,0,1,0,1,3
+Malacanthidae,Caulolatilus microps,Blueline Tilefish,no,0,1,0,0,1,0,1,3
+Malacanthidae,Caulolatilus williamsi,Yellow Barred Tilefish,no,0,1,0,0,1,0,1,3
+Draconettidae,Centrodraco acanthopoma,North Atlantic Slope Dragonet,no,0,1,0,0,1,1,1,4
+Centropomidae,Centropomus ensiferus,Swordspine Snook,no,0,1,0,0,1,0,1,3
+Centropomidae,Centropomus mexicanus,Large-scale Fat Snook,no,0,1,0,0,1,0,1,3
+Centropomidae,Centropomus parallelus,Small-scale Fat Snook,no,0,1,0,0,1,0,1,3
+Centropomidae,Centropomus pectinatus,Tarpon Snook,no,0,1,0,0,1,0,1,3
+Centropomidae,Centropomus poeyi,Mexican Snook,no,0,1,0,0,1,0,1,3
+Centropomidae,Centropomus undecimalis,Common Snook,no,0,1,0,0,1,0,1,3
+Serranidae,Centropristis fuscula,Twospot Seabass,no,0,1,0,1,1,1,1,5
+Serranidae,Centropristis ocyurus,Bank Seabass,yes,1,1,0,1,1,0,1,4
+Serranidae,Centropristis philadelphica,Rock Seabass,no,0,1,0,1,1,0,1,4
+Serranidae,Centropristis striata,Black Seabass,yes,1,1,0,1,1,0,1,4
+Pomacanthidae,Centropyge argi,Cherubfish,no,0,1,0,1,1,1,0,4
+Pomacanthidae,Centropyge aurantonotus,Flameback Angelfish,no,0,1,0,1,1,1,0,4
+Epinephelidae,Cephalopholis cruentata,Graysby,yes,1,1,1,1,1,0,1,5
+Epinephelidae,Cephalopholis fulva,Coney,no,0,1,1,1,1,0,1,5
+Microdesmidae,Cerdale floridana,Pugjaw Wormfish,no,0,1,0,1,0,1,1,4
+Engraulidae,Cetengraulis edentulus,Atlantic Anchoveta,no,0,1,0,0,1,0,1,3
+Chaenopsidae,Chaenopsis limbaughi,Yellowface Pike-Blenny,no,0,1,0,1,0,1,1,4
+Chaenopsidae,Chaenopsis megalops,Bigeye Pike-Blenny,no,0,1,0,0,1,1,1,4
+Chaenopsidae,Chaenopsis ocellata,Bluethroat Pike-Blenny,no,0,1,0,1,0,1,1,4
+Chaenopsidae,Chaenopsis resh,Resh Pike-Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Chaenopsis roseola,Flecked Pike-Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Chaenopsis stephensi,Stephen's Pike-Blenny,no,0,1,0,1,1,1,1,5
+Ephippidae,Chaetodipterus faber,Atlantic Spadefish,no,0,1,0,1,1,0,0,3
+Chaetodontidae,Chaetodon capistratus,Foureye Butterflyfish,yes,1,1,0,1,1,1,0,4
+Chaetodontidae,Chaetodon ocellatus,Spotfin Butterflyfish,yes,1,1,0,1,1,0,0,3
+Chaetodontidae,Chaetodon sedentarius,Reef Butterflyfish,no,0,1,0,1,1,1,0,4
+Chaetodontidae,Chaetodon striatus,Banded Butterflyfish,no,0,1,0,1,1,0,0,3
+Muraenidae,Channomuraena vittata,Broadbanded Moray,no,0,1,1,1,1,0,1,5
+Bothidae,Chascanopsetta danae,Angry Pelican Flounder,no,0,1,0,0,1,0,1,3
+Bothidae,Chascanopsetta lugubris,Pelican Flounder,no,0,1,0,0,1,0,1,3
+Blenniidae,Chasmodes bosquianus,Striped Blenny,no,0,1,0,0,1,1,1,4
+Blenniidae,Chasmodes longimaxilla,Stretchjaw Blenny,no,0,1,0,1,1,1,1,5
+Blenniidae,Chasmodes saburrae,Florida Blenny,no,0,1,0,1,1,1,1,5
+Diodontidae,Chilomycterus antennatus,Bridled Burrfish,no,0,1,0,1,1,0,1,4
+Diodontidae,Chilomycterus antillarum,Web Burrfish,no,0,1,0,1,1,0,1,4
+Diodontidae,Chilomycterus reticulatus,Spotfin Burrfish,no,0,1,0,1,1,0,1,4
+Diodontidae,Chilomycterus schoepfii,Striped Burrfish,no,0,1,0,1,1,0,1,4
+Diodontidae,Chilomycterus spinosus ssp. spinosus,Brown Burrfish,no,0,1,0,1,1,0,1,4
+Chlopsidae,Chilorhinus suensonii,Seagrass Eel,no,0,1,0,0,1,0,1,3
+Pristigasteridae,Chirocentrodon bleekerianus,Dogtooth Herring,no,0,1,0,0,1,1,1,4
+Chlopsidae,Chlopsis bicolor,"Bicolor Eel, Bicolor False Moray",no,0,1,1,1,0,0,1,4
+Chlopsidae,Chlopsis dentatus,"Mottled False Moray, Banded False Moray",no,0,1,0,1,1,0,1,4
+Chlorophthalmidae,Chlorophthalmus agassizi,Shortnose Greeneye,no,0,1,0,0,1,0,1,3
+Carangidae,Chloroscombrus chrysurus,Atlantic Bumper,no,0,1,0,0,1,0,0,2
+Serranidae,Choranthias tenuis,Threadnose Bass,no,0,1,0,1,1,1,1,5
+Hemiramphidae,Chriodorus atherinoides,Hardhead Halfbeak,no,0,1,0,0,1,0,1,3
+Gobiidae,Chriolepis fisheri,Translucent Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Chriolepis roosevelti,Roosevelt's Goby,no,0,1,0,1,1,1,1,5
+Percophidae,Chrionema squamentum,Scaly-chinned Duckbill,no,0,1,0,1,1,1,1,5
+Pomacentridae,Chromis bermudae,Bermuda Chromis,yes,1,1,0,1,1,1,0,4
+Pomacentridae,Chromis cyanea,Blue Chromis,yes,1,1,0,1,1,0,1,4
+Pomacentridae,Chromis enchrysura,Yellowtail Reeffish,yes,1,1,0,1,1,1,0,4
+Pomacentridae,Chromis insolata,"Olive Chromis, Sunshinefish",yes,1,1,0,1,1,0,1,4
+Pomacentridae,Chromis multilineata,Brown Chromis,yes,1,1,0,1,1,0,1,4
+Pomacentridae,Chromis scotti,"Purple Reeffish, Purple Chromis",yes,1,1,0,1,1,1,0,4
+Paralichthyidae,Citharichthys abbotti,Veracruz Whiff,no,0,1,0,0,1,1,0,3
+Paralichthyidae,Citharichthys amblybregmatus,Blunthead Whiff,no,0,1,0,0,0,1,0,2
+Paralichthyidae,Citharichthys arctifrons,Gulfstream Flounder,no,0,1,0,0,1,0,0,2
+Paralichthyidae,Citharichthys arenaceus,Sand Whiff,no,0,1,0,0,1,0,0,2
+Paralichthyidae,Citharichthys cornutus,Horned Whiff,no,0,1,0,1,1,1,0,4
+Paralichthyidae,Citharichthys dinoceros,Spined Whiff,no,0,1,0,0,1,1,0,3
+Paralichthyidae,Citharichthys gymnorhinus,Anglefin Whiff,no,0,1,0,0,1,1,0,3
+Paralichthyidae,Citharichthys macrops,Spotted Whiff,no,0,1,0,0,1,0,0,2
+Paralichthyidae,Citharichthys minutus,Minute Whiff,no,0,1,0,0,1,1,0,3
+Paralichthyidae,Citharichthys spilopterus,Bay Whiff,no,0,1,0,0,1,0,0,2
+Paralichthyidae,Citharichthys uhleri,Voodoo Whiff,no,0,1,0,0,1,0,0,2
+Paralichthyidae,Citharichthys valdezi,Venezuelan Whiff,no,0,1,0,0,1,0,0,2
+Labridae,Clepticus parrae,Creole Wrasse,yes,1,1,0,1,1,0,1,4
+Tetraodontidae,Colomesus psittacus,Banded Puffer,no,0,1,0,0,1,0,1,3
+Congridae,Conger esculentus,Grey Conger Eel,no,0,1,1,1,0,0,1,4
+Congridae,Conger oceanicus,American Conger Eel,no,0,1,1,0,1,0,1,4
+Congridae,Conger triporiceps,Manytooth Conger Eel,no,0,1,0,1,1,0,1,4
+Haemulidae,Conodon nobilis,Barred Grunt,no,0,1,1,0,1,0,1,4
+Priacanthidae,Cookeolus japonicus,Longfin Bulleye,no,0,1,0,1,1,0,1,4
+Chaenopsidae,Coralliozetus cardonae,Twinhorn Blenny,no,0,1,0,1,1,1,1,5
+Holocentridae,Corniger spinosus,Spinycheek Soldierfish,no,0,1,0,1,1,0,0,3
+Sciaenidae,Corvula batabana,Blue Croaker,no,0,1,0,1,1,0,1,4
+Sciaenidae,Corvula sanctaeluciae,Striped Croaker,no,0,1,0,1,1,0,1,4
+Gobiidae,Coryphopterus alloides,Barfin Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Coryphopterus curasub,Yellow-spotted Sand Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Coryphopterus dicrus,Colon Goby,yes,1,1,0,1,1,1,1,5
+Gobiidae,Coryphopterus eidolon,Pallid Goby,yes,1,1,0,1,1,1,1,5
+Gobiidae,Coryphopterus glaucofraenum,Bridled Goby,yes,1,1,0,1,1,1,1,5
+Gobiidae,Coryphopterus hyalinus,Glass Goby,yes,1,1,0,1,1,1,1,5
+Gobiidae,Coryphopterus kuna,Kuna Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Coryphopterus lipernes,Peppermint Goby,yes,1,1,0,1,1,1,1,5
+Gobiidae,Coryphopterus personatus,Masked Goby,yes,1,1,0,1,1,1,1,5
+Gobiidae,Coryphopterus punctipectophorus,Spotted Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Coryphopterus thrix,Bartail Goby,yes,1,1,0,1,1,1,1,5
+Gobiidae,Coryphopterus tortugae,Sand Goby,yes,1,1,0,1,1,1,1,5
+Gobiidae,Coryphopterus venezuelae,Venezuelan Goby,yes,1,1,0,1,1,1,1,5
+Syngnathidae,Cosmocampus albirostris,Whitenose Pipefish,no,0,1,0,1,1,0,1,4
+Syngnathidae,Cosmocampus brachycephalus,Crested Pipefish,no,0,1,0,0,1,1,1,4
+Syngnathidae,Cosmocampus elucens,Shortfin Pipefish,no,0,1,0,1,1,0,1,4
+Syngnathidae,Cosmocampus hildebrandi,Dwarf Pipefish,no,0,1,0,1,1,1,1,5
+Syngnathidae,Cosmocampus profundus,Deepwater Pipefish,no,0,1,0,1,1,0,1,4
+Gobiidae,Cryptopsilotris batrachodes,Toadfish Goby,no,0,1,0,1,1,1,1,5
+Labridae,Cryptotomus roseus,Bluelip Parrotfish,yes,1,1,0,1,1,1,1,5
+Gobiidae,Ctenogobius boleosoma,Darter Goby,no,0,1,0,0,1,1,1,4
+Gobiidae,Ctenogobius claytonii,Mexican Goby,no,0,1,0,0,1,1,1,4
+Gobiidae,Ctenogobius fasciatus,"Burnside Goby, Blotchcheek Goby",no,0,1,0,0,1,1,1,4
+Gobiidae,Ctenogobius phenacus,Impostor Goby,no,0,1,0,0,1,1,1,4
+Gobiidae,Ctenogobius pseudofasciatus,Slashcheek Goby,no,0,1,0,0,1,1,1,4
+Gobiidae,Ctenogobius saepepallens,Dash Goby,no,0,1,0,1,0,1,1,4
+Gobiidae,Ctenogobius shufeldti,American Freshwater Goby,no,0,1,0,0,1,1,1,4
+Gobiidae,Ctenogobius smaragdus,Emerald Goby,no,0,1,0,0,1,1,1,4
+Gobiidae,Ctenogobius stigmaticus,Marked Goby,no,0,1,0,0,1,1,1,4
+Gobiidae,Ctenogobius stigmaturus,Spottail Goby,no,0,1,0,0,1,1,1,4
+Gobiidae,Ctenogobius thoropsis,Sperm Goby,no,0,1,0,0,1,1,1,4
+Sciaenidae,Ctenosciaena gracilicirrhus,Barbel Drum,no,0,1,0,0,1,0,1,3
+Paralichthyidae,Cyclopsetta chittendeni,Mexican Flounder,no,0,1,0,0,1,0,0,2
+Paralichthyidae,Cyclopsetta fimbriata,Spotfin Flounder,yes,1,1,0,0,1,0,0,2
+Muraenesocidae,Cynoponticus savanna,Guayana Pike-conger Eel,no,0,1,0,0,1,0,1,3
+Sciaenidae,Cynoscion acoupa,Acoupa Weakfish,no,0,1,0,0,1,0,1,3
+Sciaenidae,Cynoscion arenarius,Sand Weakfish,no,0,1,0,0,1,0,1,3
+Sciaenidae,Cynoscion jamaicensis,Jamaica Weakfish,no,0,1,0,0,1,0,1,3
+Sciaenidae,Cynoscion leiarchus,Smooth Weakfish,no,0,1,0,0,1,0,1,3
+Sciaenidae,Cynoscion microlepidotus,Smallscale Weakfish,no,0,1,0,0,1,0,1,3
+Sciaenidae,Cynoscion nebulosus,Spotted Weakfish,no,0,1,0,0,1,0,1,3
+Sciaenidae,Cynoscion nothus,Silver Weakfish,no,0,1,0,0,1,0,1,3
+Sciaenidae,Cynoscion regalis,Gray Weakfish,no,0,1,0,0,1,0,1,3
+Sciaenidae,Cynoscion similis,Tonkin Weakfish,no,0,1,0,0,1,0,1,3
+Sciaenidae,Cynoscion steindachneri,Smalltooth Weakfish,no,0,1,0,0,1,0,1,3
+Sciaenidae,Cynoscion virescens,Green Weakfish,no,0,1,0,0,1,0,1,3
+Cyprinodontidae,Cyprinodon artifrons,Yucatan Pupfish,no,0,1,0,0,1,1,0,3
+Cyprinodontidae,Cyprinodon dearborni,Petotica,no,0,1,0,0,1,1,1,4
+Cyprinodontidae,Cyprinodon variegatus,Sheepshead Minnow,no,0,1,0,0,1,1,1,4
+Parazenidae,Cyttopsis rosea,Red Dory,no,0,1,0,1,1,0,0,3
+Dactyloscopidae,Dactylagnus peratikos,Sand Stargazer,no,0,1,0,0,1,1,1,4
+Dactylopteridae,Dactylopterus volitans,Flying Gurnard,no,0,1,0,1,1,0,1,4
+Dactyloscopidae,Dactyloscopus boehlkei,Boehlke's Sand Stargazer,no,0,1,0,0,1,1,1,4
+Dactyloscopidae,Dactyloscopus comptus,Ornamented Stargazer,no,0,1,0,0,1,1,1,4
+Dactyloscopidae,Dactyloscopus crossotus,Bigeye Stargazer,no,0,1,0,0,1,1,1,4
+Dactyloscopidae,Dactyloscopus foraminosus,Reticulate Stargazer,no,0,1,0,0,1,1,1,4
+Dactyloscopidae,Dactyloscopus moorei,Speckled Stargazer,no,0,1,0,0,1,1,1,4
+Dactyloscopidae,Dactyloscopus poeyi,Shortchin Stargazer,no,0,1,0,0,1,1,1,4
+Dactyloscopidae,Dactyloscopus tridigitatus,Sand Stargazer,no,0,1,0,1,1,1,1,5
+Carangidae,Decapterus punctatus,Round Scad,yes,1,1,0,0,1,0,1,3
+Carangidae,Decapterus tabl,Redtail Scad,yes,1,1,0,0,1,0,1,3
+Labridae,Decodon puellaris,Red Hogfish,no,0,1,0,1,1,0,1,4
+Gobiesocidae,Derilissus altifrons,High-forehead Clingfish,no,0,1,0,0,1,1,1,4
+Gobiesocidae,Derilissus kremnobates,Talus Clingfish,no,0,1,0,1,1,1,1,5
+Gobiesocidae,Derilissus lombardii,Tailspot Clingfish,no,0,1,0,1,1,1,1,5
+Gobiesocidae,Derilissus nanus,Dwarf Clingfish,no,0,1,0,1,1,1,1,5
+Gobiesocidae,Derilissus vittiger,Red-striped Clingfish,no,0,1,0,0,1,1,1,4
+Epinephelidae,Dermatolepis inermis,Marbled Grouper,no,0,1,0,1,1,0,0,3
+Gerreidae,Diapterus auratus,"Irish Mojarra, Irish Pompano",no,0,1,0,0,1,0,0,2
+Gerreidae,Diapterus rhombeus,Rhombic Mojarra,no,0,1,0,0,1,0,0,2
+Ogcocephalidae,Dibranchus atlanticus,Atlantic Batfish,no,0,1,0,0,1,1,0,3
+Diodontidae,Diodon holocanthus,Long-spine Porcupinefish,no,0,1,1,1,1,0,1,5
+Diodontidae,Diodon hystrix,Spot-fin Porcupinefish,no,0,1,1,1,1,0,1,5
+Serranidae,Diplectrum bivittatum,Dwarf Sand Perch,yes,1,1,0,1,1,0,1,4
+Serranidae,Diplectrum formosum,Sand Perch,yes,1,1,0,1,1,0,1,4
+Serranidae,Diplectrum radiale,"Aquavina, Pond Perch",no,0,1,0,1,1,0,1,4
+Sparidae,Diplodus argenteus ssp. caudimacula,Silver Porgy,no,0,1,0,1,1,0,0,3
+Sparidae,Diplodus bermudensis,Bermuda Porgy,yes,1,1,0,1,1,0,0,3
+Sparidae,Diplodus holbrookii,Spottail Pinfish,no,0,1,0,1,1,0,0,3
+Callionymidae,Diplogrammus pauciradiatus,Spotted Dragonet,no,0,1,0,1,0,1,1,4
+Labridae,Doratonotus megalepis,Dwarf Wrasse,no,0,1,0,1,1,1,1,5
+Eleotridae,Dormitator maculatus,Fat Sleeper Goby,no,0,1,0,0,1,0,1,3
+Synaphobranchidae,Dysomma anguillare,Shortbelly Eel,no,0,1,0,0,1,0,1,3
+Echeneidae,Echeneis naucrates,Live Sharksucker,no,0,1,0,1,1,0,1,4
+Echeneidae,Echeneis neucratoides,Whitefin Sharksucker,no,0,1,0,1,1,0,1,4
+Muraenidae,Echidna catenata,Chain Moray,no,0,1,0,1,1,0,1,4
+Carapidae,Echiodon dawsoni,Chain Pearlfish,no,0,1,0,0,1,1,1,4
+Ophichthidae,Echiophis intertinctus,Spotted Spoon-nose Eel,no,0,1,0,0,0,0,1,2
+Ophichthidae,Echiophis punctifer,"Stippled Spoon-nose Eel, Snapper Eel",no,0,1,0,1,0,0,1,3
+Setarchidae,Ectreposebastes imus,Midwater Scorpionfish,no,0,1,0,0,1,0,1,3
+Chaenopsidae,Ekemblemaria nigra,Moth Blenny,no,0,1,0,1,0,1,1,4
+Gobiidae,Elacatinus atronasus,"Blacknose Goby, Exuma Goby",no,0,0,0,1,1,1,1,4
+Gobiidae,Elacatinus cayman,Cayman Cleaner Goby,no,0,0,0,1,1,1,1,4
+Gobiidae,Elacatinus centralis,Cayman Sponge Goby,no,0,0,0,1,1,1,1,4
+Gobiidae,Elacatinus chancei,Shortstripe Goby,no,0,0,0,1,1,1,1,4
+Gobiidae,Elacatinus colini,Belize Sponge Goby,no,0,0,0,1,1,1,1,4
+Gobiidae,Elacatinus evelynae,Sharknose Goby,no,0,0,0,1,1,1,1,4
+Gobiidae,Elacatinus genie,Cleaner Goby,no,0,0,0,1,1,1,1,4
+Gobiidae,Elacatinus horsti,Yellowline Goby,no,0,0,0,1,1,1,1,4
+Gobiidae,Elacatinus illecebrosus,Barsnout Goby,no,0,0,0,1,1,1,1,4
+Gobiidae,Elacatinus jarocho,Jarocho Goby,no,0,0,0,1,1,1,1,4
+Gobiidae,Elacatinus lobeli,Caribbean Neon Goby,no,0,0,0,1,1,1,1,4
+Gobiidae,Elacatinus lori,Lori's Goby,no,0,0,0,1,1,1,1,4
+Gobiidae,Elacatinus louisae,Spotlight Goby,no,0,0,0,1,1,1,1,4
+Gobiidae,Elacatinus oceanops,Northern Neon Goby,yes,1,0,0,1,1,1,1,4
+Gobiidae,Elacatinus prochilos,Broadstripe Goby,yes,1,0,0,1,1,1,1,4
+Gobiidae,Elacatinus randalli,Yellownose Goby,no,0,0,0,1,1,1,1,4
+Gobiidae,Elacatinus serranilla,Serranilla Goby,no,0,0,0,1,1,1,1,4
+Gobiidae,Elacatinus tenox,Slaty Goby,no,0,0,0,1,1,1,1,4
+Gobiidae,Elacatinus xanthiprora,Yellowprow Goby,no,0,0,0,1,1,1,1,4
+Eleotridae,Eleotris amblyopsis,Large-scaled Spinycheek Sleeper Goby,no,0,1,0,0,1,1,1,4
+Eleotridae,Eleotris perniger,Small-scaled Spinycheek Sleeper Goby,no,0,1,0,1,1,0,1,4
+Eleotridae,Eleotris pisonis,Spinycheek Sleeper Goby,no,0,1,0,0,1,1,1,4
+Elopidae,Elops saurus,Northern Ladyfish,no,0,1,0,1,1,0,1,4
+Elopidae,Elops smithi,Southern Ladyfish,no,0,1,0,1,1,0,1,4
+Chaenopsidae,Emblemaria atlantica,Banner Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Emblemaria biocellata,Twospot Sailfin Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Emblemaria caldwelli,Caribbean Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Emblemaria caycedoi,Colombian Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Emblemaria culmenis,Ridge-browed Sailfin Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Emblemaria diphyodontis,Spiny Sailfin Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Emblemaria hyltoni,Filament Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Emblemaria pandionis,Sailfin Blenny ,yes,1,1,0,1,0,1,1,4
+Chaenopsidae,Emblemaria piratula,Pirate Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Emblemaria vitta,Ribbon Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Emblemariopsis arawak,Arawak Blenny,yes,1,1,0,1,1,1,1,5
+Chaenopsidae,Emblemariopsis bahamensis,Blackhead Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Emblemariopsis bottomei,Bottome's Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Emblemariopsis carib,Carib Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Emblemariopsis dianae,Orangeflag Blenny,no,0,1,0,1,0,1,1,4
+Chaenopsidae,Emblemariopsis diaphana,Glass Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Emblemariopsis leptocirris,Fine-cirrus Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Emblemariopsis occidentalis,Redspine Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Emblemariopsis pricei,Seafan Blenny,no,0,1,0,1,0,1,1,4
+Chaenopsidae,Emblemariopsis ramirezi,Ramirez's Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Emblemariopsis randalli,"Hornless Blenny, Randall's Blenny",no,0,1,0,1,1,1,1,5
+Chaenopsidae,Emblemariopsis ruetzleri,Ruetzler's Blenny,no,0,1,0,1,0,1,1,4
+Chaenopsidae,Emblemariopsis signifer,Flagfin Blenny,no,0,1,0,1,0,1,1,4
+Chaenopsidae,Emblemariopsis tayrona,Tayrona Blenny,no,0,1,0,1,1,1,1,5
+Haemulidae,Emmelichthyops atlanticus,Bonnetmouth,no,0,1,0,1,1,1,1,5
+Emmelichthyidae,Emmelichthys ruber,Red Rover,no,0,1,0,1,1,0,1,4
+Muraenidae,Enchelycore anatina,Fangtooth Moray,no,0,1,0,1,1,0,1,4
+Muraenidae,Enchelycore carychroa,Chestnut Moray,no,0,1,0,1,1,0,1,4
+Muraenidae,Enchelycore nigricans,Viper Moray,no,0,1,0,1,1,0,1,4
+Lotidae,Enchelyopus cimbrius,Fourbeard Rockling,no,0,1,0,0,1,0,1,3
+Bothidae,Engyophrys senta,"Spiny Flounder, Speckled-tail Flounder",no,0,1,0,0,1,1,0,3
+Tripterygiidae,Enneanectes altivelis,Lofty Triplefin,yes,1,1,0,1,1,1,1,5
+Tripterygiidae,Enneanectes atrorus,Blackedge Triplefin,no,0,1,0,1,1,1,1,5
+Tripterygiidae,Enneanectes boehlkei,Roughhead Triplefin,yes,1,1,0,1,1,1,1,5
+Tripterygiidae,Enneanectes deloachorum,Two-bar Triplefin,no,0,1,0,1,1,1,1,5
+Tripterygiidae,Enneanectes flavus,Yellowtail Triplefin,no,0,1,0,1,1,1,1,5
+Tripterygiidae,Enneanectes jordani,"Mimic Triplefin, Redbelly Triplefin",no,0,1,0,1,1,1,1,5
+Tripterygiidae,Enneanectes matador,Matador Triplefin,no,0,1,0,1,1,1,1,5
+Tripterygiidae,Enneanectes pectoralis,Redeye Triplefin,yes,1,1,0,1,1,1,1,5
+Tripterygiidae,Enneanectes quadra,Squaretail Triplefin,no,0,1,0,1,1,1,1,5
+Tripterygiidae,Enneanectes wilki,Windward Triplefin,no,0,1,0,1,1,1,1,5
+Blenniidae,Entomacrodus nigricans,Pearl Blenny,yes,1,1,0,1,1,1,1,5
+Epigonidae,Epigonus pectinifer,,no,0,1,0,1,1,0,1,4
+Epinephelidae,Epinephelus adscensionis,Rock Hind,yes,1,1,0,1,1,0,1,4
+Epinephelidae,Epinephelus drummondhayi,Speckled Hind,no,0,1,0,1,1,0,1,4
+Epinephelidae,Epinephelus guttatus,Red Hind,no,0,1,0,1,1,0,1,4
+Epinephelidae,Epinephelus itajara,Goliath Grouper,no,0,1,0,1,1,0,1,4
+Epinephelidae,Epinephelus morio,Red Grouper,no,0,1,0,1,1,0,1,4
+Epinephelidae,Epinephelus striatus,Nassau Grouper,yes,1,1,0,1,1,0,1,4
+Gempylidae,Epinnula magistralis,Domine Escolar,no,0,1,0,0,1,0,1,3
+Sciaenidae,Equetus lanceolatus,Jack-knife,no,0,1,0,1,1,0,1,4
+Sciaenidae,Equetus punctatus,Spotted Drum,no,0,1,1,1,1,0,1,5
+Eleotridae,Erotelis smaragdus,Emerald Sleeper Goby,no,0,1,0,0,0,0,1,2
+Emmelichthyidae,Erythrocles monodi,Crimson Rover,no,0,1,0,0,1,0,1,3
+Lutjanidae,Etelis oculatus,Queen Snapper,no,0,1,0,1,1,0,1,4
+Ophichthidae,Ethadophis akkistikos,Indifferent eel,no,0,1,0,0,0,0,1,2
+Paralichthyidae,Etropus crossotus,Fringed Flounder,no,0,1,0,0,1,0,0,2
+Paralichthyidae,Etropus cyclosquamus,Shelf Flounder,no,0,1,0,0,1,1,0,3
+Paralichthyidae,Etropus delsmani ssp. delsmani,Delsman's Flounder,no,0,1,0,0,1,1,0,3
+Paralichthyidae,Etropus rimosus,Gray Flounder,no,0,1,0,0,1,1,0,3
+Gerreidae,Eucinostomus argenteus,Spotfin Mojarra,no,0,1,0,0,1,0,0,2
+Gerreidae,Eucinostomus gula,Silver Jenny,no,0,1,0,0,1,0,0,2
+Gerreidae,Eucinostomus harengulus,Tidewater Mojarra,no,0,1,0,0,1,1,0,3
+Gerreidae,Eucinostomus havana,Bigeye Mojarra,no,0,1,0,0,1,0,0,2
+Gerreidae,Eucinostomus jonesii,Slender Mojarra,no,0,1,0,0,1,0,1,3
+Gerreidae,Eucinostomus lefroyi,Mottled Mojarra,no,0,1,0,0,1,0,1,3
+Gerreidae,Eucinostomus melanopterus,Flagfin Mojarra,no,0,1,0,0,1,0,0,2
+Gerreidae,Eugerres awlae,Maracaibo Mojarra,no,0,1,0,0,1,0,0,2
+Gerreidae,Eugerres brasilianus,Brazilian Mojarra,no,0,1,0,0,1,0,0,2
+Gerreidae,Eugerres plumieri,Striped Mojarra,no,0,1,0,0,1,0,0,2
+Bramidae,Eumegistus brevorti,Tropical Pomfret,no,0,1,0,0,1,0,0,2
+Gobiidae,Evermannichthys bicolor,Bicolored Sponge Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Evermannichthys convictor,Tenant Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Evermannichthys metzelaari,Roughtail Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Evermannichthys silus,Pugnose Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Evermannichthys spongicola,Sponge Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Evorthodus lyricus,Lyre Goby,no,0,1,0,0,1,1,1,4
+Trichiuridae,Evoxymetopon taeniatus,Channel Scabbardfish,no,0,1,0,0,1,0,1,3
+Zoarcidae,Exechodontes daidaleus,,no,0,1,0,1,1,0,1,4
+Fistulariidae,Fistularia petimba,Red Cornetfish,no,0,1,0,0,1,0,1,3
+Fistulariidae,Fistularia tabacaria,Blue-spotted Cornetfish,no,0,1,0,1,1,0,1,4
+Cyprinodontidae,Floridichthys carpio,Goldspotted Killifish,no,0,1,0,0,1,1,1,4
+Cyprinodontidae,Floridichthys polyommus,Ocellated Killifish,no,0,1,0,0,1,1,1,4
+Callionymidae,Foetorepus agassizii,Spotfin Dragonet,no,0,1,0,0,1,0,1,3
+Callionymidae,Foetorepus goodenbeani,Palefin Dragonet,no,0,1,0,0,1,0,1,3
+Antennariidae,Fowlerichthys ocellatus,Ocellated Frogfish,no,0,1,0,1,1,0,0,3
+Antennariidae,Fowlerichthys radiosus,"Singlespot Frogfish, Big-eyed Frogfish",yes,1,1,0,0,1,1,0,3
+Fundulidae,Fundulus grandis,Gulf Killifish,no,0,1,0,0,1,0,1,3
+Fundulidae,Fundulus grandissimus,Giant Killifish,no,0,1,0,0,1,0,1,3
+Fundulidae,Fundulus jenkinsi,Saltmarsh Topminnow,no,0,1,0,0,1,1,1,4
+Fundulidae,Fundulus majalis,Striped Killifish,no,0,1,0,0,1,0,1,3
+Fundulidae,Fundulus persimilis,Yucatan Killifish,no,0,1,0,0,1,1,1,4
+Fundulidae,Fundulus pulvereus,Bayou Killifish,no,0,1,0,0,1,1,1,4
+Fundulidae,Fundulus similis,Longnose Killifish,no,0,1,0,0,1,1,1,4
+Fundulidae,Fundulus xenicus,Diamond Killifish,no,0,1,0,0,1,1,1,4
+Poeciliidae,Gambusia nicaraguensis,Nicaragua Mosquitofish,no,0,1,0,0,1,1,1,4
+Poeciliidae,Gambusia puncticulata,Caribbean Gambusia,no,0,1,0,0,1,1,1,4
+Poeciliidae,Gambusia rhizophorae,Mangrove Gambusia,no,0,1,0,0,1,1,1,4
+Paralichthyidae,Gastropsetta frontalis,Shrimp Flounder,no,0,1,0,0,1,0,0,2
+Haemulidae,Genyatremus cavifrons,Torroto Grunt,no,0,1,0,0,1,0,0,2
+Trachichthyidae,Gephyroberyx darwinii,"Big Roughy, Darwin's Slimehead",no,0,1,0,1,1,0,0,3
+Gerreidae,Gerres cinereus,Yellowfin Mojarra,no,0,1,0,1,1,0,0,3
+Dactyloscopidae,Gillellus greyae,Arrow Stargazer,yes,1,1,0,1,1,1,1,5
+Dactyloscopidae,Gillellus healae,Masked Stargazer,no,0,1,0,0,1,1,1,4
+Dactyloscopidae,Gillellus inescatus,Flagfin Stargazer,no,0,1,0,0,1,1,1,4
+Dactyloscopidae,Gillellus jacksoni,Jackson's Stargazer,no,0,1,0,0,1,1,1,4
+Dactyloscopidae,Gillellus uranidea,Warteyed Stargazer,no,0,1,0,1,1,1,1,5
+Gobiidae,Ginsburgellus novemlineatus,Nineline Goby,no,0,1,0,1,1,1,1,5
+Argentinidae,Glossanodon polli,Argentine,no,0,1,0,0,1,1,1,4
+Argentinidae,Glossanodon pygmaeus,Pygmy Argentine,no,0,1,0,0,1,1,1,4
+Gobiidae,Gnatholepis thompsoni,Goldspot Goby,yes,1,1,0,1,1,1,1,5
+Congridae,Gnathophis bathytopos,Blackgut Conger Eel,no,0,1,0,0,1,0,1,3
+Congridae,Gnathophis bracheatopos,Longeye Conger Eel,no,0,1,0,0,1,0,1,3
+Gobiesocidae,Gobiesox barbatulus,Lappetlip Clingfish,no,0,1,1,0,1,1,1,5
+Gobiesocidae,Gobiesox lucayanus,Bahama Skilletfish,no,0,1,0,1,1,1,1,5
+Gobiesocidae,Gobiesox nigripinnis,Dark-finned Clingfish,no,0,1,0,1,1,1,1,5
+Gobiesocidae,Gobiesox punctulatus,Stippled Clingfish,no,0,1,0,1,1,1,1,5
+Gobiesocidae,Gobiesox strumosus,Skilletfish,no,0,1,0,1,1,1,1,5
+Labrisomidae,Gobioclinus bucciferus,Puffcheek Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Gobioclinus filamentosus,Quillfin Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Gobioclinus gobio,Palehead Blenny,yes,1,1,0,1,1,1,1,5
+Labrisomidae,Gobioclinus guppyi,Mimic Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Gobioclinus haitiensis,Longfin Blenny,yes,1,1,0,1,1,1,1,5
+Labrisomidae,Gobioclinus kalisherae,Downy Blenny,no,0,1,0,1,1,1,1,5
+Gobiidae,Gobioides broussonnetii,Violet Goby,no,0,1,0,0,1,0,1,3
+Gobiidae,Gobioides grahamae,,no,0,1,0,0,0,0,1,2
+Eleotridae,Gobiomorus dormitor,Bigmouth Sleeper,no,0,1,0,0,1,0,1,3
+Gobiidae,Gobionellus oceanicus,"Sharptail Goby, Slim Goby, Highfin",no,0,1,0,0,1,0,1,3
+Gobiidae,Gobiosoma bosc,Naked Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Gobiosoma ginsburgi,Seaboard Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Gobiosoma grosvenori,Rockcut Goby,yes,1,1,0,1,1,1,1,5
+Gobiidae,Gobiosoma hildebrandi,Hildebrand's Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Gobiosoma longipala,Twoscale Goby,no,0,1,0,0,1,1,1,4
+Gobiidae,Gobiosoma robustum,Code Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Gobiosoma spes,Vermiculated Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Gobiosoma spilotum,Isthmian Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Gobiosoma yucatanum,Yucatan Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Gobulus myersi,Paleback Goby,no,0,1,0,1,1,1,1,5
+Epinephelidae,Gonioplectrus hispanus,Spanish Flag,no,0,1,0,1,1,0,1,4
+Ophichthidae,Gordiichthys ergodes,Irksome Eel,no,0,1,0,0,0,0,1,2
+Ophichthidae,Gordiichthys irretitus,Horsehair Eel,no,0,1,0,0,0,0,1,2
+Ophichthidae,Gordiichthys leibyi,String Eel,no,0,1,0,0,0,0,1,2
+Ophichthidae,Gordiichthys randalli,Rope Eel,no,0,1,0,0,0,0,1,2
+Grammatidae,Gramma dejongi,Cuban Gramma,no,0,1,0,1,1,1,1,5
+Grammatidae,Gramma linki,Yellowcheek Basslet,no,0,1,0,1,1,1,1,5
+Grammatidae,Gramma loreto,"Fairy Basslet, Royal Gramma",yes,1,1,0,1,1,1,1,5
+Grammatidae,Gramma melacara,Blackcap Basslet,yes,1,1,0,1,1,1,1,5
+Bythitidae,Grammonus claudei,"Dusky Brotula, Reef-cave Brotula",no,0,1,1,1,1,1,1,6
+Eleotridae,Guavina guavina,Guavina,no,0,1,0,0,1,0,1,3
+Dinematichthyidae,Gunterichthys longipenis,Gold Brotula,no,0,1,0,0,0,1,1,3
+Achiridae,Gymnachirus melas,Naked Sole,no,0,1,0,0,1,0,0,2
+Achiridae,Gymnachirus nudus,"Flabby Sole, Nude Sole",no,0,1,0,0,1,0,0,2
+Achiridae,Gymnachirus texae,Fringed Sole,no,0,1,0,0,1,1,0,3
+Gobiesocidae,Gymnoscyphus ascitus,Alien Clingfish,no,0,1,0,1,1,1,1,5
+Muraenidae,Gymnothorax conspersus,Saddled Moray,no,0,1,0,0,1,0,1,3
+Muraenidae,Gymnothorax funebris,Green Moray,no,0,1,1,1,1,0,1,5
+Muraenidae,Gymnothorax hubbsi,Lichen Moray,no,0,1,0,0,1,0,1,3
+Muraenidae,Gymnothorax kolpos,Blacktail Moray,no,0,1,0,0,1,0,1,3
+Muraenidae,Gymnothorax maderensis,Sharktooth Moray,no,0,1,0,1,1,0,1,4
+Muraenidae,Gymnothorax miliaris,Goldentail Moray,no,0,1,0,1,0,0,1,3
+Muraenidae,Gymnothorax moringa,Spotted Moray,no,0,1,0,1,0,0,1,3
+Muraenidae,Gymnothorax nigromarginatus,Blackedge Moray,no,0,1,0,1,1,0,1,4
+Muraenidae,Gymnothorax ocellatus,Ocellated Moray,no,0,1,0,0,1,0,1,3
+Muraenidae,Gymnothorax polygonius,Polygon Moray,no,0,1,0,1,1,0,1,4
+Muraenidae,Gymnothorax saxicola,Honeycomb Moray,no,0,1,1,0,1,0,1,4
+Muraenidae,Gymnothorax vicinus,Purplemouth Moray,no,0,1,0,1,1,0,1,4
+Haemulidae,Haemulon album,Margate Grunt,no,0,1,1,1,1,0,1,5
+Haemulidae,Haemulon aurolineatum,Tomtate Grunt,yes,1,1,0,1,1,0,1,4
+Haemulidae,Haemulon bonariense,Black Grunt,no,0,1,0,1,1,0,1,4
+Haemulidae,Haemulon boschmae,Bronzestripe Grunt,no,0,1,0,1,1,0,1,4
+Haemulidae,Haemulon carbonarium,Cesar Grunt,no,0,1,1,1,1,0,1,5
+Haemulidae,Haemulon chrysargyreum,Smallmouth Grunt,yes,1,1,1,1,1,0,1,5
+Haemulidae,Haemulon flavolineatum,French Grunt,yes,1,1,0,1,1,0,1,4
+Haemulidae,Haemulon macrostomum,Spanish Grunt,no,0,1,0,1,1,0,1,4
+Haemulidae,Haemulon melanurum,Cottonwick Grunt,yes,1,1,0,1,1,0,1,4
+Haemulidae,Haemulon parra,Sailor's Choice Grunt,no,0,1,1,1,1,0,1,5
+Haemulidae,Haemulon plumierii,White Grunt,yes,1,1,0,1,1,0,1,4
+Haemulidae,Haemulon sciurus,Bluestriped Grunt,yes,1,1,0,1,1,0,1,4
+Haemulidae,Haemulon steindachneri,Latin Grunt,no,0,1,0,1,1,0,1,4
+Haemulidae,Haemulon striatum,Striped Grunt,no,0,1,1,1,1,0,1,5
+Haemulidae,Haemulon vittatum,Boga,yes,1,1,0,1,1,0,1,4
+Haemulidae,Haemulopsis corvinaeformis,Roughneck Grunt,no,0,1,0,1,1,0,1,4
+Labridae,Halichoeres bathyphilus,Greenband Wrasse,yes,1,1,0,1,1,0,1,4
+Labridae,Halichoeres bivittatus,Slippery Dick,yes,1,1,0,1,1,0,1,4
+Labridae,Halichoeres burekae,Mardi Gras Wrasse,yes,1,1,0,1,1,1,1,5
+Labridae,Halichoeres caudalis,Painted Wrasse,no,0,1,0,1,1,0,1,4
+Labridae,Halichoeres cyanocephalus,Yellowcheek Wrasse,yes,1,1,0,1,1,0,1,4
+Labridae,Halichoeres garnoti,Yellowhead Wrasse,yes,1,1,0,1,1,0,1,4
+Labridae,Halichoeres maculipinna,Clown Wrasse,yes,1,1,0,1,1,0,1,4
+Labridae,Halichoeres pictus,Rainbow Wrasse,yes,1,1,0,1,1,1,1,5
+Labridae,Halichoeres poeyi,Blackear Wrasse,no,0,1,0,1,1,0,1,4
+Labridae,Halichoeres radiatus,Puddingwife,yes,1,1,0,1,1,0,1,4
+Labridae,Halichoeres socialis,Social Wrasse,yes,1,1,0,1,1,1,1,5
+Ogcocephalidae,Halieutichthys aculeatus,Pancake Batfish,no,0,1,0,0,1,1,0,3
+Ogcocephalidae,Halieutichthys bispinosus,Two-spine Batfish,no,0,1,0,0,1,1,0,3
+Ogcocephalidae,Halieutichthys caribbaeus,Caribbean Batfish,no,0,1,0,0,1,1,0,3
+Ogcocephalidae,Halieutichthys intermedius,"Louisana Pancake Batfish, Gulf Batfish",no,0,1,0,0,1,1,0,3
+Labrisomidae,Haptoclinus apectolophus,Uncombed Four-fin Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Haptoclinus dropi,Spotted Four-fin Blenny,no,0,1,0,1,1,1,1,5
+Clupeidae,Harengula clupeola,False Herring,no,0,1,0,1,1,0,1,4
+Clupeidae,Harengula humeralis,Redear Herring,yes,1,1,0,1,1,0,1,4
+Clupeidae,Harengula jaguana,Scaled Herring,no,0,1,0,0,1,0,1,3
+Sebastidae,Helicolenus dactylopterus,Blackbelly Rosefish,no,0,1,0,1,1,0,1,4
+Serranidae,Hemanthias leptus,Longtail Bass,no,0,1,0,1,1,0,1,4
+Carangidae,Hemicaranx amblyrhynchus,Bluntnose Jack,no,0,1,0,0,1,0,0,2
+Chaenopsidae,Hemiemblemaria simulus,Wrasse Blenny,no,0,1,0,1,1,1,1,5
+Hemiramphidae,Hemiramphus balao,Balao Halfbeak,no,0,1,0,1,1,0,1,4
+Hemiramphidae,Hemiramphus brasiliensis,Ballyhoo Halfbeak,no,0,1,0,1,1,0,1,4
+Congridae,Heteroconger camelopardalis,Giraffe-spotted Garden Eel,no,0,1,0,1,1,0,1,4
+Congridae,Heteroconger longissimus,Brown Garden Eel,no,0,1,0,1,0,0,1,3
+Congridae,Heteroconger luteolus,Yellow Garden Eel,no,0,1,0,1,0,0,1,3
+Priacanthidae,Heteropriacanthus cruentatus,Glasseye Snapper,yes,1,1,1,1,1,0,1,5
+Syngnathidae,Hippocampus erectus,Lined Seahorse,no,0,1,0,1,1,0,1,4
+Syngnathidae,Hippocampus reidi,Longsnout Seahorse,no,0,1,0,1,1,0,1,4
+Syngnathidae,Hippocampus zosterae,Dwarf Seahorse,no,0,1,0,0,1,1,1,4
+Antennariidae,Histrio histrio,Sargassumfish,no,0,1,0,0,1,0,0,2
+Pomacanthidae,Holacanthus bermudensis,Blue Angelfish,no,0,1,0,1,1,0,0,3
+Pomacanthidae,Holacanthus ciliaris,Queen Angelfish,yes,1,1,0,1,1,0,0,3
+Pomacanthidae,Holacanthus tricolor,Rock Beauty,yes,1,1,0,1,1,0,0,3
+Triacanthodidae,Hollardia hollardi,Reticulate Spikefish,no,0,1,0,0,1,0,0,2
+Triacanthodidae,Hollardia meadi,Spotted Spikefish,no,0,1,0,1,1,1,0,4
+Holocentridae,Holocentrus adscensionis,Squirrelfish,yes,1,1,1,1,1,0,1,5
+Holocentridae,Holocentrus rufus,Longspine Squirrelfish,yes,1,1,1,1,1,0,1,5
+Trachichthyidae,Hoplostethus mediterraneus,Mediterranean Slimehead,no,0,1,0,1,1,0,0,3
+Trachichthyidae,Hoplostethus occidentalis,Western Roughy,no,0,1,0,1,1,0,0,3
+Nettastomatidae,Hoplunnis diomediana,Blacktail Pikeconger Eel,no,0,1,0,0,1,0,1,3
+Nettastomatidae,Hoplunnis macrura,Freckled Pikeconger Eel,no,0,1,0,0,1,0,1,3
+Nettastomatidae,Hoplunnis similis,,no,0,1,0,0,1,0,1,3
+Nettastomatidae,Hoplunnis tenuis,Spotted Pikeconger Eel,no,0,1,0,0,1,0,1,3
+Centrolophidae,Hyperoglyphe bythites,Black Driftfish,no,0,1,0,0,1,0,1,3
+Centrolophidae,Hyperoglyphe perciformis,Barrelfish,no,0,1,0,0,1,0,1,3
+Blenniidae,Hypleurochilus bermudensis,Barred Blenny,no,0,1,0,1,1,1,1,5
+Blenniidae,Hypleurochilus caudovittatus,Zebratail Blenny,no,0,1,0,1,1,1,1,5
+Blenniidae,Hypleurochilus geminatus,Crested Blenny,yes,1,1,0,1,1,1,1,5
+Blenniidae,Hypleurochilus multifilis,Featherduster Blenny,no,0,1,0,1,1,1,1,5
+Blenniidae,Hypleurochilus pseudoaequipinnis,Atlantic Oyster Blenny,no,0,1,0,1,1,1,1,5
+Blenniidae,Hypleurochilus springeri,Orangespotted Blenny,yes,1,1,0,1,1,1,1,5
+Atherinidae,Hypoatherina harringtonensis,Reef Silverside,yes,1,1,0,1,1,1,1,5
+Serranidae,Hypoplectrus aberrans,Yellowbelly Hamlet,yes,1,1,0,1,1,1,0,4
+Serranidae,Hypoplectrus atlahua,Jarocho Hamlet,no,0,1,0,1,1,1,0,4
+Serranidae,Hypoplectrus castroaguirrei,Veracruz White Hamlet,no,0,1,0,1,1,1,1,5
+Serranidae,Hypoplectrus chlorurus,Yellowtail Hamlet,no,0,1,0,1,1,1,0,4
+Serranidae,Hypoplectrus ecosur,"Contoy Hamlet, Spotted Hamlet",no,0,1,0,1,1,1,0,4
+Serranidae,Hypoplectrus floridae,Florida Barred Hamlet,no,0,1,0,1,1,1,1,5
+Serranidae,Hypoplectrus gemma,Blue Hamlet,no,0,1,0,1,1,1,1,5
+Serranidae,Hypoplectrus gummigutta,Golden Hamlet,no,0,1,0,1,1,1,0,4
+Serranidae,Hypoplectrus guttavarius,Shy Hamlet,no,0,1,0,1,1,1,1,5
+Serranidae,Hypoplectrus indigo,Indigo Hamlet,no,0,1,0,1,1,1,0,4
+Serranidae,Hypoplectrus liberte,Striped Hamlet,no,0,1,0,1,1,1,0,4
+Serranidae,Hypoplectrus maculiferus,Bicolored Hamlet,no,0,1,0,1,1,1,0,4
+Serranidae,Hypoplectrus maya,Belizean Blue Hamlet,no,0,1,0,1,1,1,0,4
+Serranidae,Hypoplectrus nigricans,Black Hamlet,yes,1,1,0,1,1,1,1,5
+Serranidae,Hypoplectrus providencianus,Masked Hamlet,no,0,1,0,1,1,1,0,4
+Serranidae,Hypoplectrus puella,Barred Hamlet,yes,1,1,0,1,1,1,1,5
+Serranidae,Hypoplectrus randallorum,Tan Hamlet,yes,1,1,0,1,1,1,1,5
+Serranidae,Hypoplectrus unicolor,Butter Hamlet,no,0,1,0,1,1,1,0,4
+Hemiramphidae,Hyporhamphus collettei,Bermuda Silverstripe Halfbeak,no,0,1,0,0,1,0,1,3
+Hemiramphidae,Hyporhamphus meeki,"False Silverstripe Halfbeak, Meek's Halfbeak",no,0,1,0,0,1,0,1,3
+Hemiramphidae,Hyporhamphus roberti,Slender Halfbeak,no,0,1,0,0,1,0,1,3
+Hemiramphidae,Hyporhamphus unifasciatus,"Atlantic Silverstripe Halfbeak, Common Halfbeak",no,0,1,0,1,1,0,1,4
+Epinephelidae,Hyporthodus flavolimbatus,Yellowedge Grouper,no,0,1,0,1,1,0,1,4
+Epinephelidae,Hyporthodus mystacinus,"Misty Grouper, Bigeye Grouper",no,0,1,0,1,1,0,1,4
+Epinephelidae,Hyporthodus nigritus,Warsaw Grouper,no,0,1,0,1,1,0,0,3
+Epinephelidae,Hyporthodus niveatus,Snowy Grouper,no,0,1,0,1,1,0,1,4
+Blenniidae,Hypsoblennius exstochilus,Longhorn Blenny,no,0,1,0,1,1,1,1,5
+Blenniidae,Hypsoblennius hentz,Feather Blenny,no,0,1,0,1,1,1,0,4
+Blenniidae,Hypsoblennius invemar,Tessellated Blenny,no,0,1,0,1,1,1,1,5
+Blenniidae,Hypsoblennius ionthas,Freckled Blenny,no,0,1,0,1,1,1,1,5
+Ophichthidae,Ichthyapus ophioneus,Surf Eel,no,0,1,0,0,0,0,1,2
+Sciaenidae,Isopisthus parvipinnis,Shortfin Corvina,no,0,1,0,0,1,0,1,3
+Serranidae,Jeboehlkia gladifer,Bladefin Bass,no,0,1,0,1,1,1,1,5
+Clupeidae,Jenkinsia lamprotaenia,Dwarf Herring,yes,1,1,0,1,1,1,1,5
+Clupeidae,Jenkinsia majua,Little-eye Herring,no,0,1,0,1,1,1,1,5
+Clupeidae,Jenkinsia parvula,Shortstriped Round Herring,no,0,1,0,1,1,1,1,5
+Clupeidae,Jenkinsia stolifera,"Florida Round Herring, Shortband Herring",no,0,1,0,1,1,1,1,5
+Triacanthodidae,Johnsonina eriomma,Bullseye Spikefish,no,0,1,0,0,1,0,0,2
+Uranoscopidae,Kathetostoma albigutta,Lancer Stargazer,no,0,1,0,0,1,0,1,3
+Uranoscopidae,Kathetostoma cubana,Spiny Stargazer,no,0,1,0,0,1,0,1,3
+Chlopsidae,Kaupichthys hyoproroides,False Moray,no,0,1,0,1,1,0,1,4
+Chlopsidae,Kaupichthys nuchalis,Collared Eel,no,0,1,0,1,1,0,1,4
+Ophichthidae,Kertomichthys blastorhinos,Snub-nose Snake Eel,no,0,1,0,0,0,0,1,2
+Anomalopidae,Kryptophanaron alfredi,Atlantic Flashlight Fish,no,0,1,1,1,1,1,1,6
+Kyphosidae,Kyphosus bigibbus,Darkfin Sea Chub,no,0,1,0,1,1,0,0,3
+Kyphosidae,Kyphosus cinerascens,Topsail Sea Chub,no,0,1,0,1,1,0,0,3
+Kyphosidae,Kyphosus sectatrix,Bermuda Sea Chub,no,0,1,0,1,1,0,0,3
+Kyphosidae,Kyphosus vaigiensis,Yellow Sea Chub,no,0,1,0,1,1,0,0,3
+Labrisomidae,Labrisomus nuchipinnis,Hairy Blenny,yes,1,1,0,1,1,0,1,4
+Labridae,Lachnolaimus maximus,Hogfish,no,0,1,0,1,1,0,0,3
+Ostraciidae,Lactophrys bicaudalis,Spotted Trunkfish,no,0,1,0,1,1,0,0,3
+Ostraciidae,Lactophrys trigonus,Buffalo Trunkfish,no,0,1,0,1,1,0,1,4
+Ostraciidae,Lactophrys triqueter,Smooth Trunkfish,no,0,1,0,1,1,0,0,3
+Tetraodontidae,Lagocephalus laevigatus,Smooth Puffer,no,0,1,0,0,1,0,1,3
+Tetraodontidae,Lagocephalus lagocephalus,Oceanic Puffer,no,0,1,0,0,1,0,1,3
+Sparidae,Lagodon rhomboides,Pinfish,no,0,1,0,1,1,0,1,4
+Sciaenidae,Larimus breviceps,Shorthead Drum,no,0,1,0,0,1,0,1,3
+Sciaenidae,Larimus fasciatus,Banded Drum,no,0,1,0,0,1,0,1,3
+Sciaenidae,Leiostomus xanthurus,"Spot, Spot Croaker",no,0,1,0,0,1,0,1,3
+Ophidiidae,Lepophidium aporrhox,Dusky Cusk Eel,no,0,1,1,0,1,0,1,4
+Ophidiidae,Lepophidium brevibarbe,Blackedge Cusk Eel,no,0,1,1,0,1,0,1,4
+Ophidiidae,Lepophidium collettei,Brazilian Cusk Eel,no,0,1,0,0,1,0,1,3
+Ophidiidae,Lepophidium crossotum,Whitespot Cusk Eel,no,0,1,0,0,1,0,1,3
+Ophidiidae,Lepophidium cultratum,Blackear Cusk Eel,no,0,1,0,0,1,0,1,3
+Ophidiidae,Lepophidium entomelan,Blackthroat Cusk Eel,no,0,1,0,0,1,0,1,3
+Ophidiidae,Lepophidium gilmorei,Pepperfin Cusk Eel,no,0,1,0,0,1,0,1,3
+Ophidiidae,Lepophidium jeannae,Mottled Cusk Eel,no,0,1,1,0,1,0,1,4
+Ophidiidae,Lepophidium marmoratum,Marbled Cusk Eel,no,0,1,0,0,1,0,1,3
+Ophidiidae,Lepophidium pheromystax,Upsilon Cusk Eel,no,0,1,0,0,1,0,1,3
+Ophidiidae,Lepophidium profundorum,Fawn Cusk Eel,no,0,1,1,0,0,0,1,3
+Ophidiidae,Lepophidium robustum,Robust Cusk Eel,no,0,1,0,0,1,0,1,3
+Ophidiidae,Lepophidium staurophor,Barred Cusk Eel,no,0,1,0,0,1,0,1,3
+Ophidiidae,Lepophidium wileyi,Fringed Cusk Eel,no,0,1,0,0,1,0,1,3
+Ophidiidae,Lepophidium zophochir,Sooty Cusk Eel,no,0,1,0,0,1,0,1,3
+Eleotridae,Leptophilypnus fluviatilis,Freshwater Sleeper,no,0,1,0,0,1,1,1,4
+Ophichthidae,Letharchus velifer,Sailfin Eel,no,0,1,0,0,0,0,1,2
+Ophichthidae,Lethogoleos andersoni,Forgetful Snake Eel,no,0,1,0,0,0,0,1,2
+Dactyloscopidae,Leurochilus acon,Smoothlip Stargazer,no,0,1,0,1,1,1,1,5
+Clupeidae,Lile piquitinga,Atlantic Piquitinga,no,0,1,0,0,1,0,1,3
+Epinephelidae,Liopropoma aberrans,Eye-Stripe Basslet,no,0,1,0,1,1,1,1,5
+Epinephelidae,Liopropoma carmabi,Candy Basslet,yes,1,1,0,1,1,1,1,5
+Epinephelidae,Liopropoma eukrines,Wrasse Basslet,no,0,1,0,1,1,1,1,5
+Epinephelidae,Liopropoma mowbrayi,Cave Basslet,no,0,1,0,1,1,1,1,5
+Epinephelidae,Liopropoma olneyi,Yellow-spotted Basslet,no,0,1,0,1,1,1,1,5
+Epinephelidae,Liopropoma rubre,Peppermint Basslet,yes,1,1,0,1,1,1,1,5
+Epinephelidae,Liopropoma santi,Tail-spot Basslet,no,0,1,0,1,1,1,1,5
+Grammatidae,Lipogramma anabantoides,Dusky Basslet,no,0,1,0,1,1,1,1,5
+Grammatidae,Lipogramma barrettorum,Blue-Spotted Basslet,no,0,1,0,1,1,1,1,5
+Grammatidae,Lipogramma evides,Banded Basslet,no,0,1,0,1,1,1,1,5
+Grammatidae,Lipogramma flavescens,Yellow Basslet,no,0,1,0,1,1,1,1,5
+Grammatidae,Lipogramma haberorum,Yellow-banded Basslet,no,0,1,0,1,1,1,1,5
+Grammatidae,Lipogramma idabeli,Bluebacked Basslet,no,0,1,0,1,1,1,1,5
+Grammatidae,Lipogramma klayi,Bicolor Basslet,yes,1,1,0,1,1,1,1,5
+Grammatidae,Lipogramma levinsoni,Hourglass Basslet,no,0,1,0,1,1,1,1,5
+Grammatidae,Lipogramma regia,Royal Basslet,no,0,1,0,1,1,1,1,5
+Grammatidae,Lipogramma robinsi,Yellowbar Basslet,no,0,1,0,1,1,1,1,5
+Grammatidae,Lipogramma rosea,Rosy Basslet,no,0,1,0,1,1,1,1,5
+Grammatidae,Lipogramma schrieri,Maori Basslet,no,0,1,0,1,1,1,1,5
+Grammatidae,Lipogramma trilineata,Three-lined Basslet,no,0,1,0,1,1,1,1,5
+Lobotidae,Lobotes surinamensis,Atlantic Tripletail,no,0,1,0,0,1,0,0,2
+Opistognathidae,Lonchopisthus ancistrus,Hook Jawfish,no,0,1,0,0,0,1,1,3
+Opistognathidae,Lonchopisthus higmani,Higman's Jawfish,no,0,1,0,0,0,0,1,2
+Opistognathidae,Lonchopisthus lemur,Palemouth Jawfish,no,0,1,0,0,0,1,1,3
+Opistognathidae,Lonchopisthus micrognathus,Swordtail Jawfish,no,0,1,0,0,0,1,1,3
+Sciaenidae,Lonchurus elegans,Blackfin Croaker,no,0,1,0,0,1,0,1,3
+Sciaenidae,Lonchurus lanceolatus,Longtail Croaker,no,0,1,0,0,1,0,1,3
+Lophiidae,Lophiodes reticulatus,Reticulated Goosefish,no,0,1,0,0,1,0,0,2
+Lophiidae,Lophius americanus,"Monkfish, Goosefish",no,0,1,0,0,1,0,0,2
+Lophiidae,Lophius gastrophysus,Blackfin Goosefish,no,0,1,0,0,1,0,0,2
+Gobiidae,Lophogobius cyprinoides,Atlantic Crested Goby,no,0,1,0,1,0,1,1,4
+Malacanthidae,Lopholatilus chamaeleonticeps,Great Northern Tilefish,no,0,1,0,0,0,0,1,2
+Fundulidae,Lucania parva,Rainwater Killifish,no,0,1,0,0,1,1,1,4
+Chaenopsidae,Lucayablennius zingaro,Arrow Blenny,yes,1,1,0,1,1,1,1,5
+Blenniidae,Lupinoblennius nicholsi,Highfin Blenny,no,0,1,0,1,1,1,1,5
+Blenniidae,Lupinoblennius vinctus,Atlantic Mangrove Blenny,no,0,1,0,1,1,1,1,5
+Lutjanidae,Lutjanus analis,Mutton Snapper,no,0,1,0,1,1,0,1,4
+Lutjanidae,Lutjanus apodus,Schoolmaster Snapper,no,0,1,0,1,1,0,1,4
+Lutjanidae,Lutjanus buccanella,Blackfin Snapper,no,0,1,0,1,1,0,1,4
+Lutjanidae,Lutjanus campechanus,"Red Snapper, Northern Red Snapper",yes,1,1,0,1,1,0,1,4
+Lutjanidae,Lutjanus cyanopterus,Cubera Snapper,no,0,1,0,1,1,0,1,4
+Lutjanidae,Lutjanus griseus,Grey Snapper,no,0,1,1,1,1,0,1,5
+Lutjanidae,Lutjanus jocu,Dog Snapper,no,0,1,0,1,1,0,1,4
+Lutjanidae,Lutjanus mahogoni,Mahogany Snapper,no,0,1,1,1,1,0,1,5
+Lutjanidae,Lutjanus synagris,Lane Snapper,yes,1,1,1,1,1,0,1,5
+Lutjanidae,Lutjanus vivanus,Silk Snapper,no,0,1,0,1,1,0,1,4
+Engraulidae,Lycengraulis grossidens,Atlantic Sabretooth Anchovy,no,0,1,0,0,1,0,1,3
+Gobiidae,Lythrypnus crocodilus,Mahogany Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Lythrypnus elasson,Dwarf Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Lythrypnus heterochroma,Diphasic Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Lythrypnus minimus,Pygmy Goby,yes,1,1,0,1,1,1,1,5
+Gobiidae,Lythrypnus mowbrayi,Bermuda Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Lythrypnus nesiotes,Island Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Lythrypnus okapia,Okapi Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Lythrypnus phorellus,Convict Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Lythrypnus spilus,Bluegold Goby,yes,1,1,0,1,1,1,1,5
+Sciaenidae,Macrodon ancylodon,King Weakfish,no,0,1,0,0,1,0,1,3
+Centriscidae,Macroramphosus scolopax,Longspine Snipefish,no,0,1,0,0,1,1,1,4
+Malacanthidae,Malacanthus plumieri,Sand Tilefish,no,0,1,0,1,0,0,1,3
+Labrisomidae,Malacoctenus aurolineatus,Goldline Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Malacoctenus boehlkei,Diamond Blenny,yes,1,1,0,1,1,1,1,5
+Labrisomidae,Malacoctenus delalandii,Delaland Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Malacoctenus erdmani,Imitator Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Malacoctenus gilli,Dusky Blenny,yes,1,1,0,1,1,1,1,5
+Labrisomidae,Malacoctenus macropus,Rose Blenny,yes,1,1,0,1,1,1,1,5
+Labrisomidae,Malacoctenus triangulatus,Saddled Blenny,yes,1,1,0,1,1,1,1,5
+Labrisomidae,Malacoctenus versicolor,Barfin Blenny,no,0,1,0,1,1,1,1,5
+Ogcocephalidae,Malthopsis gnoma,Grotesque Seabat,no,0,1,0,0,1,1,0,3
+Megalopidae,Megalops atlanticus,Atlantic Tarpon,no,0,1,0,1,1,0,1,4
+Atherinopsidae,Melanorhinus microps,Querimana Silverside,no,0,1,0,1,1,1,1,5
+Balistidae,Melichthys niger,Black Triggerfish,no,0,1,0,1,1,0,0,3
+Atherinopsidae,Membras analis,Backwaters Silverside,no,0,1,0,0,1,1,1,4
+Atherinopsidae,Membras argentea,Plateada Silverside,no,0,1,0,0,1,1,1,4
+Atherinopsidae,Membras martinica,Rough Silverside,no,0,1,0,0,1,1,1,4
+Atherinopsidae,Menidia beryllina,Inland Silverside,no,0,1,0,0,1,1,1,4
+Atherinopsidae,Menidia clarkhubbsi,Texas Silverside,no,0,1,0,0,1,1,1,4
+Atherinopsidae,Menidia colei,"Golden Silverside, Yucatan Silverside",no,0,1,0,0,1,0,1,3
+Atherinopsidae,Menidia conchorum,Key Silverside,no,0,1,0,0,1,1,1,4
+Atherinopsidae,Menidia menidia,Atlantic Silverside,no,0,1,0,0,1,0,1,3
+Atherinopsidae,Menidia peninsulae,Tidewater Silverside,no,0,1,0,0,1,0,1,3
+Sciaenidae,Menticirrhus americanus,Southern Kingfish,no,0,1,0,0,1,0,1,3
+Sciaenidae,Menticirrhus littoralis,Gulf Kingfish,no,0,1,0,0,1,0,1,3
+Sciaenidae,Menticirrhus saxatilis,Northern Kingfish,no,0,1,0,0,1,0,1,3
+Merlucciidae,Merluccius albidus,Offshore Silver Hake,no,0,1,1,0,1,0,1,4
+Merlucciidae,Merluccius bilinearis,Silver Hake,no,0,1,1,0,1,0,1,4
+Microdesmidae,Microdesmus bahianus,Bahia Wormfish,no,0,1,0,1,0,1,1,4
+Microdesmidae,Microdesmus carri,Stippled Wormfish,no,0,1,0,0,0,1,1,3
+Microdesmidae,Microdesmus lanceolatus,Lancetail Wormfish,no,0,1,0,0,0,1,1,3
+Microdesmidae,Microdesmus longipinnis,Pink Wormfish,no,0,1,1,0,0,0,1,3
+Microdesmidae,Microdesmus luscus,Small-eyed Wormfish,no,0,1,0,1,0,1,1,4
+Syngnathidae,Micrognathus crinitus,Banded Pipefish,no,0,1,0,1,1,1,1,5
+Gobiidae,Microgobius carri,Seminole Goby,yes,1,1,0,1,0,1,1,4
+Gobiidae,Microgobius gulosus,Clown Goby,no,0,1,0,0,1,1,1,4
+Gobiidae,Microgobius meeki,Meek's Goby,no,0,1,0,0,1,1,1,4
+Gobiidae,Microgobius microlepis,Banner Goby,no,0,1,0,0,0,1,1,3
+Gobiidae,Microgobius signatus,Signal Goby,no,0,1,0,0,1,1,1,4
+Gobiidae,Microgobius thalassinus,Green Goby,no,0,1,0,1,1,1,1,5
+Syngnathidae,Microphis lineatus,Opossum Pipefish,no,0,1,0,0,1,1,1,4
+Sciaenidae,Micropogonias furnieri,Whitemouth Croaker,no,0,1,0,0,1,0,1,3
+Sciaenidae,Micropogonias undulatus,Atlantic Croaker,no,0,1,0,0,1,0,1,3
+Pomacentridae,Microspathodon chrysurus,Yellowtail Damselfish,yes,1,1,0,1,1,0,0,3
+Syngnathidae,Minyichthys inusitatus,Uncommon Pipefish,no,0,1,0,0,1,1,1,4
+Monacanthidae,Monacanthus ciliatus,Fringed Filefish,yes,1,1,0,1,1,0,0,3
+Monacanthidae,Monacanthus tuckeri,Slender Filefish,yes,1,1,0,1,1,1,0,4
+Bothidae,Monolene atrimana,"Blackfinned Deepwater Flounder, Longfinned Deepwater Flounder",no,0,1,0,0,1,1,1,4
+Bothidae,Monolene megalepis,Spottedfin Deepwater Flounder,no,0,1,0,0,1,1,0,3
+Bothidae,Monolene sessilicauda,Deepwater Flounder,no,0,1,0,0,1,0,1,3
+Ophidiidae,Monomitopus agassizii,Agassiz's Brotula,no,0,1,0,0,1,0,1,3
+Muraenidae,Monopenchelys acuta,Redface Moray,no,0,1,0,1,1,0,1,4
+Moringuidae,Moringua edwardsi,Spaghetti Eel,no,0,1,1,1,0,0,1,4
+Moronidae,Morone saxatilis,Striped Bass,no,0,1,0,1,1,0,1,4
+Mugilidae,Mugil cephalus,"Striped Mullet, Flathead Mullet",no,0,1,0,0,1,0,1,3
+Mugilidae,Mugil curema,White Mullet,no,0,1,0,1,1,0,1,4
+Mugilidae,Mugil incilis,Parassi Mullet,no,0,1,0,0,1,0,1,3
+Mugilidae,Mugil liza,Lebranche Mullet,no,0,1,0,0,1,0,1,3
+Mugilidae,Mugil margaritae,,no,0,1,0,0,1,0,1,3
+Mugilidae,Mugil rubrioculus,Redeye Mullet,no,0,1,0,0,1,0,1,3
+Mugilidae,Mugil trichodon,Fantail Mullet,no,0,1,0,0,1,0,1,3
+Mullidae,Mulloidichthys martinicus,Yellow Goatfish,yes,1,1,0,1,1,0,1,4
+Mullidae,Mullus auratus,Red Goatfish,yes,1,1,0,0,1,0,1,3
+Muraenidae,Muraena pavonina,"Flagged Moray, Whitespot Moray",no,0,1,0,1,0,0,1,3
+Muraenidae,Muraena retifera,Reticulate Moray,no,0,1,0,1,0,0,1,3
+Muraenidae,Muraena robusta,"Stout Moray, Robust Moray",no,0,1,0,1,0,0,1,3
+Epinephelidae,Mycteroperca acutirostris,Western Comb Grouper,no,0,1,0,1,1,0,1,4
+Epinephelidae,Mycteroperca bonaci,Black Grouper,no,0,1,0,1,1,0,1,4
+Epinephelidae,Mycteroperca cidi,Venezuelan Grouper,no,0,1,0,1,1,0,1,4
+Epinephelidae,Mycteroperca interstitialis,Yellowmouth Grouper,no,0,1,0,1,1,0,1,4
+Epinephelidae,Mycteroperca microlepis,Gag Grouper,no,0,1,0,1,1,0,1,4
+Epinephelidae,Mycteroperca phenax,Scamp,no,0,1,0,1,1,0,1,4
+Epinephelidae,Mycteroperca tigris,Tiger Grouper,no,0,1,0,1,1,0,1,4
+Epinephelidae,Mycteroperca venenosa,Yellowfin Grouper,yes,1,1,0,1,1,0,1,4
+Ophichthidae,Myrichthys breviceps,Sharptail Eel,no,0,1,0,1,0,0,1,3
+Ophichthidae,Myrichthys ocellatus,Goldspotted Eel,no,0,1,1,1,0,0,1,4
+Holocentridae,Myripristis jacobus,Blackbar Soldierfish,yes,1,1,1,1,1,0,1,5
+Ophichthidae,Myrophis anterodorsalis,Longfin Worm Eel,no,0,1,0,0,0,0,1,2
+Ophichthidae,Myrophis platyrhynchus,Broadnose Worm Eel,no,0,1,0,0,0,0,1,2
+Ophichthidae,Myrophis plumbeus,Leaden Worm Eel,no,0,1,0,0,0,0,1,2
+Ophichthidae,Myrophis punctatus,Speckled Worm Eel,no,0,1,0,0,0,0,1,2
+Myxinidae,Myxine glutinosa,Atlantic Hagfish,no,0,1,1,0,0,0,1,3
+Dactyloscopidae,Myxodagnus belone,Dartfish,no,0,1,0,0,1,1,1,4
+Sciaenidae,Nebris microps,Small-eye Croaker,no,0,1,0,0,1,0,1,3
+Labrisomidae,Nemaclinus atelestos,Threadfin Blenny,no,0,1,0,1,1,1,1,5
+Ophidiidae,Neobythites gilli,Twospot Brotula,no,0,1,0,0,1,1,1,4
+Ophidiidae,Neobythites marginatus,Stripefin Brotula,no,0,1,0,0,1,0,1,3
+Ophidiidae,Neobythites monocellatus,,no,0,1,0,0,1,0,1,3
+Ophidiidae,Neobythites multiocellatus,Ocellated Brotula,no,0,1,0,0,1,1,1,4
+Ophidiidae,Neobythites unicolor,,no,0,1,0,0,1,1,1,4
+Moringuidae,Neoconger mucronatus,Ridged Eel,no,0,1,0,0,0,0,1,2
+Gempylidae,Neoepinnula americana,American Sackfish,no,0,1,0,0,1,0,1,3
+Scorpaenidae,Neomerinthe beanorum,Spotwing Scorpionfish,no,0,1,0,1,1,0,1,4
+Scorpaenidae,Neomerinthe hemingwayi,Spinycheek Scorpionfish,no,0,1,0,1,1,0,1,4
+Holocentridae,Neoniphon marianus,Longjaw Squirrelfish,yes,1,1,1,1,1,0,1,5
+Pristigasteridae,Neoopisthopterus cubanus,Cuban Longfin Herring,no,0,1,0,0,1,1,1,4
+Gobiidae,Nes longus,Orange-spotted Goby,no,0,1,0,1,1,1,1,5
+Gempylidae,Nesiarchus nasutus,Black Gemfish,no,0,1,0,1,1,0,1,4
+Nettastomatidae,Nettastoma melanurum,Blackfin Sorcerer Eel,no,0,1,1,0,1,0,1,4
+Nettastomatidae,Nettastoma syntresis,,no,0,1,0,0,1,0,1,3
+Nettastomatidae,Nettenchelys pygmaea,Pygmy Pikeconger Eel,no,0,1,0,0,1,0,1,3
+Labridae,Nicholsina usta,Emerald Parrotfish,yes,1,1,0,1,1,0,1,4
+Ariidae,Notarius grandicassis,Thomas Sea Catfish,no,0,1,0,0,1,0,1,3
+Ariidae,Notarius neogranatensis,Caribbean Sculptured Sea Catfish,no,0,1,0,0,1,0,1,3
+Lutjanidae,Ocyurus chrysurus,Yellowtail Snapper,yes,1,1,0,1,1,0,1,4
+Pristigasteridae,Odontognathus compressus,Caribbean Longfin herring,no,0,1,0,0,1,1,1,4
+Pristigasteridae,Odontognathus mucronatus,Guiana Longfin Herring,no,0,1,0,0,1,0,1,3
+Sciaenidae,Odontoscion dentex,Reef Croaker,no,0,1,1,1,1,0,1,5
+Ogcocephalidae,Ogcocephalus corniger,Longnose Batfish,no,0,1,0,1,1,0,0,3
+Ogcocephalidae,Ogcocephalus cubifrons,Polkadot Batfish,no,0,1,0,1,1,0,0,3
+Ogcocephalidae,Ogcocephalus declivirostris,Slantbrow Batfish,no,0,1,0,0,1,0,0,2
+Ogcocephalidae,Ogcocephalus nasutus,Shortnose Batfish,no,0,1,0,1,1,0,0,3
+Ogcocephalidae,Ogcocephalus notatus,"Oval Batfish, Marked Batfish",no,0,1,0,0,1,1,0,3
+Ogcocephalidae,Ogcocephalus pantostictus,Spotted Batfish,no,0,1,0,1,1,0,0,3
+Ogcocephalidae,Ogcocephalus parvus,Roughback Batfish,no,0,1,0,1,1,1,0,4
+Ogcocephalidae,Ogcocephalus pumilus,Dwarf Batfish,no,0,1,0,0,1,1,0,3
+Ogcocephalidae,Ogcocephalus rostellum,Palefin Batfish,no,0,1,0,0,1,0,0,2
+Dinematichthyidae,Ogilbia boehlkei,Boehlke's Brotula,no,0,1,0,1,1,1,1,5
+Dinematichthyidae,Ogilbia cayorum,Key Brotula,no,0,1,0,0,1,1,1,4
+Dinematichthyidae,Ogilbia jeffwilliamsi,Williams' Brotula,no,0,1,0,1,1,1,1,5
+Dinematichthyidae,Ogilbia mccoskeri,McCosker's Brotula,no,0,1,0,1,1,1,1,5
+Dinematichthyidae,Ogilbia sabaji,Sabaj's Brotula,no,0,1,0,1,1,1,1,5
+Dinematichthyidae,Ogilbia suarezae,Suarez's Brotula,no,0,1,0,1,1,1,1,5
+Dinematichthyidae,Ogilbia tyleri,Tyler's Brotula,no,0,1,0,1,1,1,1,5
+Dinematichthyidae,Ogilbichthys ferocis,Fearsome Brotula,no,0,1,1,1,1,1,1,6
+Dinematichthyidae,Ogilbichthys haitiensis,Haitian Brotula,no,0,1,1,1,1,1,1,6
+Dinematichthyidae,Ogilbichthys kakuki,Kakuki's Brotula,no,0,1,1,1,1,1,1,6
+Dinematichthyidae,Ogilbichthys longimanus,Longarmed Brotula,no,0,1,1,1,1,1,1,6
+Dinematichthyidae,Ogilbichthys microphthalmus,Smalleyed Brotula,no,0,1,1,1,1,1,1,6
+Dinematichthyidae,Ogilbichthys puertoricoensis,Puertorican Brotula,no,0,1,1,1,1,1,1,6
+Dinematichthyidae,Ogilbichthys tobagoensis,Tobago Brotula,no,0,1,1,1,1,1,1,6
+Carangidae,Oligoplites palometa,Maracaibo Leatherjack,no,0,1,0,0,1,0,1,3
+Carangidae,Oligoplites saliens,Castin Leatherjack,no,0,1,0,0,1,0,1,3
+Carangidae,Oligoplites saurus ssp. saurus,"Leatherjack, Atlantic Leatherjack",no,0,1,0,0,1,0,1,3
+Ophichthidae,Ophichthus cruentifer,Margined Snake Eel,no,0,1,0,0,0,0,1,2
+Ophichthidae,Ophichthus cylindroideus,"Dusky Snake Eel, Tentacle-nose Eel",no,0,1,0,0,0,0,1,2
+Ophichthidae,Ophichthus gomesii,Shrimp Eel,no,0,1,1,1,0,0,1,4
+Ophichthidae,Ophichthus hyposagmatus,Faintsaddled Snake Eel,no,0,1,0,0,0,0,1,2
+Ophichthidae,Ophichthus melanoporus,Blackpored Eel,no,0,1,0,0,0,0,1,2
+Ophichthidae,Ophichthus menezesi,,no,0,1,0,0,0,0,1,2
+Ophichthidae,Ophichthus omorgmus,Dottedline Snake Eel,no,0,1,0,0,0,0,1,2
+Ophichthidae,Ophichthus ophis,Spotted Snake Eel,no,0,1,1,1,0,0,1,4
+Ophichthidae,Ophichthus puncticeps,Palespotted Snake Eel,no,0,1,0,0,0,0,1,2
+Ophichthidae,Ophichthus rex,"King Snake Eel, Giant Snake Eel",no,0,1,0,0,0,0,1,2
+Ophichthidae,Ophichthus spinicauda,Spinefin Snake Eel,no,0,1,0,0,0,0,1,2
+Ophidiidae,Ophidion antipholus,Longnose Cusk Eel,no,0,1,0,0,1,0,1,3
+Ophidiidae,Ophidion dromio,Shorthead Cusk Eel,no,0,1,0,0,1,0,1,3
+Ophidiidae,Ophidion grayi,Blotched Cusk Eel,no,0,1,0,0,1,0,1,3
+Ophidiidae,Ophidion guianense,Guianan Cusk Eel,no,0,1,0,0,1,1,1,4
+Ophidiidae,Ophidion holbrookii,Band Cusk Eel,no,0,1,0,1,1,0,1,4
+Ophidiidae,Ophidion josephi,Crested Cusk Eel,no,0,1,0,0,1,0,1,3
+Ophidiidae,Ophidion lagochila,Harelip Cusk Eel,no,0,1,0,1,1,1,1,5
+Ophidiidae,Ophidion marginatum,Striped Cusk Eel,no,0,1,1,0,0,0,1,3
+Ophidiidae,Ophidion nocomis,Letter-opener Cusk Eel,no,0,1,0,1,1,1,1,5
+Ophidiidae,Ophidion selenops,Moon-eyed Cusk Eel,no,0,1,0,0,1,1,1,4
+Blenniidae,Ophioblennius macclurei,Redlip Blenny,yes,1,1,0,1,0,1,1,4
+Sciaenidae,Ophioscion panamensis,Panama Croaker,no,0,1,0,0,1,1,1,4
+Sciaenidae,Ophioscion punctatissimus,Spotted Croaker,no,0,1,0,0,1,0,1,3
+Clupeidae,Opisthonema oglinum,Atlantic Thread Herring,no,0,1,0,1,1,0,1,4
+Opistognathidae,Opistognathus aurifrons,Yellowhead Jawfish,yes,1,1,0,1,0,1,1,4
+Opistognathidae,Opistognathus gilberti,Yellow Jawfish,no,0,1,0,1,0,1,1,4
+Opistognathidae,Opistognathus leprocarus,Roughcheek Jawfish,no,0,1,0,0,0,1,1,3
+Opistognathidae,Opistognathus lonchurus,Moustache Jawfish,no,0,1,0,0,0,1,1,3
+Opistognathidae,Opistognathus macrognathus,Banded Jawfish,yes,1,1,0,1,0,0,1,3
+Opistognathidae,Opistognathus maxillosus,Mottled Jawfish,no,0,1,0,1,0,1,1,4
+Opistognathidae,Opistognathus megalepis,Largescale Jawfish,no,0,1,0,0,0,1,1,3
+Opistognathidae,Opistognathus melachasme,Megamouth Jawfish,no,0,1,0,0,0,1,1,3
+Opistognathidae,Opistognathus nothus,Yellowmouth Jawfish,no,0,1,0,0,0,1,1,3
+Opistognathidae,Opistognathus robinsi,Spotfin Jawfish,yes,1,1,0,1,0,0,1,3
+Opistognathidae,Opistognathus schrieri,Curacao Jawfish,no,0,1,0,1,0,1,1,4
+Opistognathidae,Opistognathus signatus,Darkspotted Jawfish,no,0,1,0,0,0,1,1,3
+Opistognathidae,Opistognathus whitehursti,Dusky Jawfish,yes,1,1,0,1,0,1,1,4
+Batrachoididae,Opsanus beta,Gulf Toadfish,no,0,1,1,1,1,0,1,5
+Batrachoididae,Opsanus dichrostomus,Bicolor Toadfish,no,0,1,0,1,1,1,1,5
+Batrachoididae,Opsanus pardus,Leopard Toadfish,no,0,1,0,1,1,0,1,4
+Batrachoididae,Opsanus phobetron,Scarecrow Toadfish,no,0,1,0,1,1,1,1,5
+Batrachoididae,Opsanus tau,Oyster Toadfish,no,0,1,0,1,1,0,1,4
+Haemulidae,Orthopristis chrysoptera,Pigfish Grunt,no,0,1,1,0,1,0,1,4
+Haemulidae,Orthopristis ruber,Corocoro Grunt,no,0,1,0,1,1,0,1,4
+Holocentridae,Ostichthys trachypoma,Bigeye Soldierfish,no,0,1,1,1,1,0,0,4
+Ophidiidae,Otophidium chickcharney,Ghost Cusk Eel,no,0,1,0,1,1,1,1,5
+Ophidiidae,Otophidium dormitator,Sleeper Cusk Eel,no,0,1,0,1,0,1,1,4
+Ophidiidae,Otophidium omostigma,Polka-dot Cusk Eel,no,0,1,0,0,0,1,1,3
+Gobiidae,Oxyurichthys stigmalophius,Spotfin Goby,no,0,1,0,0,0,0,1,2
+Gobiidae,Paedovaricus imswe,Whiteband Goby,no,0,1,0,1,1,1,1,5
+Sparidae,Pagrus pagrus,Red Porgy,yes,1,1,0,1,1,0,0,3
+Gobiidae,Palatogobius grandoculus,Large-eye Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Palatogobius incendius,Ember Goby,yes,1,1,0,1,1,1,1,5
+Gobiidae,Palatogobius paradoxus,Mauve Goby,no,0,1,0,1,1,1,1,5
+Blenniidae,Parablennius marmoreus,Seaweed Blenny,yes,1,1,0,1,1,1,1,5
+Labrisomidae,Paraclinus barbatus,Goatee Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Paraclinus cingulatus,Coral Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Paraclinus fasciatus,Banded Blenny,yes,1,1,0,1,1,1,1,5
+Labrisomidae,Paraclinus grandicomis,Horned Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Paraclinus infrons,Bald Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Paraclinus marmoratus,Marbled Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Paraclinus naeorhegmis,Surf Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Paraclinus nigripinnis,Blackfin Blenny,no,0,1,0,1,1,1,1,5
+Congridae,Paraconger caudilimbatus,Margintail Conger Eel,no,0,1,1,1,1,0,1,5
+Triacanthodidae,Parahollardia lineata,Jambeau spikefish,no,0,1,0,0,1,0,0,2
+Triacanthodidae,Parahollardia schmidti,Three-line Spikefish,no,0,1,0,0,1,1,0,3
+Serranidae,Paralabrax dewegeri,Vieja Parrot Rock-Bass,no,0,1,0,1,1,0,1,4
+Paralichthyidae,Paralichthys albigutta,Gulf Flounder,yes,1,1,0,0,1,0,0,2
+Paralichthyidae,Paralichthys dentatus,Summer Flounder,no,0,1,0,0,1,0,0,2
+Paralichthyidae,Paralichthys lethostigma,Southern Flounder,no,0,1,0,0,1,0,0,2
+Paralichthyidae,Paralichthys oblongus,American Fourspot Flounder,no,0,1,0,0,1,0,0,2
+Paralichthyidae,Paralichthys squamilentus,Broad Flounder,no,0,1,0,0,1,0,0,2
+Paralichthyidae,Paralichthys tropicus,Tropical Flounder,no,0,1,0,0,1,0,0,2
+Sciaenidae,Paralonchurus brasiliensis,Banded Croaker,no,0,1,0,0,1,0,1,3
+Epinephelidae,Paranthias furcifer,Atlantic Creolefish,yes,1,1,0,1,1,0,1,4
+Bythitidae,Parasaccogaster melanomycter,Black-nosed Brotula,no,0,1,1,1,1,1,1,6
+Bythitidae,Parasaccogaster rhamphidognatha,,no,0,1,0,0,1,1,1,4
+Acropomatidae,Parascombrops spinosus,Keelcheek Bass ,no,0,1,0,1,1,1,1,5
+Serranidae,Parasphyraenops atrimanus,Black-handed Bass,no,0,1,0,1,1,1,1,5
+Serranidae,Parasphyraenops incisus,Bantam Bass,no,0,1,0,1,1,1,1,5
+Chlorophthalmidae,Parasudis truculenta,Longnose Greeneye,no,0,1,0,0,1,0,1,3
+Parazenidae,Parazen pacificus,Parazen,no,0,1,0,0,1,0,1,3
+Sciaenidae,Pareques acuminatus,Highhat,yes,1,1,1,1,1,0,1,5
+Sciaenidae,Pareques iwamotoi,Blackbar Drum,no,0,1,0,1,1,0,1,4
+Sciaenidae,Pareques umbrosus,Cubbyu,yes,1,1,0,1,1,0,1,4
+Gobiidae,Pariah scotius,Peppered Goby,no,0,1,0,1,1,1,1,5
+Apogonidae,Paroncheilus affinis,Bigtooth Cardinalfish,yes,1,1,1,1,1,1,1,6
+Ophidiidae,Parophidion schmidti,Dusky Cusk Eel,no,0,1,0,1,1,1,1,5
+Gobiidae,Parrella macropteryx,Longtail Goby,no,0,1,0,0,1,1,1,4
+Pristigasteridae,Pellona harroweri,American Coastal Pellona,no,0,1,1,0,1,0,1,4
+Pempheridae,Pempheris poeyi,"Curved Sweeper, Shortfin Sweeper",no,0,1,1,1,1,1,1,6
+Pempheridae,Pempheris schomburgkii,"Glassy Sweeper, Copper Sweeper",yes,1,1,1,1,1,1,1,6
+Syngnathidae,Penetopteryx nanus,Worm Pipefish,no,0,1,0,1,1,1,1,5
+Stromateidae,Peprilus burti,Gulf Butterfish,no,0,1,1,0,1,0,0,3
+Stromateidae,Peprilus paru,American Harvestfish,no,0,1,0,0,1,0,0,2
+Stromateidae,Peprilus triacanthus,Atlantic Butterfish,no,0,1,0,0,1,0,0,2
+Peristediidae,Peristedion brevirostre,Flathead Armored Searobin,no,0,1,0,1,1,0,1,4
+Peristediidae,Peristedion gracile,Temperate Slender Armored Searobin,no,0,1,0,1,1,0,1,4
+Peristediidae,Peristedion greyae,Alligator Armored Searobin,no,0,1,0,0,1,0,1,3
+Peristediidae,Peristedion imberbe,Tropical Slender Armored Searobin,no,0,1,0,0,1,0,1,3
+Peristediidae,Peristedion longispatha,Widehead Armored Searobin,no,0,1,0,0,1,0,1,3
+Peristediidae,Peristedion miniatum,Boarhead Armored Searobin,no,0,1,0,0,1,0,1,3
+Peristediidae,Peristedion thompsoni,Rimspine Armored Searobin,no,0,1,0,0,1,0,1,3
+Peristediidae,Peristedion truncatum,Black Armored Searobin,no,0,1,0,0,1,0,1,3
+Ophidiidae,Petrotyx sanguineus,Redfin Brotula,no,0,1,0,1,1,1,1,5
+Apogonidae,Phaeoptyx conklini,Freckled Cardinalfish,yes,1,1,1,1,1,1,1,6
+Apogonidae,Phaeoptyx pigmentaria,Dusky Cardinalfish,yes,1,1,1,1,1,1,1,6
+Apogonidae,Phaeoptyx xenus,Sponge Cardinalfish,no,0,1,1,1,1,1,1,6
+Scorpaenidae,Phenacoscorpius nebris,Short-tube Scorpionfish,no,0,1,0,0,1,1,1,4
+Moridae,Physiculus fulvus,"Metallic Codling, Hakeling",no,0,1,0,1,1,1,1,5
+Gobiidae,Pinnichthys bilix,Double-filament Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Pinnichthys prolata,Platform Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Pinnichthys saurimimica,Lizardfish Goby,no,0,1,0,1,1,1,1,5
+Dactyloscopidae,Platygillellus rubrocinctus,Saddle Stargazer,no,0,1,0,1,1,1,1,5
+Dactyloscopidae,Platygillellus smithi,Sailfinned Stargazer,no,0,1,0,1,1,1,1,5
+Serranidae,Plectranthias garrupellus,Apricot Bass,no,0,1,0,1,1,1,1,5
+Holocentridae,Plectrypops retrospinis,"Cardinal Soldierfish, Shy Soldierfish",no,0,1,1,1,1,1,0,5
+Poeciliidae,Poecilia orri,Mangrove Molly,no,0,1,0,0,1,1,1,4
+Pleuronectidae,Poecilopsetta inermis,Caribbean Offshore Flounder,no,0,1,0,0,1,0,0,2
+Sciaenidae,Pogonias cromis,Black Drum,no,0,1,0,0,1,0,1,3
+Polynemidae,Polydactylus octonemus,Atlantic Threadfin,no,0,1,0,0,1,0,1,3
+Polynemidae,Polydactylus oligodon,Littlescale Treadfin,no,0,1,0,0,1,0,1,3
+Polynemidae,Polydactylus virginicus,Barbu Threadfin,no,0,1,0,0,1,0,1,3
+Polymixiidae,Polymixia lowei,Beardfish,no,0,1,0,0,1,0,1,3
+Polymixiidae,Polymixia nobilis,Stout Beardfish,no,0,1,0,1,1,0,1,4
+Polyprionidae,Polyprion americanus,Wreckfish,no,0,1,0,1,1,0,1,4
+Pomacanthidae,Pomacanthus arcuatus,Grey Angelfish,no,0,1,0,1,1,0,0,3
+Pomacanthidae,Pomacanthus paru,French Angelfish,no,0,1,0,1,1,0,0,3
+Haemulidae,Pomadasys crocro,Burro Grunt,no,0,1,0,0,1,0,1,3
+Pomatomidae,Pomatomus saltatrix,Bluefish,no,0,1,0,0,1,0,1,3
+Scorpaenidae,Pontinus castor,Longsnout Scorpionfish,no,0,1,0,1,1,0,1,4
+Scorpaenidae,Pontinus helena,Helena Scorpionfish,no,0,1,0,1,1,0,1,4
+Scorpaenidae,Pontinus longispinis,Longspine Scorpionfish,no,0,1,0,1,1,0,1,4
+Scorpaenidae,Pontinus nematophthalmus,Spinythroat Scorpionfish,no,0,1,0,1,1,1,1,5
+Scorpaenidae,Pontinus rathbuni,Highfin Scorpionfish,no,0,1,0,1,1,0,1,4
+Batrachoididae,Porichthys bathoiketes,,no,0,1,0,0,1,1,1,4
+Batrachoididae,Porichthys oculofrenum,Ocellated Toadfish,no,0,1,0,0,1,1,1,4
+Batrachoididae,Porichthys pauciradiatus,Few-Rayed Toadfish,no,0,1,0,1,1,0,1,4
+Batrachoididae,Porichthys plectrodon,Atlantic Midshipman,no,0,1,0,0,1,0,1,3
+Priacanthidae,Priacanthus arenatus,Atlantic Bigeye,no,0,1,1,1,1,0,1,5
+Gobiidae,Priolepis dawsoni,Dawson's Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Priolepis hipoliti,Rusty Goby,yes,1,1,0,1,1,1,1,5
+Gobiidae,Priolepis robinsi,Tayrona Goby,no,0,1,0,1,1,1,1,5
+Triglidae,Prionotus alatus,Spiny Searobin,no,0,1,0,0,1,0,1,3
+Triglidae,Prionotus beanii,Bean's Searobin,no,0,1,0,0,1,1,1,4
+Triglidae,Prionotus carolinus,Northern Searobin,yes,1,1,0,0,1,0,1,3
+Triglidae,Prionotus evolans,Striped Searobin,no,0,1,0,0,1,0,1,3
+Triglidae,Prionotus longispinosus,Bigeyed Searobin,no,0,1,0,0,1,0,1,3
+Triglidae,Prionotus martis,Barred Searobin,no,0,1,0,0,1,0,1,3
+Triglidae,Prionotus murielae,Cay Sal Searobin,no,0,1,0,0,1,0,1,3
+Triglidae,Prionotus ophryas,Bandtail Searobin,no,0,1,0,1,1,0,1,4
+Triglidae,Prionotus paralatus,Mexican Searobin,no,0,1,0,0,1,0,1,3
+Triglidae,Prionotus punctatus,Bluewing Searobin,no,0,1,0,0,1,0,1,3
+Triglidae,Prionotus roseus,Bluespotted Searobin,no,0,1,0,0,1,0,1,3
+Triglidae,Prionotus rubio,Blackwing Searobin,no,0,1,0,0,1,0,1,3
+Triglidae,Prionotus scitulus,Leopard Searobin,no,0,1,0,0,1,0,1,3
+Triglidae,Prionotus stearnsi,Shortwing Searobin,no,0,1,0,0,1,0,1,3
+Triglidae,Prionotus tribulus,Bighead Searobin,no,0,1,0,0,1,0,1,3
+Priacanthidae,Pristigenys alta,Short Bigeye,no,0,1,0,1,1,0,0,3
+Lutjanidae,Pristipomoides aquilonaris,Wenchman,yes,1,1,0,1,1,0,1,4
+Lutjanidae,Pristipomoides freemani,Slender Wenchman,no,0,1,0,1,1,0,1,4
+Lutjanidae,Pristipomoides macrophthalmus,Cardinal Snapper,no,0,1,0,1,1,0,1,4
+Chaetodontidae,Prognathodes aculeatus,Longsnout Butterflyfish,yes,1,1,0,1,1,1,0,4
+Chaetodontidae,Prognathodes aya,Bank Butterflyfish ,no,0,1,0,1,1,1,0,4
+Chaetodontidae,Prognathodes guyanensis,Guyana Butterflyfish,yes,1,1,0,1,1,1,0,4
+Gempylidae,Promethichthys prometheus,Roudi Escolar,no,0,1,0,1,1,0,1,4
+Serranidae,Pronotogrammus martinicensis,Roughtongue Bass,yes,1,1,0,1,1,0,1,4
+Ammodytidae,Protammodytes sarisa,Sand Lance,no,0,1,0,0,0,1,1,3
+Chaenopsidae,Protemblemaria punctata,Chameleon Blenny,no,0,1,0,1,1,1,1,5
+Sciaenidae,Protosciaena bathytatos,Deepwater Drum,no,0,1,0,0,1,0,1,3
+Sciaenidae,Protosciaena trewavasae,New Granada Drum,no,0,1,0,0,1,0,1,3
+Carangidae,Pseudocaranx dentex,"Thicklipped Jack, White Trevally",no,0,1,0,1,1,0,1,4
+Dinematichthyidae,Pseudogilbia sanblasensis,San Blas Brotula,no,0,1,1,1,1,1,1,6
+Epinephelidae,Pseudogramma gregoryi,Reef Bass,no,0,1,0,1,1,1,1,5
+Ophichthidae,Pseudomyrophis frio,Slender Worm Eel,no,0,1,0,0,0,0,1,2
+Ophichthidae,Pseudomyrophis fugesae,Diminutive Worm Eel,no,0,1,0,0,0,1,1,3
+Congridae,Pseudophichthys splendens,Splendid Conger Eel,no,0,1,0,0,1,0,1,3
+Mullidae,Pseudupeneus maculatus,Spotted Goatfish,yes,1,1,0,1,1,0,1,4
+Gobiidae,Psilotris alepis,Scaleless Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Psilotris boehlkei,Boehlke's Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Psilotris celsa,Highspine Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Psilotris kaufmani,Kaufman's Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Psilotris laetarii,Burrow Splitfin Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Psilotris laurae,Thin-barred Goby,no,0,1,0,0,1,1,1,4
+Gobiidae,Psilotris vantasselli,Clementine Split-fin Goby,no,0,1,0,1,1,1,1,5
+Microdesmidae,Ptereleotris calliura,Blue Dartfish,yes,1,1,0,1,0,1,1,4
+Microdesmidae,Ptereleotris helenae,"Hovering Goby, Hovering Dartfish",no,0,1,0,1,1,1,1,5
+Microdesmidae,Ptereleotris randalli,Blue-stripe Dartfish,no,0,1,0,1,1,1,1,5
+Heterenchelyidae,Pythonichthys sanguineus,Caribbean Mud Eel,no,0,1,0,0,1,0,1,3
+Ophichthidae,Quassiremus ascensionis,Blackspotted Snake Eel,no,0,1,0,1,0,0,1,3
+Rachycentridae,Rachycentron canadum,Cobia,no,0,1,0,1,1,0,1,4
+Echeneidae,Remora remora,Common Remora,no,0,1,0,1,1,0,1,4
+Lutjanidae,Rhomboplites aurorubens,Vermillion Snapper,yes,1,1,0,1,1,0,1,4
+Congridae,Rhynchoconger flavus,Yellow Conger Eel,no,0,1,0,0,1,0,1,3
+Congridae,Rhynchoconger gracilior,Whiptail Conger Eel,no,0,1,0,0,1,0,1,3
+Congridae,Rhynchoconger guppyi,Guppy's Conger Eel,no,0,1,0,0,1,0,1,3
+Gobiidae,Risor ruber,Tusked Goby,no,0,1,0,1,1,1,1,5
+Chlopsidae,Robinsia catherinae,Catherine's False Moray,no,0,1,0,1,1,0,1,4
+Gobiidae,Robinsichthys arrowsmithensis,Robin's Goby,no,0,1,0,0,1,1,1,4
+Gempylidae,Ruvettus pretiosus,Oilfish,no,0,1,0,1,1,0,1,4
+Epinephelidae,Rypticus bistrispinus,Freckled Soapfish,no,0,1,1,1,1,1,1,6
+Epinephelidae,Rypticus bornoi,Large-spotted Soapfish,no,0,1,0,1,1,1,1,5
+Epinephelidae,Rypticus carpenteri,Slope Soapfish,no,0,1,0,1,1,1,1,5
+Epinephelidae,Rypticus maculatus,White-spotted Soapfish,no,0,1,1,1,1,0,1,5
+Epinephelidae,Rypticus randalli,Randall's Soapfish,no,0,1,0,1,1,0,1,4
+Epinephelidae,Rypticus saponaceus,Greater Soapfish,no,0,1,0,1,1,0,1,4
+Epinephelidae,Rypticus subbifrenatus,Spotted Soapfish,no,0,1,0,1,1,0,1,4
+Bythitidae,Saccogaster staigeri,,no,0,1,0,0,1,1,1,4
+Batrachoididae,Sanopus astrifer,"Starry Toadfish, Whitespotted Toadfish",no,0,1,0,1,1,0,1,4
+Batrachoididae,Sanopus barbatus,Bearded Toadfish,no,0,1,0,1,1,0,1,4
+Batrachoididae,Sanopus greenfieldorum,Whitelined Toadfish,no,0,1,0,1,1,0,1,4
+Batrachoididae,Sanopus johnsoni,Cozumel Toadfish,no,0,1,0,1,1,0,1,4
+Batrachoididae,Sanopus reticulatus,Reticulate Toadfish,no,0,1,0,1,1,0,1,4
+Batrachoididae,Sanopus splendidus,Splendid Toadfish,no,0,1,0,1,1,0,1,4
+Holocentridae,Sargocentron bullisi,Deepwater Squirrelfish,no,0,1,1,1,1,1,1,6
+Holocentridae,Sargocentron coruscum,Reef Squirrelfish,yes,1,1,1,1,1,1,1,6
+Holocentridae,Sargocentron poco,Saddle Squirrelfish,no,0,1,1,1,1,1,1,6
+Holocentridae,Sargocentron vexillarium,Dusky Squirrelfish,yes,1,1,1,1,1,0,1,5
+Nettastomatidae,Saurenchelys cognita,"Longface Eel, Known Sorcerer Eel",no,0,1,0,0,1,0,1,3
+Synodontidae,Saurida brasiliensis,"Largescale Lizardfish, Brazilian Lizardfish",yes,1,1,0,0,1,1,1,4
+Synodontidae,Saurida caribbaea,"Smallscale Lizardfish, Caribbean Lizardfish",no,0,1,0,0,1,1,1,4
+Synodontidae,Saurida normani,Shortjaw Lizardfish,yes,1,1,0,0,1,0,1,3
+Synodontidae,Saurida suspicio,Doubtful Lizardfish,no,0,1,0,1,1,1,1,5
+Blenniidae,Scartella cristata,Molly Miller,no,0,1,0,1,1,1,1,5
+Labridae,Scarus coelestinus,Midnight Parrotfish,no,0,1,0,1,1,0,0,3
+Labridae,Scarus coeruleus,Blue Parrotfish,no,0,1,0,1,1,0,1,4
+Labridae,Scarus guacamaia,Rainbow Parrotfish,no,0,1,0,1,1,0,1,4
+Labridae,Scarus iseri,Striped Parrotfish,yes,1,1,0,1,1,0,1,4
+Labridae,Scarus taeniopterus,Princess Parrotfish,yes,1,1,0,1,1,0,1,4
+Labridae,Scarus vetula,Queen Parrotfish,yes,1,1,0,1,1,0,1,4
+Centrolophidae,Schedophilus ovalis,"Imperial Blackfish, Oval Driftfish",no,0,1,0,1,1,0,1,4
+Serranidae,Schultzea beta,School Bass,yes,1,1,0,1,1,1,1,5
+Ariidae,Sciades couma,Couma Sea catfish,no,0,1,0,0,1,0,1,3
+Ariidae,Sciades herzbergii,Pemecou Sea Catfish,no,0,1,0,0,1,0,1,3
+Ariidae,Sciades parkeri,Gillbacker Sea Catfish,no,0,1,0,0,1,0,1,3
+Ariidae,Sciades passany,Passany Sea Catfish,no,0,1,0,0,1,0,1,3
+Ariidae,Sciades proops,Crucifix Sea Catfish,no,0,1,0,0,1,0,1,3
+Sciaenidae,Sciaenops ocellatus,Red Drum,no,0,1,0,0,1,0,1,3
+Scombridae,Scomberomorus brasiliensis,Sierra Spanish Mackerel,no,0,1,0,1,1,0,1,4
+Scombridae,Scomberomorus cavalla,King Mackerel,no,0,1,0,1,1,0,1,4
+Scombridae,Scomberomorus maculatus,Atlantic Spanish Mackerel,no,0,1,0,1,1,0,1,4
+Scombridae,Scomberomorus regalis,Cero,no,0,1,0,1,1,0,1,4
+Scombropidae,Scombrops oculatus,Atlantic Scombrops,no,0,1,0,1,1,0,1,4
+Notosudidae,Scopelosaurus argenteus,Waryfish,no,0,1,0,0,1,0,1,3
+Scorpaenidae,Scorpaena agassizii,Longfin Scorpionfish,no,0,1,0,1,1,0,1,4
+Scorpaenidae,Scorpaena albifimbria,Coral Scorpionfish,no,0,1,0,1,1,1,1,5
+Scorpaenidae,Scorpaena bergii,Goosehead Scorpionfish,no,0,1,0,1,1,1,1,5
+Scorpaenidae,Scorpaena brachyptera,Shortfin Scorpionfish,no,0,1,0,1,1,1,1,5
+Scorpaenidae,Scorpaena brasiliensis,Barbfish,yes,1,1,0,1,1,0,1,4
+Scorpaenidae,Scorpaena calcarata,Smoothhead Scorpionfish,no,0,1,0,1,1,1,1,5
+Scorpaenidae,Scorpaena dispar,Hunchback Scorpionfish,no,0,1,0,1,1,0,1,4
+Scorpaenidae,Scorpaena elachys,Dwarf Scorpionfish,no,0,1,0,1,1,1,1,5
+Scorpaenidae,Scorpaena grandicornis,Plumed Scorpionfish,no,0,1,0,1,1,0,1,4
+Scorpaenidae,Scorpaena inermis,Mushroom Scorpionfish,no,0,1,0,1,1,1,1,5
+Scorpaenidae,Scorpaena isthmensis,Smoothcheek Scorpionfish,no,0,1,0,1,1,1,1,5
+Scorpaenidae,Scorpaena plumieri,Spotted Scorpionfish,yes,1,1,0,1,1,0,1,4
+Scorpaenidae,Scorpaenodes barrybrowni,Stellate Scorpionfish,no,0,1,0,1,1,1,1,5
+Scorpaenidae,Scorpaenodes caribbaeus,Reef Scorpionfish,yes,1,1,0,1,1,1,1,5
+Scorpaenidae,Scorpaenodes tredecimspinosus,Deepreef Scorpionfish,no,0,1,0,1,1,1,1,5
+Carangidae,Selar crumenophthalmus,"Bigeye Scad, Purse-eyed Scad",yes,1,1,0,1,1,0,1,4
+Carangidae,Selene brownii,"Caribbean Moonfish, Full Moonfish",no,0,1,0,0,1,0,0,2
+Carangidae,Selene setapinnis,Atlantic Moonfish,no,0,1,0,0,1,0,0,2
+Carangidae,Selene vomer,Atlantic Lookdown,no,0,1,0,1,1,0,0,3
+Carangidae,Seriola dumerili,Greater Amberjack,no,0,1,0,1,1,0,1,4
+Carangidae,Seriola fasciata,Lesser Amberjack,no,0,1,0,1,1,0,1,4
+Carangidae,Seriola rivoliana,Almaco Jack,no,0,1,0,1,1,0,1,4
+Carangidae,Seriola zonata,Banded Rudderfish,no,0,1,0,1,1,0,1,4
+Serranidae,Serraniculus pumilio,Pygmy Seabass,no,0,1,0,1,1,1,1,5
+Serranidae,Serranus annularis,Orangeback Bass,no,0,1,0,1,1,1,1,5
+Serranidae,Serranus atrobranchus,Blackear Bass,no,0,1,0,0,1,0,1,3
+Serranidae,Serranus baldwini,Lantern Bass,yes,1,1,0,1,1,1,1,5
+Serranidae,Serranus chionaraia,Snow Bass,no,0,1,0,1,1,1,1,5
+Serranidae,Serranus flaviventris,Twinspot Bass,yes,1,1,0,1,1,1,1,5
+Serranidae,Serranus luciopercanus,Crosshatch Bass,no,0,1,0,1,1,1,1,5
+Serranidae,Serranus maytagi,Pallid Bass,no,0,1,0,0,1,1,1,4
+Serranidae,Serranus notospilus,Saddle Bass,no,0,1,0,1,1,1,1,5
+Serranidae,Serranus phoebe,Tattler Bass,yes,1,1,0,1,1,0,1,4
+Serranidae,Serranus subligarius,Belted Sandbass,yes,1,1,0,1,1,1,1,5
+Serranidae,Serranus tabacarius,Tobaccofish,yes,1,1,0,1,1,0,1,4
+Serranidae,Serranus tigrinus,Harlequin Bass,yes,1,1,0,1,1,1,1,5
+Serranidae,Serranus tortugarum,Chalk Bass,no,0,1,0,1,1,1,1,5
+Setarchidae,Setarches guentheri,Deepwater Scorpionfish,no,0,1,0,0,1,0,1,3
+Gobiidae,Sicydium plumieri,Titi,no,0,1,0,0,1,1,1,4
+Gobiidae,Sicydium punctatum,Spotted Algae-eating Goby,no,0,1,0,0,1,1,1,4
+Carapidae,Snyderidia canina,,no,0,1,0,0,1,0,1,3
+Labridae,Sparisoma atomarium,Greenblotch Parrotfish,yes,1,1,0,1,1,0,1,4
+Labridae,Sparisoma aurofrenatum,Redband Parrotfish,yes,1,1,0,1,1,0,1,4
+Labridae,Sparisoma chrysopterum,Redtail Parrotfish,yes,1,1,0,1,1,0,1,4
+Labridae,Sparisoma frondosum,Agassiz's Parrotfish,no,0,1,0,1,1,0,1,4
+Labridae,Sparisoma griseorubrum,Grey Parrotfish,no,0,1,0,1,1,0,0,3
+Labridae,Sparisoma radians,Bucktooth Parrotfish,yes,1,1,0,1,1,0,1,4
+Labridae,Sparisoma rubripinne,Yellowtail Parrotfish,yes,1,1,0,1,1,0,1,4
+Labridae,Sparisoma viride,Stoplight Parrotfish,yes,1,1,0,1,1,0,1,4
+Tetraodontidae,Sphoeroides dorsalis,Marbled Puffer,no,0,1,0,0,1,0,1,3
+Tetraodontidae,Sphoeroides georgemilleri,Plaincheek Puffer,no,0,1,0,0,1,1,1,4
+Tetraodontidae,Sphoeroides greeleyi,Green Puffer,no,0,1,0,0,1,0,1,3
+Tetraodontidae,Sphoeroides maculatus,Northern Puffer,no,0,1,0,0,1,0,1,3
+Tetraodontidae,Sphoeroides nephelus,Southern Puffer,no,0,1,0,1,1,0,1,4
+Tetraodontidae,Sphoeroides pachygaster,Blunthead Puffer,no,0,1,0,1,1,0,1,4
+Tetraodontidae,Sphoeroides parvus,Least Puffer,no,0,1,0,0,1,1,1,4
+Tetraodontidae,Sphoeroides spengleri,Bandtail Puffer,yes,1,1,0,1,1,1,1,5
+Tetraodontidae,Sphoeroides testudineus,Checkered Puffer,no,0,1,0,0,1,0,1,3
+Tetraodontidae,Sphoeroides tyleri,Bearded Puffer,no,0,1,0,0,1,1,1,4
+Tetraodontidae,Sphoeroides yergeri,Speckled Puffer,no,0,1,0,0,1,1,1,4
+Sphyraenidae,Sphyraena barracuda,Great Barracuda,no,0,1,0,1,1,0,1,4
+Sphyraenidae,Sphyraena borealis,Sennet,no,0,1,0,1,1,0,1,4
+Sphyraenidae,Sphyraena guachancho,Guachanche barracuda,no,0,1,0,0,1,0,1,3
+Labrisomidae,Starksia atlantica,Smootheye Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Starksia culebrae,Culebra Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Starksia elongata,Elongate Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Starksia fasciata,Blackbar Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Starksia greenfieldi,Greenfield's Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Starksia guttata,Spotted Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Starksia hassi,Ringed Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Starksia langi,Lang's Blenny,yes,1,1,0,1,1,1,1,5
+Labrisomidae,Starksia lepicoelia,Blackcheek Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Starksia leucovitta,White Saddle Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Starksia melasma,Black-spot Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Starksia nanodes,Dwarf Blenny,yes,1,1,0,1,1,1,1,5
+Labrisomidae,Starksia occidentalis,Occidental Blenny,yes,1,1,0,1,1,1,1,5
+Labrisomidae,Starksia ocellata,Checkered Blenny,yes,1,1,0,1,1,1,1,5
+Labrisomidae,Starksia rava,Tawny Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Starksia robertsoni,Robertson's Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Starksia sangreyae,Sangrey's Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Starksia sella,Darksaddle Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Starksia sluiteri,"Chessboard Blenny, Spotted Blenny",no,0,1,0,1,1,1,1,5
+Labrisomidae,Starksia smithvanizi,Brokenbar Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Starksia splendens,Splendid Shy Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Starksia springeri,Springer's Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Starksia starcki,Key Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Starksia variabilis,Variable Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Starksia weigti,Weigt's Blenny,no,0,1,0,1,1,1,1,5
+Labrisomidae,Starksia williamsi,Williams' Blenny,yes,1,1,0,1,1,1,1,5
+Labrisomidae,Starksia y-lineata,Forked-bar Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Stathmonotus gymnodermis,Naked Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Stathmonotus hemphillii,Blackbelly Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Stathmonotus stahli,Southern Eelgrass Blenny,no,0,1,0,1,1,1,1,5
+Chaenopsidae,Stathmonotus tekla,Northern Eelgrass Blenny,no,0,1,0,1,1,1,1,5
+Pomacentridae,Stegastes adustus,Dusky Damselfish,yes,1,1,0,1,1,1,0,4
+Pomacentridae,Stegastes diencaeus,Longfin Damselfish,yes,1,1,0,1,1,1,0,4
+Pomacentridae,Stegastes leucostictus,Beaugregory,yes,1,1,0,1,1,1,1,5
+Pomacentridae,Stegastes otophorus,Freshwater Gregory,no,0,1,0,0,1,1,0,3
+Pomacentridae,Stegastes partitus,Bicolor Damselfish,yes,1,1,0,1,1,1,1,5
+Pomacentridae,Stegastes planifrons,Threespot Damselfish,yes,1,1,0,1,1,1,0,4
+Pomacentridae,Stegastes xanthurus,Cocoa Damselfish,yes,1,1,0,1,1,1,1,5
+Merlucciidae,Steindachneria argentea,Luminous Hake,no,0,1,0,0,1,0,1,3
+Sciaenidae,Stellifer chaoi,Chao Stardrum,no,0,1,0,0,1,1,1,4
+Sciaenidae,Stellifer colonensis,Colon Stardrum,no,0,1,0,0,1,0,1,3
+Sciaenidae,Stellifer griseus,Grey Stardrum,no,0,1,0,0,1,0,1,3
+Sciaenidae,Stellifer lanceolatus,American Stardrum,no,0,1,0,0,1,0,1,3
+Sciaenidae,Stellifer magoi,Mago Stardrum,no,0,1,0,0,1,1,1,4
+Sciaenidae,Stellifer microps,Smalleye Stardrum,no,0,1,0,0,1,0,1,3
+Sciaenidae,Stellifer naso,Naso Stardrum,no,0,1,0,0,1,1,1,4
+Sciaenidae,Stellifer rastrifer,Rake Stardrum,no,0,1,0,0,1,0,1,3
+Sciaenidae,Stellifer stellifer,Southern Stardrum,no,0,1,0,0,1,0,1,3
+Sciaenidae,Stellifer venezuelae,Venezuelan Stardrum,no,0,1,0,0,1,0,1,3
+Sparidae,Stenotomus caprinus,Longspine Porgy,no,0,1,0,0,1,0,0,2
+Sparidae,Stenotomus chrysops,Scup,no,0,1,0,1,1,0,0,3
+Monacanthidae,Stephanolepis hispidus,Planehead Filefish,yes,1,1,0,1,1,0,0,3
+Monacanthidae,Stephanolepis setifer,Pygmy Filefish,yes,1,1,0,1,1,0,0,3
+Belonidae,Strongylura marina,Atlantic Needlefish,no,0,1,0,0,1,0,1,3
+Belonidae,Strongylura notata,Redfin Needlefish,no,0,1,0,0,1,0,1,3
+Belonidae,Strongylura timucu,Timucu Needlefish,no,0,1,0,0,1,0,1,3
+Bythitidae,Stygnobrotula latebricola,Black Brotula,no,0,1,1,1,1,1,1,6
+Paralichthyidae,Syacium gunteri,Shoal Flounder,no,0,1,0,0,1,0,0,2
+Paralichthyidae,Syacium micrurum,Channel Flounder,yes,1,1,0,0,1,0,0,2
+Paralichthyidae,Syacium papillosum,Dusky Flounder,yes,1,1,0,1,1,0,0,3
+Cynoglossidae,Symphurus arawak,Coral Reef Tonguefish,no,0,1,0,1,1,1,1,5
+Cynoglossidae,Symphurus billykrietei,Chocolate-banded Tonguefish,no,0,1,0,0,1,1,1,4
+Cynoglossidae,Symphurus caribbeanus,Caribbean Tonguefish,no,0,1,0,0,1,1,1,4
+Cynoglossidae,Symphurus civitatium,Offshore Tonguefish,no,0,1,0,0,1,0,1,3
+Cynoglossidae,Symphurus diomedeanus,Spottedfin Tonguefish,no,0,1,0,0,1,0,1,3
+Cynoglossidae,Symphurus hernandezi,Hernandez's Tonguefish,no,0,1,0,0,1,1,1,4
+Cynoglossidae,Symphurus marginatus,Margined Tonguefish,no,0,1,0,0,1,1,1,4
+Cynoglossidae,Symphurus minor,Largescale Tonguefish,no,0,1,0,0,1,1,1,4
+Cynoglossidae,Symphurus oculellus,Caribbean Small-eye Tonguefish,no,0,1,0,0,1,0,1,3
+Cynoglossidae,Symphurus ommaspilus,Ocellated Tonguefish,no,0,1,0,1,1,1,1,5
+Cynoglossidae,Symphurus parvus,Pygmy Tonguefish,no,0,1,0,0,1,1,1,4
+Cynoglossidae,Symphurus pelicanus,Longtail Tonguefish,no,0,1,0,0,1,1,1,4
+Cynoglossidae,Symphurus piger,Deepwater Tonguefish,no,0,1,0,0,1,1,1,4
+Cynoglossidae,Symphurus plagiusa,Blackcheek Tonguefish,no,0,1,0,0,1,0,1,3
+Cynoglossidae,Symphurus plagusia,Duskycheek Tonguefish,no,0,1,0,0,1,1,1,4
+Cynoglossidae,Symphurus pusillus,Northern Tonguefish,no,0,1,0,0,1,1,1,4
+Cynoglossidae,Symphurus rhytisma,Patchtail Tonguefish,no,0,1,0,1,1,1,1,5
+Cynoglossidae,Symphurus stigmosus,Blotchfin Tonguefish,no,0,1,0,0,1,1,1,4
+Cynoglossidae,Symphurus tessellatus,Tessellated Tonguefish,no,0,1,0,0,1,0,1,3
+Cynoglossidae,Symphurus urospilus,Spottail Tonguefish,no,0,1,0,0,1,0,0,2
+Symphysanodontidae,Symphysanodon berryi,Slope Bass,no,0,1,0,1,1,1,1,5
+Symphysanodontidae,Symphysanodon octoactinus,Insular Bunquelovely,no,0,1,0,1,1,0,1,4
+Acropomatidae,Synagrops bellus,Blackmouth Bass,no,0,1,1,1,1,0,1,5
+Callionymidae,Synchiropus dagmarae,Dagmar's Dragonet,no,0,1,0,0,1,0,1,3
+Syngnathidae,Syngnathus caribbaeus,Caribbean Pipefish,no,0,1,0,0,1,0,1,3
+Syngnathidae,Syngnathus dawsoni,Antillean Pipefish,no,0,1,0,0,1,0,1,3
+Syngnathidae,Syngnathus floridae,Dusky Pipefish,no,0,1,0,0,1,0,1,3
+Syngnathidae,Syngnathus fuscus,Northern Pipefish,no,0,1,0,0,1,0,1,3
+Syngnathidae,Syngnathus louisianae,Chain Pipefish,no,0,1,0,0,1,0,1,3
+Syngnathidae,Syngnathus makaxi,Yucatan Pipefish,no,0,1,0,0,1,1,1,4
+Syngnathidae,Syngnathus scovelli,Gulf Pipefish,no,0,1,0,0,1,0,1,3
+Syngnathidae,Syngnathus springeri,Bull Pipefish,no,0,1,0,0,1,0,1,3
+Synodontidae,Synodus bondi,Sharpnose Lizardfish,no,0,1,0,0,1,0,1,3
+Synodontidae,Synodus foetens,Inshore Lizardfish,no,0,1,0,1,1,0,1,4
+Synodontidae,Synodus intermedius,Sand Diver,yes,1,1,0,1,1,0,1,4
+Synodontidae,Synodus macrostigmus,Largespot Lizardfish,yes,1,1,0,0,1,0,1,3
+Synodontidae,Synodus poeyi,Offshore Lizardfish,yes,1,1,0,1,1,0,1,4
+Synodontidae,Synodus saurus,"Atlantic Lizardfish, Bluestripe Lizardfish",yes,1,1,0,0,1,0,1,3
+Synodontidae,Synodus synodus,"Red Lizardfish, Redbarred Lizardfish",yes,1,1,0,1,1,0,1,4
+Labridae,Thalassoma bifasciatum,Bluehead Wrasse,yes,1,1,0,1,1,0,1,4
+Batrachoididae,Thalassophryne maculosa,Caño Toadfish,no,0,1,0,0,0,0,1,2
+Batrachoididae,Thalassophryne megalops,Big-Eyed Toadfish,no,0,1,0,0,1,1,1,4
+Batrachoididae,Thalassophryne nattereri,Copper-Joe Toadfish,no,0,1,0,0,1,1,1,4
+Gobiidae,Tigrigobius dilepis,Orangesided Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Tigrigobius gemmatus,Frecklefin Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Tigrigobius harveyi,Cayman Greenbanded Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Tigrigobius macrodon,Tiger Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Tigrigobius multifasciatus,Greenbanded Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Tigrigobius pallens,Semi-scaled Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Tigrigobius panamensis,Panamanian Greenbanded Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Tigrigobius redimiculus,Ribbon Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Tigrigobius rubrigenis,Redcheek Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Tigrigobius saucrus,Leopard Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Tigrigobius zebrellus,Zebrette Goby,no,0,1,0,1,1,1,1,5
+Gobiesocidae,Tomicodon briggsi,Broadhead Clingfish,no,0,1,0,1,1,1,1,5
+Gobiesocidae,Tomicodon clarkei,Coral Clingfish,no,0,1,0,1,1,1,1,5
+Gobiesocidae,Tomicodon cryptus,Cryptic Clingfish,no,0,1,0,1,1,1,1,5
+Gobiesocidae,Tomicodon fasciatus,Barred Clingfish,no,0,1,0,1,1,1,1,5
+Gobiesocidae,Tomicodon lavettsmithi,Reticulate Clingfish,no,0,1,0,1,1,1,1,5
+Gobiesocidae,Tomicodon leurodiscus,Smooth-suckered Clingfish,no,0,1,0,1,1,1,1,5
+Gobiesocidae,Tomicodon reitzae,Reitz's Clingfish,no,0,1,0,1,1,1,1,5
+Gobiesocidae,Tomicodon rhabdotus,Antillean Clingfish,no,0,1,0,1,1,1,1,5
+Gobiesocidae,Tomicodon rupestris,Surge Clingfish,no,0,1,0,1,1,1,1,5
+Synodontidae,Trachinocephalus myops,Bluntnose Lizardfish,no,0,1,0,1,1,0,1,4
+Carangidae,Trachinotus carolinus,Florida Pompano,no,0,1,0,0,1,0,0,2
+Carangidae,Trachinotus cayennensis,Cayenne Pompano,no,0,1,0,0,1,0,1,3
+Carangidae,Trachinotus falcatus,Permit,no,0,1,0,1,1,0,0,3
+Carangidae,Trachinotus goodei,Palometa Pompano,no,0,1,0,1,1,0,0,3
+Carangidae,Trachurus lathami,Rough Scad,yes,1,1,0,0,1,0,1,3
+Sebastidae,Trachyscorpia cristulata,Atlantic Thornyhead,no,0,1,0,1,1,0,1,4
+Trichiuridae,Trichiurus lepturus,Cutlassfish,no,0,1,0,0,1,0,1,3
+Bothidae,Trichopsetta caribbaea,Caribbean Flounder,no,0,1,0,0,1,0,0,2
+Bothidae,Trichopsetta melasma,Spot-fin Sash Flounder,no,0,1,0,0,1,0,0,2
+Bothidae,Trichopsetta orbisulcus,Furrowed Sash Flounder,no,0,1,0,0,1,0,0,2
+Bothidae,Trichopsetta ventralis,Sash Flounder,no,0,1,0,0,1,0,0,2
+Achiridae,Trinectes inscriptus,Scrawled Sole,no,0,1,0,0,1,0,0,2
+Achiridae,Trinectes maculatus,Hogchoker,no,0,1,0,0,1,0,0,2
+Achiridae,Trinectes microphthalmus,Smalleye Sole,no,0,1,0,0,1,1,0,3
+Achiridae,Trinectes paulistanus,"Southern Hogchoker, Slipper Sole",no,0,1,0,0,1,0,0,2
+Belonidae,Tylosurus crocodilus ssp. crocodilus,"Hound Needlefish, Houndfish",no,0,1,0,1,1,0,1,4
+Sciaenidae,Umbrina broussonnetii,Striped Croaker,no,0,1,0,1,1,0,1,4
+Sciaenidae,Umbrina coroides,Sand Drum,no,0,1,0,1,1,0,1,4
+Sciaenidae,Umbrina milliae,Miller Drum,no,0,1,0,0,1,0,1,3
+Mullidae,Upeneus parvus,Dwarf Goatfish,no,0,1,0,0,1,0,1,3
+Congridae,Uroconger syringinus,Threadtail Conger Eel,no,0,1,0,0,1,0,1,3
+Phycidae,Urophycis cirrata,Gulf Hake,no,0,1,0,0,1,0,1,3
+Phycidae,Urophycis earllii,Carolina Hake,no,0,1,0,1,1,0,1,4
+Phycidae,Urophycis floridana,Southern Hake,no,0,1,0,0,1,0,1,3
+Phycidae,Urophycis regia,Spotted Hake,no,0,1,0,1,1,0,1,4
+Muraenidae,Uropterygius macularius,Marbled Moray,no,0,1,0,1,1,0,1,4
+Gobiidae,Varicus adamsi,Twilight Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Varicus benthonis,Deepwater Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Varicus bucca,Puffed-cheek Goby,no,0,1,0,0,1,1,1,4
+Gobiidae,Varicus cephalocellatus,Ocellated Splitfin Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Varicus decorum,Decorated Splitfin Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Varicus lacerta,Godzilla Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Varicus marilynae,Orangebelly Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Varicus nigritus,Banded Splitfin Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Varicus veliguttatus,Spotted-sail Goby,no,0,1,0,1,1,1,1,5
+Gobiidae,Varicus vespa,Wasp Goby,no,0,1,0,1,1,1,1,5
+Acropomatidae,Verilus atlanticus,Temperate Ocean Bass,no,0,1,0,1,1,1,1,5
+Acropomatidae,Verilus pseudomicrolepis,Temperate Ocean Bass,no,0,1,0,1,1,1,1,5
+Acropomatidae,Verilus sordidus,Temperate Ocean Bass,no,0,1,0,1,1,0,1,4
+Batrachoididae,Vladichthys gloverensis,Glover's Reef Toadfish,no,0,1,0,1,1,1,1,5
+Gobiidae,Vomerogobius flavus,Lemon Goby,no,0,1,0,1,1,1,1,5
+Balistidae,Xanthichthys ringens,Sargassum Triggerfish,no,0,1,0,1,1,0,0,3
+Uranoscopidae,Xenocephalus egregius,Freckled Stargazer,no,0,1,0,0,1,0,1,3
+Grammicolepididae,Xenolepidichthys dalgleishi,Spotted Tinselfish,no,0,1,0,1,1,0,0,3
+Congridae,Xenomystax congroides,Bristletooth Conger Eel,no,0,1,0,0,1,0,1,3
+Labridae,Xyrichtys martinicensis,"Rosy Razorfish, Straight-tail Razorfish",yes,1,1,0,1,1,1,1,5
+Labridae,Xyrichtys novacula,Pearly Razorfish,yes,1,1,0,1,1,0,1,4
+Labridae,Xyrichtys splendens,Green Razorfish,yes,1,1,0,1,1,0,1,4
+Ogcocephalidae,Zalieutes mcgintyi,Tricorn Batfish,no,0,1,0,0,1,1,0,3
+Apogonidae,Zapogon evermanni,Oddscale Cardinalfish,no,0,1,1,1,1,1,1,6
+Zeidae,Zenopsis conchifer,Silver John Dory,no,0,1,0,1,1,0,0,3
+Belonidae,Ablennes hians,"Barred Needlefish, Flat Needlefish",no,0,1,0,0,0,0,0,0
+Scombridae,Acanthocybium solandri,Wahoo,no,0,1,0,0,0,0,0,0
+Engraulidae,Anchoa colonensis,Narrowstriped Anchovy,no,0,1,0,0,0,0,0,0
+Engraulidae,Anchoviella perfasciata,Flat Anchovy,no,0,1,0,0,0,0,0,0
+Scombridae,Auxis rochei,"Bullet Mackerel, Bullet Tuna",no,0,1,0,0,0,0,0,0
+Scombridae,Auxis thazard,"Frigate Tuna, Frigate Mackerel",no,0,1,0,0,0,0,0,0
+Bramidae,Brama brama,Atlantic Pomfret,no,0,1,0,0,0,0,0,0
+Bramidae,Brama caribbea,Caribbean Pomfret,no,0,1,0,0,0,0,0,0
+Bramidae,Brama dussumieri,"Lesser Bream, Lowfin Pomfret",no,0,1,0,0,0,0,0,0
+Bregmacerotidae,Bregmaceros atlanticus,Antenna Codlet,no,0,1,0,0,0,0,0,0
+Bregmacerotidae,Bregmaceros cantori,Striped Codlet,no,0,1,0,0,0,0,0,0
+Bregmacerotidae,Bregmaceros houdei,Stellate Codlet,no,0,1,0,0,0,0,0,0
+Exocoetidae,Cheilopogon cyanopterus,Marginated Flyingfish,no,0,1,0,0,0,0,0,0
+Exocoetidae,Cheilopogon exsiliens,Bandwing Flyingfish,no,0,1,0,0,0,0,0,0
+Exocoetidae,Cheilopogon furcatus,Spotfin Flyingfish,no,0,1,0,0,0,0,0,0
+Exocoetidae,Cheilopogon heterurus,"Blotchwing Flyingfish, Mediterranean Flyingfish",no,0,1,0,0,0,0,0,0
+Exocoetidae,Cheilopogon melanurus,Atlantic Flyingfish,no,0,1,0,0,0,0,0,0
+Coryphaenidae,Coryphaena equiselis,Pompano Dolphinfish,no,0,1,0,0,0,0,0,0
+Coryphaenidae,Coryphaena hippurus,Common Dolphinfish,no,0,1,0,0,0,0,0,0
+Nomeidae,Cubiceps capensis,Cape Cigarfish,no,0,1,1,0,0,0,0,0
+Nomeidae,Cubiceps gracilis,Longfin Cigarfish,no,0,1,0,0,0,0,0,0
+Nomeidae,Cubiceps pauciradiatus,Bigeye Cigarfish,no,0,1,1,0,0,0,0,0
+Exocoetidae,Cypselurus comatus,Clearwing Flyingfish,no,0,1,0,0,0,0,0,0
+Carangidae,Decapterus macarellus,Mackerel Scad,no,0,1,0,0,0,0,0,0
+Diodontidae,Diodon eydouxii,Pelagic Porcupinefish,no,0,1,0,0,0,0,0,0
+Gempylidae,Diplospinus multistriatus,Striped Escolar,no,0,1,0,0,0,0,0,0
+Carangidae,Elagatis bipinnulata,Rainbow Runner,no,0,1,0,0,0,0,0,0
+Engraulidae,Engraulis eurystole,Silver Anchovy,no,0,1,0,0,0,0,0,0
+Clupeidae,Etrumeus sadina,West Atlantic Round Herring,yes,1,1,0,0,0,0,0,0
+Hemiramphidae,Euleptorhamphus velox,Flying Halfbeak,no,0,1,0,0,0,0,0,0
+Scombridae,Euthynnus alletteratus,Little Tunny,no,0,1,0,0,0,0,0,0
+Exocoetidae,Exocoetus obtusirostris,Oceanic Two-wing flyingfish,no,0,1,0,0,0,0,0,0
+Exocoetidae,Exocoetus volitans,Tropical Two-wing Flyingfish,no,0,1,0,0,0,0,0,0
+Gempylidae,Gempylus serpens,Common Snake Mackerel,no,0,1,0,0,0,0,0,0
+Hemiramphidae,Hemiramphus bermudensis,Bermuda Halfbeak,no,0,1,0,0,0,0,0,0
+Exocoetidae,Hirundichthys affinis,Fourwing Flyingfish,no,0,1,0,0,0,0,0,0
+Exocoetidae,Hirundichthys speculiger,Mirrorwing Flyingfish,no,0,1,0,0,0,0,0,0
+Exocoetidae,Hirundichthys volador,Atlantic Blackwing Flyingfish,no,0,1,0,0,0,0,0,0
+Istiophoridae,Istiophorus platypterus,Sailfish,no,0,1,0,0,0,0,0,0
+Istiophoridae,Kajikia albida,White Marlin,no,0,1,0,0,0,0,0,0
+Scombridae,Katsuwonus pelamis,Skipjack Tuna,no,0,1,0,0,0,0,0,0
+Lampridae,Lampris guttatus,Spotted Opah,no,0,1,0,0,0,0,0,0
+Gempylidae,Lepidocybium flavobrunneum,Escolar,no,0,1,0,0,0,0,0,0
+Bythitidae,Lucifuga lucayana,Lucayana Cave Brotula,no,0,1,0,0,0,0,0,0
+Bythitidae,Lucifuga simile,Blind Cave Brotula,no,0,1,0,0,0,0,0,0
+Bythitidae,Lucifuga spelaeotes,Cave Brotula,no,0,1,0,0,0,0,0,0
+Luvaridae,Luvarus imperialis ,Louvar,no,0,1,0,0,0,0,0,0
+Istiophoridae,Makaira nigricans,Blue Marlin,no,0,1,0,0,0,0,0,0
+Molidae,Masturus lanceolatus,Sharptail Mola,no,0,1,0,0,0,0,0,0
+Molidae,Mola mola,Ocean Sunfish,no,0,1,0,0,0,0,0,0
+Carangidae,Naucrates ductor,Pilotfish,no,0,1,0,0,0,0,0,0
+Gempylidae,Nealotus tripes,Black Snake Mackerel,no,0,1,0,0,0,0,0,0
+Nomeidae,Nomeus gronovii,Man-of-War Fish,no,0,1,0,0,0,0,0,0
+Hemiramphidae,Oxyporhamphus micropterus similis,Smallwing Flyingfish,no,0,1,0,0,0,0,0,0
+Exocoetidae,Parexocoetus hillianus,Sailfin Flyingfish,no,0,1,0,0,0,0,0,0
+Echeneidae,Phtheirichthys lineatus,Slender Suckerfish,no,0,1,0,0,0,0,0,0
+Belonidae,Platybelone argalus,Keeltail Needlefish,no,0,1,0,0,0,0,0,0
+Exocoetidae,Prognichthys glaphyrae,"Oceanic Bluntnose Flyingfish, Gyre Flyingfish",no,0,1,0,0,0,0,0,0
+Exocoetidae,Prognichthys occidentalis,Western Bluntnose Flyingfish,no,0,1,0,0,0,0,0,0
+Nomeidae,Psenes arafurensis,Banded Driftfish,no,0,1,0,0,0,0,0,0
+Nomeidae,Psenes cyanophrys,Freckled Driftfish,no,0,1,0,0,0,0,0,0
+Nomeidae,Psenes maculatus,Silver Driftfish,no,0,1,0,0,0,0,0,0
+Nomeidae,Psenes pellucidus,Bluefin Driftfish,no,0,1,0,0,0,0,0,0
+Bramidae,Pteraclis carolinus,Atlantic Fanfish,no,0,1,0,0,0,0,0,0
+Bramidae,Pterycombus brama,Atlantic Fanfish,no,0,1,0,0,0,0,0,0
+Molidae,Ranzania laevis,Slender Sunfish,no,0,1,0,0,0,0,0,0
+Regalecidae,Regalecus glesne,Oarfish,no,0,1,0,0,0,0,0,0
+Echeneidae,Remora albescens,White Remora,no,0,1,0,0,0,0,0,0
+Echeneidae,Remora australis,Whalesucker,no,0,1,0,0,0,0,0,0
+Echeneidae,Remora brachyptera,Spearfish Remora,no,0,1,0,0,0,0,0,0
+Echeneidae,Remora osteochir,Marlinsucker,no,0,1,0,0,0,0,0,0
+Scombridae,Sarda sarda,Atlantic Bonito,no,0,1,0,0,0,0,0,0
+Clupeidae,Sardinella aurita,Round Sardinella,no,0,1,0,0,0,0,0,0
+Scombridae,Scomber colias,Atlantic Chub Mackerel,no,0,1,0,0,0,0,0,0
+Scomberesocidae,Scomberesox saurus ssp. saurus,Atlantic Saury,no,0,1,0,0,0,0,0,0
+Syngnathidae,Syngnathus pelagicus,Sargassam Pipefish,no,0,1,0,0,0,0,0,0
+Bramidae,Taractes rubescens,"Keeltail Pomfret, Keeled Pomfret, Black Pomfret",no,0,1,0,0,0,0,0,0
+Bramidae,Taractichthys longipinnis,Bigscale Pomfret,no,0,1,0,0,0,0,0,0
+Istiophoridae,Tetrapturus georgii,Roundscale Spearfish,no,0,1,0,0,0,0,0,0
+Istiophoridae,Tetrapturus pfluegeri,Longbill Spearfish,no,0,1,0,0,0,0,0,0
+Scombridae,Thunnus alalunga,Albacore Tuna,no,0,1,0,0,0,0,0,0
+Scombridae,Thunnus albacares,Yellowfin Tuna,no,0,1,0,0,0,0,0,0
+Scombridae,Thunnus atlanticus,Blackfin Tuna,no,0,1,0,0,0,0,0,0
+Scombridae,Thunnus obesus,Bigeye Tuna,no,0,1,0,0,0,0,0,0
+Scombridae,Thunnus thynnus,Atlantic Bluefin Tuna,no,0,1,0,0,0,0,0,0
+Belonidae,Tylosurus acus ssp. acus,"Agujon Needlefish, Atlantic Agujon",no,0,1,0,0,0,0,0,0
+Carangidae,Uraspis secunda,Cottonmouth Jack,no,0,1,0,0,0,0,0,0
+Xiphiidae,Xiphias gladius,Swordfish,no,0,1,0,0,0,0,0,0
