@@ -26,16 +26,17 @@ multivar_data = multivar_data %>%
            ifelse(cum_vulnerab_score %in% c(0,1,2,3),'Low', 
                   ifelse(cum_vulnerab_score == 4, 'Med', 
                          ifelse(cum_vulnerab_score %in% c(5,6), 'High', NA))))
-    
+multivar_data_zero_excluded = multivar_data %>% 
+  filter(cum_vulnerab_score != 0)
 summary(multivar_data)
 
 #separate trait data from categorical data
-traits_data = data.frame(multivar_data[1:1000,6:11])
-species_names = gsub(' ', '_', multivar_data$binomial)
-rownames(traits_data) = species_names[1:1000]
+traits_data = data.frame(multivar_data_zero_excluded[,6:11])
+species_names = gsub(' ', '_', multivar_data_zero_excluded$binomial)
+rownames(traits_data) = species_names
 
-grouping_data = data.frame(multivar_data[1:1000,c(5,12,13)])
-rownames(grouping_data) = species_names[1:1000]
+grouping_data = data.frame(multivar_data_zero_excluded[,c(5,12,13)])
+rownames(grouping_data) = species_names
 #try initial MDS
 set.seed(123)
 nmds_jaccard = metaMDS(traits_data,
@@ -48,7 +49,7 @@ ordiplot(nmds_jaccard, type = 'n')
 group = grouping_data$cat_vulnerab_score
 for(i in unique(grouping_data$cat_vulnerab_score)) {
   ordihull(nmds_jaccard$point[grep(i, group),], draw="polygon",
-           groups = group[group == i],col = colors[grep(i,group)],label=F) }
+           groups = group[group == i],col = colors[grep(i,group)],label=T) }
 orditorp(nmds_jaccard, display = "species", col = "red", air = 0.01)
 orditorp(nmds_jaccard, display = "sites", col = c(rep("red",12),
                                            rep("blue", 12)), air = 0.01, cex = 1.25)
