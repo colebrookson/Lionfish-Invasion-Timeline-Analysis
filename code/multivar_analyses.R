@@ -61,10 +61,10 @@ applied_nmds_k2_vulner = lapply(split_nmds_k2_vulner, function(df){
 combined_nmds_k2_vulner = do.call(rbind, applied_nmds_k2_vulner)
 
 
-nmds_k2_vulner_plot <- ggplot(data=combined_nmds_k2_vulner) + 
-  geom_polygon(aes(x = NMDS1, y = NMDS2, fill= fct_relevel(vulner_score, 'Low', 'Med', 'High'), 
+nmds_k2_vulner_plot <- ggplot() + 
+  geom_polygon(data=combined_nmds_k2_vulner, aes(x = NMDS1, y = NMDS2, fill= fct_relevel(vulner_score, 'Low', 'Med', 'High'), 
                    group=fct_relevel(vulner_score, 'Low', 'Med', 'High')), alpha=0.30) + # add the convex hulls
-  geom_point(aes(x=NMDS1,y=NMDS2, colour = fct_relevel(vulner_score, 'Low', 'Med', 'High')), size=2) + # add the point markers
+  geom_point(data=combined_nmds_k2_vulner, aes(x=NMDS1,y=NMDS2, colour = fct_relevel(vulner_score, 'Low', 'Med', 'High')), size=2) + # add the point markers
   coord_equal() +
   theme_bw()  +
   theme(axis.text.x = element_blank(),  # remove x-axis text
