@@ -70,8 +70,7 @@ point_vulner = nmds_k2_vis_data_vulner %>%
 
 point_vulner$species = gsub('_', ' ', as.character(point_vulner$species))
 
-nmds_k2_vulner_plot 
-ggplot() + 
+nmds_k2_vulner_plot = ggplot() + 
   geom_polygon(data=combined_nmds_k2_vulner, 
                aes(x = NMDS1, y = NMDS2, 
                    fill= fct_relevel(vulner_score, 'Low', 'Med', 'High'), 
@@ -93,10 +92,12 @@ ggplot() +
                 colour = fct_relevel(vulner_score, 'Med', 'High')),
                 #fill= fct_relevel(vulner_score, 'Low', 'Med', 'High'), 
                 #group=fct_relevel(vulner_score, 'Low', 'Med', 'High')),
-            size = 4, vjust= 0, hjust = 0,
+            size = 4.5, vjust= 0, hjust = 0,
             position = position_jitter(width = 0.03, height = 0.3, seed = 7),
+            fontface = 'italic',
             show.legend = FALSE)+
   coord_equal() +
+  scale_x_continuous(limits = c(-1,1)) +
   theme_bw()  +
   theme(axis.text.x = element_blank(),  # remove x-axis text
         axis.text.y = element_blank(), # remove y-axis text
@@ -104,18 +105,27 @@ ggplot() +
         axis.title.x = element_text(size=18), # remove x-axis labels
         axis.title.y = element_text(size=18), # remove y-axis labels
         legend.title = element_text(size = 18), 
+        plot.title = element_text(size = 22, hjust = 0.5),
         legend.text = element_text(size = 18),
         legend.justification = c(0,0.5),
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
-        plot.background = element_blank()) +
+        plot.background = element_blank(),
+        #axis.line.x.bottom = element_line(size = 1),
+        #axis.line.x.top = element_line(size = 1),
+        #axis.line.y.right = element_line(size = 1),
+        #axis.line.y.left = element_line(size = 1),
+        panel.border = element_rect(colour = 'black', size = 1.1)) +
   scale_fill_manual('Vulnerability', 
                     values = c('#006994', '#ffd300', '#ca3433')) +
   scale_colour_manual('Vulnerability', 
                       values = c('#006994', '#ffd300', '#ca3433')) +
-  scale_colour_manual('Vulnerability', 
-                      values = c('#006994', '#ffd300', '#ca3433'))
- 
+  labs(title = 'Multi-dimensional trait-based\nvulnerability to lionfish predation')
+
+ggsave(here('./figures/nmds_plot.png'), plot = nmds_k2_vulner_plot,
+       device = 'png',
+       units = 'in',
+       dpi = 1200, height = 8, width = 9)
  
 ## make plot for vulnerability
 nmds_k2_vis_data_diet = data.frame(scores(nmds_jaccard_k2)) 

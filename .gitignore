@@ -1,5 +1,6 @@
 .RData
 .Rhistory
 /Big-Files
-
+/data/REEF_abundance_full.csv
+/data/REEF_effort_data_fromMaster.csv
 .Rproj.user
