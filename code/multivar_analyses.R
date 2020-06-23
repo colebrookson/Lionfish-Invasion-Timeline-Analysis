@@ -126,6 +126,10 @@ ggsave(here('./figures/nmds_plot.png'), plot = nmds_k2_vulner_plot,
        device = 'png',
        units = 'in',
        dpi = 1200, height = 8, width = 9)
+ggsave(here('./figures/nmds_plot_small.png'), plot = nmds_k2_vulner_plot,
+       device = 'png',
+       units = 'in',
+       dpi = 300, height = 8, width = 9)
  
 ## make plot for vulnerability
 nmds_k2_vis_data_diet = data.frame(scores(nmds_jaccard_k2)) 
