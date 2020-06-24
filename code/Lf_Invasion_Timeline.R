@@ -1,11 +1,28 @@
-# So what we're trying to do here is estimate how fast LF populations grow once they 
-#establish in a subregion - this will allow us to think about how much time you have
-#to manage the invasion before it gets out of hand
+########## 
+##########
+# This code contains the analysis for the multivariate statistics presented
+# in Linardich et al. (2020) 
+# "Trait-based vulnerability framework reveals the impact of a global marine invader" 
+# This is the first of n code files for this analysis
+##########
+##########
+# AUTHOR: Cole B. Brookson
+# DATE OF CREATION: 2020-06-15
+##########
+#########
 
 library(tidyverse)
 library(lubridate)
 library(ggsci)
 `%notin%` = Negate(`%in%`)
+
+reef_abund_full = read_csv(here('./data/REEF_abundance_full.csv'), 
+                       guess_max = 1000000)
+
+
+# So what we're trying to do here is estimate how fast LF populations grow once they 
+#establish in a subregion - this will allow us to think about how much time you have
+#to manage the invasion before it gets out of hand
 
 #Step 1: Get the date of initial invastion
 LF_all = reef_abund_full %>% 

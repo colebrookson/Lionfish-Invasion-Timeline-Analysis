@@ -9,8 +9,6 @@ restr_spp = read_csv(here('./data/restricted-range-spp-by-country.csv'))
 subr_names = read_csv(here('./data/REEF_subregions_by_name.csv'))
 reef_effort = read_csv(here('./data/REEF_effort_data_fromMaster.csv'), 
                        guess_max = 1000000)
-reef_effort = read_csv(here('./data/REEF_effort_data_fromMaster.csv'), 
-                       guess_max = 1000000)
 
 #restr_spp = restr_spp[1:36,1:3]
 #replace the non-parsed accented ç
