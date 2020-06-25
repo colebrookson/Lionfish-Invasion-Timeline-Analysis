@@ -46,7 +46,7 @@ year_format <- format(year_date_range, '%Y')
 year_df <- data.frame(year_date_range, year_format)
 
 #actual plotting 
-ggplot(lf_appear_subregs,aes(x=date,y=0, col=region_name, 
+timeline_plot = ggplot(lf_appear_subregs,aes(x=date,y=0, col=region_name, 
                                            label=subregion)) +
   labs(col="Regions") +
   scale_color_manual(values=status_colors,drop = FALSE) +
@@ -76,49 +76,6 @@ ggplot(lf_appear_subregs,aes(x=date,y=0, col=region_name,
   geom_text(aes(y=text_position,label=subreg_name),
             size=4)
 
-
-
-timeline_plot=timeline_plot+labs(col="Regions")
-timeline_plot=timeline_plot+scale_color_manual(values=status_colors, 
-                                              drop = FALSE)
-timeline_plot=timeline_plot+theme_classic()
-
-# Plot horizontal black line for timeline
-timeline_plot=timeline_plot+geom_hline(yintercept=0, 
-                                        color = "black", size=0.5)
-
-# Plot vertical segment lines for milestones
-timeline_plot=timeline_plot+geom_segment(data=lf_appear_subregs, 
-                                          aes(y=position,yend=0,xend=date), 
-                                         color='black', size=0.4)
-
-# Plot scatter points at zero and date
-timeline_plot=timeline_plot+geom_point(aes(y=0), size=3, shape = 19)
-
-# Don't show axes, appropriately position legend
-timeline_plot=timeline_plot+theme(axis.line.y=element_blank(),
-                                   axis.text.y=element_blank(),
-                                   axis.title.x=element_blank(),
-                                   axis.title.y=element_blank(),
-                                   axis.ticks.y=element_blank(),
-                                   axis.text.x =element_blank(),
-                                   axis.ticks.x =element_blank(),
-                                   axis.line.x =element_blank(),
-                                   legend.position = 'bottom'
-)
-
-
-
-
-
-
-timeline_plot=timeline_plot+geom_text(data=year_df, 
-                                       aes(x=year_date_range,y=-0.2,
-                                           label=year_format, fontface="bold"),
-                                       size=5, colour = 'black')
-# Show text for each milestone
-timeline_plot=timeline_plot+geom_text(aes(y=text_position,label=subregion),
-                                      size=3.5)
-print(timeline_plot)
-ggsave('invasion_timeline.png', timeline_plot, dpi = 300, width = 11, 
+ggsave(here('./figures/invasion_timeline.png'), timeline_plot, dpi = 1200, width = 13, 
        height = 7)
+▼
