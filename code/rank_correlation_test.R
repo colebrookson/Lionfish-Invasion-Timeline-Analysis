@@ -14,6 +14,7 @@
 library(tidyverse)
 library(PNWColors)
 library(here)
+library(glmmTMB)
 `%notin%` = Negate(`%in%`)
 
 rank_data = read_csv(here('./data/diet_vulnerability_rank_corr_data.csv'))
@@ -29,5 +30,6 @@ rank_data = merge(rank_data, vulner_data,
 
 hist(rank_data$FOO)
 
-#run logistic regression on the Frequency of Occurence continuous response variable
+#run  regression on the Frequency of Occurence continuous response variable
+rank_data$cum_vulnerab_score = as.factor(rank_data$cum_vulnerab_score)
 
