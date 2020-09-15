@@ -41,7 +41,8 @@ reef_abund_lf_minmax = reef_abund_lf %>%
   group_by(subregion) %>%
   filter(Abundance > 0) %>% 
   summarize(min_date = min(date),
-            max_abund = max(Abundance)) %>% 
+            max_abund = max(Abundance),
+            min_abund = min(Abundance)) %>% 
   filter(min_date < '2015-01-01') %>%  #this isn't technically needed but keeping it for posterity
   filter(max_abund > 2)
 
@@ -61,10 +62,45 @@ for(i in unique(reef_abund_lf_minmax$subregion)) {
   
   reef_abund_lf_minmax[which(reef_abund_lf_minmax$subregion == i), 'max_date'] = min(df$date)
   
+}
+rm(df, abund) #I know this is bad practice, but doing it anyways
+
+#Find midpoint for each subregion
+reef_abund_lf_minmax = reef_abund_lf_minmax %>% 
+  mutate(mid_date = min_date + ((max_date - min_date)/2))
+
+#find average abundance (if any recorded) for that month
+reef_abund_lf_minmax$mid_abund = NA
+reef_abund_lf_minmax$mid_abund = as.numeric(reef_abund_lf_minmax$mid_abund)
+
+for(i in unique(reef_abund_lf_minmax$subregion)) {
+  
+  year_mid = as.numeric(substr(as.character(reef_abund_lf_minmax[which(reef_abund_lf_minmax$subregion == i), 'mid_date'][[1]]),
+                start = 1, stop = 4))
+  month_mid = as.numeric(substr(as.character(reef_abund_lf_minmax[which(reef_abund_lf_minmax$subregion == i), 'mid_date'][[1]]),
+                start = 6, stop = 7))
+                
+  
+  df = reef_abund_full %>% 
+    filter(subregion == i) %>% 
+    filter(Species == 683) %>% 
+    filter(year == year_mid) %>% 
+    filter(month == month_mid)
+  
+  if(nrow(df)>0) {
+    
+    reef_abund_lf_minmax[which(reef_abund_lf_minmax$subregion == i), 'mid_abund'] = mean(df$Abundance)
+    
+  } else {
+    
+    reef_abund_lf_minmax[which(reef_abund_lf_minmax$subregion == i), 'mid_abund'] = NA
+    
+    
+  }
+  
   
 }
-
-
+rm(year,month)
 
 
 
