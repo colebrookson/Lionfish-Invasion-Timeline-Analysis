@@ -14,5 +14,17 @@
 library(tidyverse)
 library(here)
 
+#note that this data is private and also too large to put on github, so cannot put it in a repo
+dir = "C:/Users/coleb/Google Drive/fish vulnerability to lionfish predation project_Christi and Stephanie/Cole's files/Cole_Old_Model_Fitting"
+setwd(dir)
+reef_abund_full = read_csv('REEF_abundance_full.csv',
+                           guess_max = 200000)
 
 
+#keep only lionfish
+reef_abund_lf = reef_abund_full %>% 
+  filter(Species == '683')
+
+#make single date column
+reef_abund_lf$date = as.Date(with(reef_abund_lf, paste(year, month, day, sep = '-')), 
+                             '%Y-%m-%d')
