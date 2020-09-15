@@ -20,14 +20,13 @@ setwd(dir)
 reef_abund_full = read_csv('REEF_abundance_full.csv',
                            guess_max = 200000)
 
+#make single date column
+reef_abund_full$date = as.Date(with(reef_abund_full, paste(year, month, day, sep = '-')), 
+                             '%Y-%m-%d')
 
 #keep only lionfish
 reef_abund_lf = reef_abund_full %>% 
   filter(Species == '683')
-
-#make single date column
-reef_abund_lf$date = as.Date(with(reef_abund_lf, paste(year, month, day, sep = '-')), 
-                             '%Y-%m-%d')
 
 #find first observation in each subregion
 reef_abund_lf_minmax = reef_abund_lf %>% 
@@ -46,8 +45,24 @@ reef_abund_lf_minmax = reef_abund_lf %>%
   filter(min_date < '2015-01-01') %>%  #this isn't technically needed but keeping it for posterity
   filter(max_abund > 2)
 
+#get date of the first largest abundance observation
+#could probably do this tidy, but I'm going to use a forloop
+reef_abund_lf_minmax$max_date = NA
+reef_abund_lf_minmax$max_date = as.Date(reef_abund_lf_minmax$max_date)
 
-
+for(i in unique(reef_abund_lf_minmax$subregion)) {
+  
+  abund = reef_abund_lf_minmax[which(reef_abund_lf_minmax$subregion == i), 'max_abund'][[1]]
+  
+  df = reef_abund_full %>% 
+    filter(subregion == i) %>% 
+    filter(Species == 683) %>% 
+    filter(Abundance == abund)
+  
+  reef_abund_lf_minmax[which(reef_abund_lf_minmax$subregion == i), 'max_date'] = min(df$date)
+  
+  
+}
 
 
 
