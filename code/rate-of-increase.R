@@ -126,6 +126,34 @@ ggsave(here('./figures/time_max_abund_plot.tiff'),
 reef_abund_lf_minmax$rate_of_inc = 
   reef_abund_lf_minmax$mid_abund/as.numeric(reef_abund_lf_minmax$time_max_abund)
 
+rate_increase_min = reef_abund_lf_minmax %>% 
+  select(min_abund, subregion) %>% 
+  mutate(year = 0) %>% 
+  rename(abund = min_abund) %>% 
+  filter(subregion %in% 
+           unique(reef_abund_lf_minmax$subregion[which(reef_abund_lf_minmax$mid_abund > 0)]))
+
+rate_increase_mid = reef_abund_lf_minmax %>% 
+  select(mid_abund, subregion, min_date, mid_date) %>% 
+  mutate(year = (((mid_date - min_date)/365))) %>% 
+  select(-min_date, -mid_date) %>% 
+  rename(abund = mid_abund) %>% 
+  filter(subregion %in% 
+           unique(reef_abund_lf_minmax$subregion[which(reef_abund_lf_minmax$mid_abund > 0)]))
+
+rate_increase_max = reef_abund_lf_minmax %>% 
+  select(max_abund, subregion, min_date, max_date) %>% 
+  mutate(year = (((max_date - min_date)/365))) %>% 
+  select(-min_date, -max_date) %>% 
+  rename(abund = max_abund) %>% 
+  filter(subregion %in% 
+           unique(reef_abund_lf_minmax$subregion[which(reef_abund_lf_minmax$mid_abund > 0)]))
+
+rate_increase = rbind(rate_increase_min, rate_increase_mid, rate_increase_max)
+rate_increase$subregion = as.factor(rate_increase$subregion)
+ggplot(data = rate_increase) +
+  geom_point(aes(x = year, y = abund, fill = 'subregion')) +
+  geom_line(aes(x = year, y = abund, colour = 'subregion'))
 
 
 
