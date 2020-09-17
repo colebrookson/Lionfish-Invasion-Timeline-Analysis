@@ -87,33 +87,25 @@ for(i in unique(reef_abund_lf_minmax$subregion)) {
     filter(year == year_mid) %>% 
     filter(month == month_mid)
   
-  if(nrow(df)>0) { #if there are any observations, get a value
+  if(nrow(df)>0) {
     
-    if(df$Abundance > 0 && df$Abundance < 1) {
+    reef_abund_lf_minmax[which(reef_abund_lf_minmax$subregion == i), 'mid_abund'] = ceiling(mean(df$Abundance))
       
-      reef_abund_lf_minmax[which(reef_abund_lf_minmax$subregion == i), 'mid_abund'] = 1
-      
-    }
-    
-    if(df$Abundance > 1 ) { #if Abundance > 1, round up
-      
-      
-    }
-    
-    
-  } else { #if no observations, give NA
+    } else { # give NA if no rows
     
     reef_abund_lf_minmax[which(reef_abund_lf_minmax$subregion == i), 'mid_abund'] = NA
     
-    
-  }
-  
+    }
   
 }
 rm(df,year_mid,month_mid)
 
-#round the midpoint abundance
+#get measurement of time to max abundance
+reef_abund_lf_minmax$time_max_abund = ((reef_abund_lf_minmax$max_date - reef_abund_lf_minmax$min_date)/365)
 
+#make histogram of times to max abundance
+ggplot(data = reef_abund_lf_minmax) +
+  geom_histogram(aes(x = time_max_abund))
 
 
 
