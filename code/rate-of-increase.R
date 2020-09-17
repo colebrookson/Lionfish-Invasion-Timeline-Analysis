@@ -117,10 +117,10 @@ time_max_abund_plot = ggplot(data = reef_abund_lf_minmax) +
   scale_y_continuous(limits = c(0,10), breaks = c(0,2,4,6,8,10)) +
   labs(x = 'Time Elapsed Between First Invasion and Maximum Abundance (Years)',
        y = ' Number of Subregions') 
-ggsave(here('./figures/time_max_abund_plot_small.png'),
+ggsave(here('./figures/time_max_abund_plot_small.png'), height = 6, width = 8,
        time_max_abund_plot, dpi = 200)
-ggsave(here('./figures/time_max_abund_plot.tiff'),
-       time_max_abund_plot)
+ggsave(here('./figures/time_max_abund_plot.png'), height = 6, width = 8,
+       time_max_abund_plot, dpi = 600)
 
 #get rate of increase by dividing midpoint abundance by time to max abundance
 reef_abund_lf_minmax$rate_of_inc = 
