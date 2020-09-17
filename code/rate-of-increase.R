@@ -87,11 +87,21 @@ for(i in unique(reef_abund_lf_minmax$subregion)) {
     filter(year == year_mid) %>% 
     filter(month == month_mid)
   
-  if(nrow(df)>0) {
+  if(nrow(df)>0) { #if there are any observations, get a value
     
-    reef_abund_lf_minmax[which(reef_abund_lf_minmax$subregion == i), 'mid_abund'] = mean(df$Abundance)
+    if(df$Abundance > 0 && df$Abundance < 1) {
+      
+      reef_abund_lf_minmax[which(reef_abund_lf_minmax$subregion == i), 'mid_abund'] = 1
+      
+    }
     
-  } else {
+    if(df$Abundance > 1 ) { #if Abundance > 1, round up
+      
+      
+    }
+    
+    
+  } else { #if no observations, give NA
     
     reef_abund_lf_minmax[which(reef_abund_lf_minmax$subregion == i), 'mid_abund'] = NA
     
@@ -100,7 +110,9 @@ for(i in unique(reef_abund_lf_minmax$subregion)) {
   
   
 }
-rm(year,month)
+rm(df,year_mid,month_mid)
+
+#round the midpoint abundance
 
 
 
