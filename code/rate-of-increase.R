@@ -149,6 +149,9 @@ rate_increase_max = reef_abund_lf_minmax %>%
   filter(subregion %in% 
            unique(reef_abund_lf_minmax$subregion[which(reef_abund_lf_minmax$mid_abund > 0)]))
 
+
+write.table(reef_abund_lf_minmax, here('./data/rate_of_increase_tble.txt'), sep = ',')
+
 rate_increase = rbind(rate_increase_min, rate_increase_mid, rate_increase_max)
 rate_increase$subregion = as.factor(rate_increase$subregion)
 ggplot(data = rate_increase, colour = 'subregion') +
