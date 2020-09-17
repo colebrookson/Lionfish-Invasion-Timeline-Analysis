@@ -104,9 +104,27 @@ rm(df,year_mid,month_mid)
 reef_abund_lf_minmax$time_max_abund = ((reef_abund_lf_minmax$max_date - reef_abund_lf_minmax$min_date)/365)
 
 #make histogram of times to max abundance
-ggplot(data = reef_abund_lf_minmax) +
-  geom_histogram(aes(x = time_max_abund))
+time_max_abund_plot = ggplot(data = reef_abund_lf_minmax) +
+  geom_histogram(aes(x = time_max_abund), binwidth = 1, position = 'dodge',
+                 colour = 'black', fill = 'goldenrod3') +
+  theme_bw() +
+  theme(panel.grid = element_blank(),
+        axis.title.y = element_text(size = 16),
+        axis.title.x = element_text(size = 16),
+        axis.text.x = element_text(size = 12),
+        axis.text.y = element_text(size = 12)) +
+  scale_x_continuous(breaks = c(0:12), labels = c(0:12)) +
+  scale_y_continuous(limits = c(0,10), breaks = c(0,2,4,6,8,10)) +
+  labs(x = 'Time Elapsed Between First Invasion and Maximum Abundance (Years)',
+       y = ' Number of Subregions') 
+ggsave(here('./figures/time_max_abund_plot_small.png'),
+       time_max_abund_plot, dpi = 200)
+ggsave(here('./figures/time_max_abund_plot.tiff'),
+       time_max_abund_plot)
 
+#get rate of increase by dividing midpoint abundance by time to max abundance
+reef_abund_lf_minmax$rate_of_inc = 
+  reef_abund_lf_minmax$mid_abund/as.numeric(reef_abund_lf_minmax$time_max_abund)
 
 
 
