@@ -151,10 +151,13 @@ rate_increase_max = reef_abund_lf_minmax %>%
 
 rate_increase = rbind(rate_increase_min, rate_increase_mid, rate_increase_max)
 rate_increase$subregion = as.factor(rate_increase$subregion)
-ggplot(data = rate_increase) +
-  geom_point(aes(x = year, y = abund, fill = 'subregion')) +
-  geom_line(aes(x = year, y = abund, colour = 'subregion'))
-
+ggplot(data = rate_increase, colour = 'subregion') +
+  geom_point(aes(x = year, y = abund, colour = subregion))+
+  geom_line(aes(x = year, y = abund, colour = subregion))
+ggplot(data = reef_abund_lf_minmax) +
+  geom_histogram(aes(x = rate_of_inc), binwidth = 0.11) +
+  #scale_x_continuous(limits = c(0,2.5)) +
+  theme_bw()
 
 
 
