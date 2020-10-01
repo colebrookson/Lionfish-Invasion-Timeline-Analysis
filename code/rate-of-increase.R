@@ -158,7 +158,7 @@ ggplot(data = rate_increase, colour = 'subregion') +
   geom_point(aes(x = year, y = abund, colour = subregion))+
   geom_line(aes(x = year, y = abund, colour = subregion))
 ggplot(data = reef_abund_lf_minmax) +
-  geom_histogram(aes(x = rate_of_inc), binwidth = 0.11) +
+  geom_histogram(aes(x = rate_of_inc)) +
   #scale_x_continuous(limits = c(0,2.5)) +
   theme_bw()
 

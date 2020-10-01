@@ -85,7 +85,7 @@ nmds_k2_vulner_plot = ggplot() +
              size=3, shape = 15,
              #width = 0.05, height = 0.05,
              position = position_jitter(width = 0.03, height = 0.3, seed = 7)) + # add the point markers
-  geom_label(data = point_vulner, 
+  geom_text(data = point_vulner, 
             aes(x=NMDS1,y=NMDS2,
                  label = species), 
             colour = 'black',
