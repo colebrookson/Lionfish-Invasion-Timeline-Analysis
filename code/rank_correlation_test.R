@@ -1,4 +1,3 @@
-
 ########## 
 ##########
 # This code contains the analysis for the rank abundance test presented in 
@@ -59,9 +58,14 @@ spearman_rank = cor.test(~IRI + cum_vulnerab_score,
                          method = 'spearman',
                          continuity = FALSE,
                          conf.level = 0.95)
+spearman_rank = cor.test(~IOI + cum_vulnerab_score,
+                         data = rank_data,
+                         method = 'spearman',
+                         continuity = FALSE,
+                         conf.level = 0.95)
 
 #the kendall's tau-b might be better here
-vulnerab_score = rank_data$cum_vulnerab_score; IRI = rank_data$IRI
+vulnerab_score = rank_data$cum_vulnerab_score; IRI = rank_data$IRI; IOI = rank_data$IOI
 rank_kendall_data = cbind(vulnerab_score, IRI)
 kendall_rank = cor(rank_kendall_data, 
                    method = 'kendall',
@@ -69,6 +73,10 @@ kendall_rank = cor(rank_kendall_data,
 kendall_corr = cor.test(vulnerab_score, 
                        IRI, 
                        method = 'kendall')
+kendall_corr
+kendall_corr = cor.test(vulnerab_score, 
+                        IOI, 
+                        method = 'kendall')
 kendall_corr
 plot(IRI ~ vulnerab_score)
 
@@ -84,3 +92,20 @@ level_vulnerab_data = rank_data %>%
   group_by(cum_vulnerab_score) %>% 
   summarize(mean_iri = mean(IRI, na.rm = TRUE),
             mean_ioi = mean(IOI, na.rm = TRUE))
+
+ggplot(data = level_vulnerab_data) +
+  geom_point(aes(x = cum_vulnerab_score, y = mean_iri))+
+  theme_bw() +
+  labs(x = 'Vulnerability Score', y = 'Mean IRI')
+ggplot(data = rank_data) +
+  geom_jitter(aes(x = IRI, y = cum_vulnerab_score))+
+  theme_bw() +
+  labs(x = 'IRI', y = 'Vulnerability Score')
+ggplot(data = rank_data) +
+  geom_jitter(aes(x = IOI, y = cum_vulnerab_score))+
+  theme_bw() +
+  labs(x = 'IOI', y = 'Vulnerability Score')
+
+rank_data %>% 
+  group_by(cum_vulnerab_score) %>% 
+  summarize(n = n())
