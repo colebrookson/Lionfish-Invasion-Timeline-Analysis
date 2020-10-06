@@ -132,22 +132,43 @@ rate_increase_min = reef_abund_lf_minmax %>%
   rename(abund = min_abund) %>% 
   filter(subregion %in% 
            unique(reef_abund_lf_minmax$subregion[which(reef_abund_lf_minmax$mid_abund > 0)]))
+rate_increase_min$year = as.numeric(rate_increase_min$year)
 
 rate_increase_mid = reef_abund_lf_minmax %>% 
   select(mid_abund, subregion, min_date, mid_date) %>% 
-  mutate(year = (((mid_date - min_date)/365))) %>% 
+  mutate(year = (((mid_date - min_date)))) %>% 
   select(-min_date, -mid_date) %>% 
   rename(abund = mid_abund) %>% 
   filter(subregion %in% 
            unique(reef_abund_lf_minmax$subregion[which(reef_abund_lf_minmax$mid_abund > 0)]))
+rate_increase_mid$year = as.numeric(rate_increase_mid$year)/365
 
 rate_increase_max = reef_abund_lf_minmax %>% 
   select(max_abund, subregion, min_date, max_date) %>% 
-  mutate(year = (((max_date - min_date)/365))) %>% 
+  mutate(year = (((max_date - min_date)))) %>% 
   select(-min_date, -max_date) %>% 
   rename(abund = max_abund) %>% 
   filter(subregion %in% 
            unique(reef_abund_lf_minmax$subregion[which(reef_abund_lf_minmax$mid_abund > 0)]))
+rate_increase_max$year = as.numeric(rate_increase_max$year)/365
+
+#stitch together min mid and max to plot the year dates on the x and the abund on the y
+rate_increase_all = rbind(rate_increase_min,
+                          rate_increase_mid,
+                          rate_increase_max)
+
+rate_increase_all$subregion = as.factor(rate_increase_all$subregion)
+ggplot(data = rate_increase_all) +
+  geom_point(aes(x = year, y = abund, colour = subregion)) +
+  geom_line(aes(x = year, y = abund, colour = subregion),
+            position = position_jitter(h = 0.02)) +
+  theme_bw() +
+  theme(
+    panel.grid.major = element_blank(),  #remove major-grid labels
+    panel.grid.minor = element_blank(),  #remove minor-grid labels
+  )
+
+
 
 
 write.table(reef_abund_lf_minmax, here('./data/rate_of_increase_tble.txt'), sep = ',')
