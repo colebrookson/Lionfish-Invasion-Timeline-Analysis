@@ -109,7 +109,7 @@ reef_abund_lf_minmax$col = as.factor(reef_abund_lf_minmax$col)
 #make histogram of times to max abundance
 time_max_abund_plot = ggplot(data = reef_abund_lf_minmax) +
   geom_histogram(aes(x = time_max_abund, fill = col), binwidth = 1,
-                 colour = 'black') +
+                 colour = 'black', alpha = 0.4) +
   theme_bw() +
   theme(panel.grid = element_blank(),
         axis.title.y = element_text(size = 16),
@@ -119,7 +119,8 @@ time_max_abund_plot = ggplot(data = reef_abund_lf_minmax) +
   scale_x_continuous(breaks = c(0:12), labels = c(0:12)) +
   scale_y_continuous(limits = c(0,10), breaks = c(0,2,4,6,8,10)) +
   labs(x = 'Time Elapsed Between First Invasion and Maximum Abundance (Years)',
-       y = ' Number of Subregions') 
+       y = ' Number of Subregions') +
+  scale_fill_manual(values = c('#ca3433', '#ffd300', '#006994'))
 ggsave(here('./figures/time_max_abund_plot_small.png'), height = 6, width = 8,
        time_max_abund_plot, dpi = 200)
 ggsave(here('./figures/time_max_abund_plot.png'), height = 6, width = 8,
