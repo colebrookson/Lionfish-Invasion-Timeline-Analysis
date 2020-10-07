@@ -13,6 +13,7 @@
 
 library(tidyverse)
 library(here)
+library(cowplot)
 
 #note that this data is private and also too large to put on github, so cannot put it in a repo
 dir = "C:/Users/coleb/Google Drive/fish vulnerability to lionfish predation project_Christi and Stephanie/Cole's files/Cole_Old_Model_Fitting"
@@ -109,16 +110,17 @@ reef_abund_lf_minmax$col = as.factor(reef_abund_lf_minmax$col)
 #make histogram of times to max abundance
 time_max_abund_plot = ggplot(data = reef_abund_lf_minmax) +
   geom_histogram(aes(x = time_max_abund, fill = col), binwidth = 1,
-                 colour = 'black', alpha = 0.4) +
+                 colour = 'black') +
   theme_bw() +
   theme(panel.grid = element_blank(),
         axis.title.y = element_text(size = 16),
         axis.title.x = element_text(size = 16),
         axis.text.x = element_text(size = 12),
-        axis.text.y = element_text(size = 12)) +
+        axis.text.y = element_text(size = 12),
+        legend.position = 'none') +
   scale_x_continuous(breaks = c(0:12), labels = c(0:12)) +
   scale_y_continuous(limits = c(0,10), breaks = c(0,2,4,6,8,10)) +
-  labs(x = 'Time Elapsed Between First Invasion and Maximum Abundance (Years)',
+  labs(x = 'Time Elapsed Between First Invasion \nand Maximum Abundance (Years)',
        y = ' Number of Subregions') +
   scale_fill_manual(values = c('#ca3433', '#ffd300', '#006994'))
 ggsave(here('./figures/time_max_abund_plot_small.png'), height = 6, width = 8,
@@ -190,7 +192,7 @@ names(reef_abund_lf)
 lf_abund_monthly = reef_abund_lf %>% 
   group_by(subregion, year) %>%
   #filter(Abundance != 0) %>% 
-  filter(subregion %in% c(33, 34, 71, 31)) %>% 
+  filter(subregion %in% c(34, 71, 31)) %>% 
   summarize(lf_mean = mean(Abundance),
             n = n(),
             lf_low = mean(Abundance) - (qnorm(0.975)*(sd(Abundance)/sqrt(n))),
@@ -199,13 +201,27 @@ lf_abund_monthly = reef_abund_lf %>%
 lf_abund_monthly$lf_low = ifelse(lf_abund_monthly$lf_low > 0, lf_abund_monthly$lf_low,
                                  0) 
 lf_abund_monthly$subregion = as.factor(lf_abund_monthly$subregion)
-ggplot(data = lf_abund_monthly) +
-  geom_line(aes(x = year, y = lf_mean, colour = subregion)) +
-  geom_ribbon(aes(x = year, ymin = lf_low, ymax = lf_high, colour = subregion), alpha = 0.25)
+lf_timeseries_plot = ggplot(data = lf_abund_monthly) +
+  geom_line(aes(x = year, y = lf_mean, colour = subregion), size = 1.05, linetype = 'dashed') +
+  geom_ribbon(aes(x = year, ymin = lf_low, ymax = lf_high, colour = subregion), 
+              size = 1.05, alpha = 0.1) +
+  scale_colour_manual(values = c('#ca3433', '#ffd300', '#006994')) +
+  theme_bw() +
+  theme(panel.grid = element_blank(),
+        axis.title.y = element_text(size = 16),
+        axis.title.x = element_text(size = 16),
+        axis.text.x = element_text(size = 12),
+        axis.text.y = element_text(size = 12),
+        legend.position = 'none') +
+  labs(x = 'Mean Lionfish Abundance', y = 'Year')
 
+figure_7 = plot_grid(time_max_abund_plot, lf_timeseries_plot,
+                     nrow = 1, ncol = 2, labels = c('A', 'B'))
 
-
-
+ggsave(here('./figures/hist_and_timeseries.png'), height = 6, width = 8,
+       figure_7, dpi = 200)
+ggsave(here('./figures/hist_and_timeseries.png'), height = 6, width = 8,
+       time_max_abund_plot, dpi = 600)
 
 
 
