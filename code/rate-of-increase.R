@@ -192,7 +192,7 @@ names(reef_abund_lf)
 lf_abund_monthly = reef_abund_lf %>% 
   group_by(subregion, year) %>%
   #filter(Abundance != 0) %>% 
-  filter(subregion %in% c(34, 71, 31)) %>% 
+  #filter(subregion %in% c(34, 71, 31)) %>% 
   summarize(lf_mean = mean(Abundance),
             n = n(),
             lf_low = mean(Abundance) - (qnorm(0.975)*(sd(Abundance)/sqrt(n))),
@@ -205,14 +205,14 @@ lf_timeseries_plot = ggplot(data = lf_abund_monthly) +
   geom_line(aes(x = year, y = lf_mean, colour = subregion), size = 1.05, linetype = 'dashed') +
   geom_ribbon(aes(x = year, ymin = lf_low, ymax = lf_high, colour = subregion), 
               size = 1.05, alpha = 0.1) +
-  scale_colour_manual(values = c('#ca3433', '#ffd300', '#006994')) +
+  #scale_colour_manual(values = c('#ca3433', '#ffd300', '#006994')) +
   theme_bw() +
   theme(panel.grid = element_blank(),
         axis.title.y = element_text(size = 16),
         axis.title.x = element_text(size = 16),
         axis.text.x = element_text(size = 12),
         axis.text.y = element_text(size = 12),
-        legend.position = 'none') +
+        legend.position = 'right') +
   labs(x = 'Mean Lionfish Abundance \n', y = 'Year')
 
 figure_7 = plot_grid(time_max_abund_plot, lf_timeseries_plot,
