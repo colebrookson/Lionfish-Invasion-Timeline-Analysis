@@ -102,11 +102,14 @@ rm(df,year_mid,month_mid)
 
 #get measurement of time to max abundance
 reef_abund_lf_minmax$time_max_abund = ((reef_abund_lf_minmax$max_date - reef_abund_lf_minmax$min_date)/365)
-
+reef_abund_lf_minmax$col = ifelse(reef_abund_lf_minmax$time_max_abund > 8, 
+                                  1, ifelse(reef_abund_lf_minmax$time_max_abund > 3, 
+                                  2, 3))
+reef_abund_lf_minmax$col = as.factor(reef_abund_lf_minmax$col)
 #make histogram of times to max abundance
 time_max_abund_plot = ggplot(data = reef_abund_lf_minmax) +
-  geom_histogram(aes(x = time_max_abund), binwidth = 1, position = 'dodge',
-                 colour = 'black', fill = 'goldenrod3') +
+  geom_histogram(aes(x = time_max_abund, fill = col), binwidth = 1,
+                 colour = 'black') +
   theme_bw() +
   theme(panel.grid = element_blank(),
         axis.title.y = element_text(size = 16),
@@ -168,9 +171,6 @@ ggplot(data = rate_increase_all) +
     panel.grid.minor = element_blank(),  #remove minor-grid labels
   )
 
-
-
-
 write.table(reef_abund_lf_minmax, here('./data/rate_of_increase_tble.txt'), sep = ',')
 
 rate_increase = rbind(rate_increase_min, rate_increase_mid, rate_increase_max)
@@ -184,8 +184,23 @@ ggplot(data = reef_abund_lf_minmax) +
   theme_bw()
 
 
-
-
+###make plot of mean LF abundances over the different subregions. 
+names(reef_abund_lf)
+lf_abund_monthly = reef_abund_lf %>% 
+  group_by(subregion, year) %>%
+  #filter(Abundance != 0) %>% 
+  filter(subregion %in% c(33, 34, 71, 31)) %>% 
+  summarize(lf_mean = mean(Abundance),
+            n = n(),
+            lf_low = mean(Abundance) - (qnorm(0.975)*(sd(Abundance)/sqrt(n))),
+            lf_high = mean(Abundance) + (qnorm(0.975)*(sd(Abundance)/sqrt(n)))) %>% 
+  filter(n > 3)
+lf_abund_monthly$lf_low = ifelse(lf_abund_monthly$lf_low > 0, lf_abund_monthly$lf_low,
+                                 0) 
+lf_abund_monthly$subregion = as.factor(lf_abund_monthly$subregion)
+ggplot(data = lf_abund_monthly) +
+  geom_line(aes(x = year, y = lf_mean, colour = subregion)) +
+  geom_ribbon(aes(x = year, ymin = lf_low, ymax = lf_high, colour = subregion), alpha = 0.25)
 
 
 
