@@ -213,15 +213,15 @@ lf_timeseries_plot = ggplot(data = lf_abund_monthly) +
         axis.text.x = element_text(size = 12),
         axis.text.y = element_text(size = 12),
         legend.position = 'none') +
-  labs(x = 'Mean Lionfish Abundance', y = 'Year')
+  labs(x = 'Mean Lionfish Abundance \n', y = 'Year')
 
 figure_7 = plot_grid(time_max_abund_plot, lf_timeseries_plot,
                      nrow = 1, ncol = 2, labels = c('A', 'B'))
 
-ggsave(here('./figures/hist_and_timeseries.png'), height = 6, width = 8,
+ggsave(here('./figures/hist_and_timeseries_small.png'), height = 6, width = 12,
        figure_7, dpi = 200)
-ggsave(here('./figures/hist_and_timeseries.png'), height = 6, width = 8,
-       time_max_abund_plot, dpi = 600)
+ggsave(here('./figures/hist_and_timeseries_large.png'), height = 6, width = 12,
+       figure_7, dpi = 600)
 
 
 
