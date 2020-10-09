@@ -230,9 +230,9 @@ figure_7 = plot_grid(time_max_abund_plot, lf_timeseries_plot,
                      nrow = 1, ncol = 2, labels = c('A', 'B')) 
 
 ggsave(here('./figures/hist_and_timeseries_opt2_small.png'), height = 6, width = 12,
-       figure_7_option2, dpi = 200)
+       figure_7, dpi = 200)
 ggsave(here('./figures/hist_and_timeseries_opt2_large.png'), height = 6, width = 12,
-       figure_7_option2, dpi = 600)
+       figure_7, dpi = 600)
 
 
 
