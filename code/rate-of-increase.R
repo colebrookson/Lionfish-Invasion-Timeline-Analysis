@@ -219,8 +219,10 @@ ggplot(data = lf_abund_monthly) +
         axis.title.x = element_text(size = 16),
         axis.text.x = element_text(size = 12),
         axis.text.y = element_text(size = 12),
-        legend.position = c(0.2, 0.7),
-        legend.key = element_rect(size = 4)) +
+        legend.position = c(0.22, 0.7),
+        legend.key = element_rect(size = 4),
+        legend.text = element_text(size = 12),
+        legend.title = element_text(size = 16)) +
   labs(y = 'Mean Lionfish Abundance', x = 'Year \n') +
   guides(colour = guide_legend(override.aes = list(colour = c('#ca3433', '#ffd300', '#ffd300', '#006994'),
                                                    fill = c('grey90', 'blue3', 'grey90', 'grey90'))))+
@@ -229,9 +231,9 @@ ggplot(data = lf_abund_monthly) +
 figure_7 = plot_grid(time_max_abund_plot, lf_timeseries_plot,
                      nrow = 1, ncol = 2, labels = c('A', 'B')) 
 
-ggsave(here('./figures/hist_and_timeseries_opt2_small.png'), height = 6, width = 12,
+ggsave(here('./figures/hist_and_timeseries_opt2_small.png'), height = 6, width = 13,
        figure_7, dpi = 200)
-ggsave(here('./figures/hist_and_timeseries_opt2_large.png'), height = 6, width = 12,
+ggsave(here('./figures/hist_and_timeseries_opt2_large.png'), height = 6, width = 13,
        figure_7, dpi = 600)
 
 
