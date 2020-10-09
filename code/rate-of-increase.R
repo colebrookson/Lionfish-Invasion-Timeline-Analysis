@@ -192,7 +192,7 @@ names(reef_abund_lf)
 lf_abund_monthly = reef_abund_lf %>% 
   group_by(subregion, year) %>%
   #filter(Abundance != 0) %>% 
-  filter(subregion %in% c(31, 53, 86)) %>% 
+  filter(subregion %in% c(31, 71, 34, 57)) %>% 
   summarize(lf_mean = mean(Abundance),
             n = n(),
             lf_low = mean(Abundance) - (qnorm(0.975)*(sd(Abundance)/sqrt(n))),
@@ -201,27 +201,38 @@ lf_abund_monthly = reef_abund_lf %>%
 lf_abund_monthly$lf_low = ifelse(lf_abund_monthly$lf_low > 0, lf_abund_monthly$lf_low,
                                  0) 
 lf_abund_monthly$subregion = as.factor(lf_abund_monthly$subregion)
-lf_timeseries_plot = ggplot(data = lf_abund_monthly) +
+lf_abund_monthly = lf_abund_monthly %>% 
+  mutate(ribbon = ifelse(subregion == 34, 1, 2))
+lf_abund_monthly$ribbon = as.factor(lf_abund_monthly$ribbon)
+
+lf_timeseries_plot = 
+ggplot(data = lf_abund_monthly) +
   geom_line(aes(x = year, y = lf_mean, colour = subregion), size = 1.05, linetype = 'dashed') +
-  geom_ribbon(aes(x = year, ymin = lf_low, ymax = lf_high, colour = subregion), 
-              size = 1.05, alpha = 0.1) +
-  scale_colour_manual(values = c('#ca3433', '#ffd300', '#006994')) +
+  geom_ribbon(aes(x = year, ymin = lf_low, ymax = lf_high, colour = subregion, fill = ribbon),
+              size = 1.05, alpha = 0.4) +
+  scale_fill_manual('', labels = c('',''), values = c('blue3', 'grey90')) +
+  scale_colour_manual('Subregion', values = c('#ca3433', '#ffd300', '#ffd300', '#006994'),
+                      labels = c('North Florida (Atlantic)', 'Florida Keys', 'Honduras', 'Leeward Islands')) +
   theme_bw() +
   theme(panel.grid = element_blank(),
         axis.title.y = element_text(size = 16),
         axis.title.x = element_text(size = 16),
         axis.text.x = element_text(size = 12),
         axis.text.y = element_text(size = 12),
-        legend.position = 'none') +
-  labs(y = 'Mean Lionfish Abundance', x = 'Year \n')
+        legend.position = c(0.2, 0.7),
+        legend.key = element_rect(size = 4)) +
+  labs(y = 'Mean Lionfish Abundance', x = 'Year \n') +
+  guides(colour = guide_legend(override.aes = list(colour = c('#ca3433', '#ffd300', '#ffd300', '#006994'),
+                                                   fill = c('grey90', 'blue3', 'grey90', 'grey90'))))+
+  guides(fill = guide_legend(override.aes = list(fill = 'white'))) 
 
 figure_7 = plot_grid(time_max_abund_plot, lf_timeseries_plot,
-                     nrow = 1, ncol = 2, labels = c('A', 'B'))
+                     nrow = 1, ncol = 2, labels = c('A', 'B')) 
 
-ggsave(here('./figures/hist_and_timeseries_small.png'), height = 6, width = 12,
-       figure_7, dpi = 200)
-ggsave(here('./figures/hist_and_timeseries_large.png'), height = 6, width = 12,
-       figure_7, dpi = 600)
+ggsave(here('./figures/hist_and_timeseries_opt2_small.png'), height = 6, width = 12,
+       figure_7_option2, dpi = 200)
+ggsave(here('./figures/hist_and_timeseries_opt2_large.png'), height = 6, width = 12,
+       figure_7_option2, dpi = 600)
 
 
 
