@@ -3,7 +3,6 @@
 # This code contains the analysis for the multivariate statistics presented
 # in Linardich et al. (2020) 
 # "Trait-based vulnerability framework reveals the impact of a global marine invader" 
-# This is the first of n code files for this analysis
 ##########
 ##########
 # AUTHOR: Cole B. Brookson
@@ -86,12 +85,10 @@ nmds_k2_vulner_plot = ggplot() +
              size=3, shape = 15,
              #width = 0.05, height = 0.05,
              position = position_jitter(width = 0.03, height = 0.3, seed = 7)) + # add the point markers
-  geom_label(data = point_vulner, 
+  geom_text(data = point_vulner, 
             aes(x=NMDS1,y=NMDS2,
-                 label = species, 
-                colour = fct_relevel(vulner_score, 'Med', 'High')),
-                #fill= fct_relevel(vulner_score, 'Low', 'Med', 'High'), 
-                #group=fct_relevel(vulner_score, 'Low', 'Med', 'High')),
+                 label = species), 
+            colour = 'black',
             size = 4.5, vjust= 0, hjust = 0,
             position = position_jitter(width = 0.03, height = 0.3, seed = 7),
             fontface = 'italic',
@@ -117,39 +114,40 @@ nmds_k2_vulner_plot = ggplot() +
         #axis.line.y.left = element_line(size = 1),
         panel.border = element_rect(colour = 'black', size = 1.1)) +
   scale_fill_manual('Vulnerability', 
-                    values = c('#006994', '#ffd300', '#ca3433')) +
+                    values = c('#006994', '#ffd300', '#ca3433'), 
+                    labels = c('Low', 'Medium', 'High')) +
   scale_colour_manual('Vulnerability', 
-                      values = c('#006994', '#ffd300', '#ca3433')) +
-  labs(title = 'Multi-dimensional trait-based\nvulnerability to lionfish predation')
+                      values = c('#006994', '#ffd300', '#ca3433'), 
+                      labels = c('Low', 'Medium', 'High')) 
 
 ggsave(here('./figures/nmds_plot.png'), plot = nmds_k2_vulner_plot,
        device = 'png',
        units = 'in',
-       dpi = 1200, height = 8, width = 9)
+       dpi = 600, height = 8, width = 9)
 ggsave(here('./figures/nmds_plot_small.png'), plot = nmds_k2_vulner_plot,
        device = 'png',
        units = 'in',
        dpi = 300, height = 8, width = 9)
- 
-## make plot for vulnerability
-nmds_k2_vis_data_diet = data.frame(scores(nmds_jaccard_k2)) 
-nmds_k2_vis_data_diet$species = rownames(nmds_k2_vis_data_diet)  
-nmds_k2_vis_data_diet$diet_study = grouping_data$diet_study 
 
-split_nmds_k2_diet = split(nmds_k2_vis_data_diet, 
+## make plot for vulnerability
+nmds_k2_vis_data_diet = data.frame(scores(nmds_jaccard_k2))
+nmds_k2_vis_data_diet$species = rownames(nmds_k2_vis_data_diet)
+nmds_k2_vis_data_diet$diet_study = grouping_data$diet_study
+
+split_nmds_k2_diet = split(nmds_k2_vis_data_diet,
                            nmds_k2_vis_data_diet$diet_study)
 applied_nmds_k2_diet = lapply(split_nmds_k2_diet, function(df){
   df[chull(df), ]
 })
 combined_nmds_k2_diet = do.call(rbind, applied_nmds_k2_diet)
-combined_nmds_k2_diet = combined_nmds_k2_diet %>% 
-  mutate(diet_cat = ifelse(combined_nmds_k2_diet$diet_study == 1, 
+combined_nmds_k2_diet = combined_nmds_k2_diet %>%
+  mutate(diet_cat = ifelse(combined_nmds_k2_diet$diet_study == 1,
                            'Present', 'Absent'))
 
-nmds_k2_plot_diet <- ggplot(data=combined_nmds_k2_diet) + 
-  geom_polygon(aes(x = NMDS1, y = NMDS2, fill= fct_relevel(diet_cat, 
-                                                           'Absent', 'Present'), 
-                   group=fct_relevel(diet_cat, 'Absent', 'Present')), 
+nmds_k2_plot_diet <- ggplot(data=combined_nmds_k2_diet) +
+  geom_polygon(aes(x = NMDS1, y = NMDS2, fill= fct_relevel(diet_cat,
+                                                           'Absent', 'Present'),
+                   group=fct_relevel(diet_cat, 'Absent', 'Present')),
                alpha=0.30) + # add the convex hulls
   geom_point(aes(x=NMDS1,y=NMDS2, colour = diet_cat), size=2) + # add the point markers
   coord_equal() +
@@ -159,15 +157,15 @@ nmds_k2_plot_diet <- ggplot(data=combined_nmds_k2_diet) +
         axis.ticks = element_blank(),  # remove axis ticks
         axis.title.x = element_text(size=18), # remove x-axis labels
         axis.title.y = element_text(size=18), # remove y-axis labels
-        legend.title = element_text(size = 18), 
+        legend.title = element_text(size = 18),
         legend.text = element_text(size = 18),
         legend.justification = c(0,0.5),
         panel.grid.major = element_blank(),  #remove major-grid labels
         panel.grid.minor = element_blank(),  #remove minor-grid labels
         plot.background = element_blank()) +
-  scale_fill_manual('Presence in Diet Studies', 
+  scale_fill_manual('Presence in Diet Studies',
                     values = c('#000080', '#ed2939')) +
-  scale_colour_manual('Presence in Diet Studies', 
+  scale_colour_manual('Presence in Diet Studies',
                       values = c('#000080', '#ed2939'))
 
 
@@ -187,8 +185,8 @@ summary(nmds_jaccard)
 stressplot(nmds_jaccard)
 nmds_jaccard$stress
 
-nmds_vis_data = data.frame(scores(nmds_jaccard)) 
-nmds_vis_data$species = rownames(nmds_vis_data)  
-nmds_vis_data$vulner_score = grouping_data$cat_vulnerab_score  
-nmds_vis_data$diet_study = grouping_data$diet_study 
+nmds_vis_data = data.frame(scores(nmds_jaccard))
+nmds_vis_data$species = rownames(nmds_vis_data)
+nmds_vis_data$vulner_score = grouping_data$cat_vulnerab_score
+nmds_vis_data$diet_study = grouping_data$diet_study
 
