@@ -1,8 +1,8 @@
 ########## 
 ##########
 # This code contains the analysis for the multivariate statistics presented
-# in Linardich et al. (2020) 
-# "Trait-based vulnerability framework reveals the impact of a global marine invader" 
+# in Linardich et al. (2021) "Trait-based vulnerability framework reveals the 
+# impact of a global marine invader"  
 ##########
 ##########
 # AUTHOR: Cole B. Brookson
