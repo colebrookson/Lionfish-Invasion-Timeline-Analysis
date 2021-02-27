@@ -1,0 +1,11 @@
+Location,Samples,Sampling date(s),Depths (m),Lionfish total length (mm),Lionfish mass (g),Empty stomachs (%),Total prey mass (g),Number of prey,Number of families,Number of species,Reference or data source,Include,Sampling_notes
+Bahamas,1481,2003; 2007–2015,–,40–424,0.3–1380,35,1044,2426,35,54,N. Higgs (unpub.); Layman and Allgeier (2012); Morris and Akins (2009),1,lionfish sampled from New Providence Island and Abaco Island
+Bermuda,1097,2007–2010; 2013–2015,1–22,124–461,10–1370,35,485,2268,37,46,Eddy et al. (2016),1,
+Costa Rica,371,2011,0–7,59–300,2–444,29,378,841,15,11,Sandel et al. (2015),0,
+Belize,1336,2011–2015,–,102–445,20–999,32,–,2978,30,34,Blue Ventures Belize (unpub.),1,Have asked data holder about regions; until we hear back should assume all regions
+Florida,299,2010–2013,1–10,75–330,5–382,30,–,469,11,5,Ellis and Faletti (2016); J. Morris (unpub.),0,
+nwGoM,837,2011–2015,18–40,45–420,1–1016,19,–,1923,23,41,M. Johnston (unpub.),1,"Samples from Flower Garden Banks, which are seamounts in the middle of the gulf;'Northwest' (REEF region 24) in the Gulf of Mexico might still be too broad as it inlcudes Mississippi to Texas/Mexico border"
+Mexico,785,2010; 2013; 2015,4–30,15–393,1–1000,28,941,1860,31,32,"A. Bogdanoff (unpub.), Villaseñor-Derbez and Herrera-Pérez (2014)",1,Samples from the Mexican Caribbean (REEF region 54)
+North Carolina,495,2004–2006; 2008–2010,30–45,110–450,23–1380,27,1452,1264,27,13,Muñoz et al. (2011); J. Morris (unpub.),0,
+neGoM,930,2013–2014,–,67–377,10–780,18,1234,2604,37,30,Dahl and Patterson (2014),1,Sampled from the North (REEF region 21) in the Gulf of Mexico
+US Virgin Islands,494,2011; 2014,–,63–380,2–624,9,–,732,5,6,B. Castillo and K. Reale-Munroe (unpub.),0,
