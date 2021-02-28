@@ -15,7 +15,8 @@
 
 library(here)
 library(tidyverse)
-library(MASS)
+library(glmmTMB)
+library(DHARMa)
 
 reef_abund = read_csv(here('./data/REEF_abundance_full.csv'), 
                       guess_max = 3000000)
@@ -142,7 +143,23 @@ for(i in unique(reef_allvars$region_name)) {
                           temp_join)
   
 }
+rm(temp_allvars, temp_join, temp_rank)
 
+# make new diet variable in a new df
+reef_allvars_diet = reef_allvars %>% 
+  mutate(diet = as.integer(NA))
+
+# join rank to the allvars dataframe (going to do this in a loop)
+for(i in 1:nrow(reef_allvars)) {
+  
+  temp_rank = region_rank %>% 
+    filter(region_name == reef_allvars[i,"region_name"][[1]],
+           species_name == reef_allvars[i, "species_name"][[1]])
+  
+  reef_allvars_diet[i,"diet"] = ifelse(nrow(temp_rank) > 0, 1, 0)
+  
+}
+rm(temp_rank)
 # ordinal regression ===========================================================
 
 reef_abund_rank$rank = as.factor(as.character(reef_abund_rank$rank))
@@ -152,3 +169,43 @@ ordinal_model = polr(rank ~ vul_score + abundance +
                      Hess = TRUE)
 summary(ordinal_model)
 confint(ordinal_model)
+
+#### BEGIN NOTE ################################################################
+# So the ordinal regression is a horrible model, which is not that unexpected
+# since there are only 18 observations. Cannot currently think of a way to 
+# get around this, so will probably not report the results for this. 
+#### END NOTE ##################################################################
+
+# binomial regression ==========================================================
+
+logistic_model = glmmTMB(diet ~ abundance + vul_score + 
+                       abundance*vul_score, 
+                     family = "binomial", 
+                     data = reef_allvars_diet)
+summary(logistic_model)
+plotQQunif(logistic_model)
+plotResiduals(logistic_model)
+testResiduals(logistic_model)
+# model fits fine but not great
+
+# get the estiamtes
+estimates = cbind(Estimate = coef(logistic_model), 
+                  confint(logistic_model))
+
+
+# get model predictions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
