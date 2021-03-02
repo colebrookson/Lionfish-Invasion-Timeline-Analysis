@@ -18,6 +18,7 @@ library(tidyverse)
 library(glmmTMB)
 library(DHARMa)
 library(PNWColors)
+library(MuMIn)
 
 reef_abund = read_csv(here('./data/REEF_abundance_full.csv'), 
                       guess_max = 3000000)
@@ -181,19 +182,41 @@ confint(ordinal_model)
 
 reef_allvars_diet$vul_score = 
   as.numeric(reef_allvars$vul_score)
-logistic_model = glmmTMB(diet ~ abundance + vul_score + 
+logistic_model_full = glmmTMB(diet ~ abundance + vul_score + 
                        abundance*vul_score, 
                      family = "binomial", 
                      data = reef_allvars_diet)
-summary(logistic_model)
-plotQQunif(logistic_model)
-plotResiduals(logistic_model)
-testResiduals(logistic_model)
+
+model_dredge = dredge(logistic_model_full)
+logistic_model_noint = glmmTMB(diet ~ abundance + vul_score, 
+                              family = "binomial", 
+                              data = reef_allvars_diet)
+# logistic_model_abund = glmmTMB(diet ~ abundance, 
+#                               family = "binomial", 
+#                               data = reef_allvars_diet)
+# logistic_model_vul = glmmTMB(diet ~ vul_score, 
+#                                family = "binomial", 
+#                                data = reef_allvars_diet)
+# logistic_model_noint = glmmTMB(diet ~ vul_score + abundance, 
+#                              family = "binomial", 
+#                              data = reef_allvars_diet)
+# logistic_model_int = glmmTMB(diet ~ vul_score*abundance, 
+#                                family = "binomial", 
+#                                data = reef_allvars_diet)
+
+summary(logistic_model_full)
+plotQQunif(logistic_model_full)
+plotResiduals(logistic_model_full)
+testResiduals(logistic_model_full)
+summary(logistic_model_noint)
+plotQQunif(logistic_model_noint)
+plotResiduals(logistic_model_noint)
+testResiduals(logistic_model_noint)
 # model fits fine but not great
 
 # get the estiamtes
-estimates = cbind(Estimate = coef(logistic_model), 
-                  confint(logistic_model))
+estimates = cbind(Estimate = coef(logistic_model_full), 
+                  confint(logistic_model_full))
 
 
 # get model predictions
@@ -203,14 +226,31 @@ new_data = data.frame(
                       to = max(reef_allvars_diet$abundance), 
                       length.out = 100), 
                   8))
-new_data = cbind(new_data, predict(logistic_model, 
+new_data = cbind(new_data, predict(logistic_model_full, 
                                    new_data, 
                                    type = "response",
-                                   se.fit = TRUE))
+                                   se.fit = TRUE)) %>% 
+  rename(fit_full = fit, se.fit_full = se.fit)
+new_data = cbind(new_data, predict(logistic_model_noint, 
+                                   new_data, 
+                                   type = "response",
+                                   se.fit = TRUE)) %>% 
+  rename(fit_noint = fit, se.fit_noint = se.fit)
+
 new_data = new_data %>% 
   mutate(
-    UL = ifelse((fit + 1.96 * se.fit) > 1, 1, (fit + 1.96 * se.fit)), 
-    LL = ifelse((fit - 1.96 * se.fit) < 0, 0, (fit - 1.96 * se.fit)) 
+    UL_full = ifelse((fit_full + 1.96 * se.fit_full) > 1, 1, 
+                     (fit_full + 1.96 * se.fit_full)), 
+    LL_full = ifelse((fit_full - 1.96 * se.fit_full) < 0, 0, 
+                     (fit_full - 1.96 * se.fit_full)),
+    UL_noint = ifelse((fit_noint + 1.96 * se.fit_noint) > 1, 1, 
+                     (fit_noint + 1.96 * se.fit_noint)), 
+    LL_noint = ifelse((fit_noint - 1.96 * se.fit_noint) < 0, 0, 
+                     (fit_noint - 1.96 * se.fit_noint)),
+    
+    fit = (fit_full*0.305 + fit_noint*0.693),
+    UL = (UL_full*0.305 + UL_noint*0.693),
+    LL = (LL_full*0.305 + LL_noint*0.693)
   )
   
 
@@ -230,7 +270,6 @@ predicted_consumption = new_data %>%
                   ymax = UL, 
                   fill = vul_score), 
               alpha = 0.25) +
-
   labs(x = "Abundance", y = "Predicted Consumption") +
   theme_bw() +
   scale_colour_manual("Vulnerability \nScore", values = pal) +
