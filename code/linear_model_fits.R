@@ -191,19 +191,8 @@ model_dredge = dredge(logistic_model_full)
 logistic_model_noint = glmmTMB(diet ~ abundance + vul_score, 
                               family = "binomial", 
                               data = reef_allvars_diet)
-# logistic_model_abund = glmmTMB(diet ~ abundance, 
-#                               family = "binomial", 
-#                               data = reef_allvars_diet)
-# logistic_model_vul = glmmTMB(diet ~ vul_score, 
-#                                family = "binomial", 
-#                                data = reef_allvars_diet)
-# logistic_model_noint = glmmTMB(diet ~ vul_score + abundance, 
-#                              family = "binomial", 
-#                              data = reef_allvars_diet)
-# logistic_model_int = glmmTMB(diet ~ vul_score*abundance, 
-#                                family = "binomial", 
-#                                data = reef_allvars_diet)
 
+# diagnose all models
 summary(logistic_model_full)
 plotQQunif(logistic_model_full)
 plotResiduals(logistic_model_full)
@@ -280,7 +269,7 @@ ggsave(here('/figures/predicted_consumption_model_prediction_large.png'),
        predicted_consumption, dpi = 600)
 
 
-ggsave(here('./figures/hist_and_timeseries_opt2_small.png'), height = 6, width = 13,
+○ggsave(here('./figures/hist_and_timeseries_opt2_small.png'), height = 6, width = 13,
        figure_7, dpi = 200)
 ggsave(here('./figures/hist_and_timeseries_opt2_large.png'), height = 6, width = 13,
        figure_7, dpi = 600)
