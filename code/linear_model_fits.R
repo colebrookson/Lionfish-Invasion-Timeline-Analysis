@@ -17,6 +17,7 @@ library(here)
 library(tidyverse)
 library(glmmTMB)
 library(DHARMa)
+library(PNWColors)
 
 reef_abund = read_csv(here('./data/REEF_abundance_full.csv'), 
                       guess_max = 3000000)
@@ -178,6 +179,8 @@ confint(ordinal_model)
 
 # binomial regression ==========================================================
 
+reef_allvars_diet$vul_score = 
+  as.numeric(reef_allvars$vul_score)
 logistic_model = glmmTMB(diet ~ abundance + vul_score + 
                        abundance*vul_score, 
                      family = "binomial", 
@@ -194,13 +197,54 @@ estimates = cbind(Estimate = coef(logistic_model),
 
 
 # get model predictions
+new_data = data.frame(
+  vul_score = rep(0:7, each = 100),
+  abundance = rep(seq(from = min(reef_allvars_diet$abundance), 
+                      to = max(reef_allvars_diet$abundance), 
+                      length.out = 100), 
+                  8))
+new_data = cbind(new_data, predict(logistic_model, 
+                                   new_data, 
+                                   type = "response",
+                                   se.fit = TRUE))
+new_data = new_data %>% 
+  mutate(
+    UL = ifelse((fit + 1.96 * se.fit) > 1, 1, (fit + 1.96 * se.fit)), 
+    LL = ifelse((fit - 1.96 * se.fit) < 0, 0, (fit - 1.96 * se.fit)) 
+  )
+  
+
+  
 
 
+# change vul_score = 
+new_data$vul_score = as.factor(as.character(new_data$vul_score))
+pal = pnw_palette("Bay", 8)
+predicted_consumption = new_data %>% 
+  #filter(vul_score %in% c(1, 3, 7)) %>% 
+  ggplot(.,
+       aes(abundance, fit)) +
+  geom_line(aes(colour = vul_score), 
+            size = 2) +
+  geom_ribbon(aes(ymin = LL, 
+                  ymax = UL, 
+                  fill = vul_score), 
+              alpha = 0.25) +
+
+  labs(x = "Abundance", y = "Predicted Consumption") +
+  theme_bw() +
+  scale_colour_manual("Vulnerability \nScore", values = pal) +
+  scale_fill_manual("Vulnerability \nScore", values = pal)
+ggsave(here('/figures/predicted_consumption_model_prediction_small.png'),
+      predicted_consumption, dpi = 200)
+ggsave(here('/figures/predicted_consumption_model_prediction_large.png'),
+       predicted_consumption, dpi = 600)
 
 
-
-
-
+ggsave(here('./figures/hist_and_timeseries_opt2_small.png'), height = 6, width = 13,
+       figure_7, dpi = 200)
+ggsave(here('./figures/hist_and_timeseries_opt2_large.png'), height = 6, width = 13,
+       figure_7, dpi = 600)
 
 
 
