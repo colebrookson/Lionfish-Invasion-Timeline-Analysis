@@ -175,18 +175,18 @@ nmds_k2_plot_diet <- ggplot(data=combined_nmds_k2_diet) +
 
 
 #################################### repear mds with 3d, but I don't think we'll use it
-nmds_jaccard_k3 = metaMDS(traits_data,
-                       distance = 'jaccard',
-                       trymax = 100,
-                       k = 3,
-                       trace = FALSE)
-
-summary(nmds_jaccard)
-stressplot(nmds_jaccard)
-nmds_jaccard$stress
-
-nmds_vis_data = data.frame(scores(nmds_jaccard))
-nmds_vis_data$species = rownames(nmds_vis_data)
-nmds_vis_data$vulner_score = grouping_data$cat_vulnerab_score
-nmds_vis_data$diet_study = grouping_data$diet_study
+# nmds_jaccard_k3 = metaMDS(traits_data,
+#                        distance = 'jaccard',
+#                        trymax = 100,
+#                        k = 3,
+#                        trace = FALSE)
+# 
+# summary(nmds_jaccard)
+# stressplot(nmds_jaccard)
+# nmds_jaccard$stress
+# 
+# nmds_vis_data = data.frame(scores(nmds_jaccard))
+# nmds_vis_data$species = rownames(nmds_vis_data)
+# nmds_vis_data$vulner_score = grouping_data$cat_vulnerab_score
+# nmds_vis_data$diet_study = grouping_data$diet_study
 

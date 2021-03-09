@@ -19,6 +19,7 @@ library(glmmTMB)
 library(DHARMa)
 library(PNWColors)
 library(MuMIn)
+library(patchwork)
 
 reef_abund = read_csv(here('./data/REEF_abundance_full.csv'), 
                       guess_max = 3000000)
@@ -259,24 +260,42 @@ predicted_consumption = new_data %>%
                   ymax = UL, 
                   fill = vul_score), 
               alpha = 0.25) +
-  labs(x = "Abundance", y = "Predicted Consumption") +
+  labs(x = "Abundance", y = "Predicted Consumption", title = "B") +
   theme_bw() +
+  theme(axis.text.x = element_blank(),  # remove x-axis text
+        axis.text.y = element_blank(), # remove y-axis text
+        axis.ticks = element_blank(),  # remove axis ticks
+        axis.title.x = element_text(size=18), # remove x-axis labels
+        axis.title.y = element_text(size=18), # remove y-axis labels
+        legend.title = element_text(size = 18), 
+        plot.title = element_text(size = 22, vjust = 2),
+        legend.text = element_text(size = 18),
+        legend.justification = c(0,0.5),
+        panel.grid.major = element_blank(),  #remove major-grid labels
+        panel.grid.minor = element_blank(),  #remove minor-grid labels
+        plot.background = element_blank(),
+        #axis.line.x.bottom = element_line(size = 1),
+        #axis.line.x.top = element_line(size = 1),
+        #axis.line.y.right = element_line(size = 1),
+        #axis.line.y.left = element_line(size = 1),
+        panel.border = element_rect(colour = 'black', size = 1.1)) +
+        
   scale_colour_manual("Vulnerability \nScore", values = pal) +
-  scale_fill_manual("Vulnerability \nScore", values = pal)
+  scale_fill_manual("Vulnerability \nScore", values = pal) 
 ggsave(here('/figures/predicted_consumption_model_prediction_small.png'),
       predicted_consumption, dpi = 200)
 ggsave(here('/figures/predicted_consumption_model_prediction_large.png'),
        predicted_consumption, dpi = 600)
 
 
-○ggsave(here('./figures/hist_and_timeseries_opt2_small.png'), height = 6, width = 13,
+ggsave(here('./figures/hist_and_timeseries_opt2_small.png'), height = 6, width = 13,
        figure_7, dpi = 200)
 ggsave(here('./figures/hist_and_timeseries_opt2_large.png'), height = 6, width = 13,
        figure_7, dpi = 600)
 
 
 
-
+patched_figs = nmds_k2_vulner_plot + predicted_consumption
 
 
 
