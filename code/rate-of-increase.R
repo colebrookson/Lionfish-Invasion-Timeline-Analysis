@@ -1,7 +1,7 @@
 ########## 
 ##########
 # This code contains the analysis for the rate of change estimation presented
-# in Linardich et al. (2020) 
+# in Linardich et al. (2021) 
 # "Trait-based vulnerability framework reveals the impact of a global marine invader" 
 # This is the first of n code files for this analysis
 ##########
